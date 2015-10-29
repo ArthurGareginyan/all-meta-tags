@@ -132,7 +132,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer Website](http://mycyberuniverse.com)
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-all-meta-tags.html)
-
+* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
 = 1.0 =
