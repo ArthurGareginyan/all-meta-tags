@@ -1,0 +1,72 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: All Meta Tags\n"
+"POT-Creation-Date: 2015-10-28 13:58+0300\n"
+"PO-Revision-Date: 2015-10-28 13:57+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: all-meta-tags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: all-meta-tags.php:58
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: all-meta-tags.php:71 inc/settings_page.php:33
+msgid "All Meta Tags"
+msgstr ""
+
+#: inc/settings_page.php:23
+msgid "Your Meta Tags was sucessfully updated."
+msgstr ""
+
+#: inc/settings_page.php:36
+msgid ""
+"by <a href=\"http://mycyberuniverse.com/author.html\" target=\"_blank"
+"\">Arthur \"Berserkr\" Gareginyan</a>"
+msgstr ""
+
+#: inc/settings_page.php:53
+msgid "This plugin allows you to easily add Meta Tags to your website."
+msgstr ""
+
+#: inc/settings_page.php:56
+msgid ""
+"To use, enter your custom Meta Tags, then click \"Save Changes\". It's that "
+"simple!"
+msgstr ""
+
+#: inc/settings_page.php:118 inc/settings_page.php:158
+#: inc/settings_page.php:180 inc/settings_page.php:214
+msgid "Save Changes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://mycyberuniverse.com/my_programs/wp-plugin-all-meta-tags.html"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"EASILY and SAFELY add your custom Meta Tags to WordPress website's header."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Arthur \"Berserkr\" Gareginyan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mycyberuniverse.com/author.html"
+msgstr ""
