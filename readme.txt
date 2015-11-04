@@ -39,7 +39,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="copyright".
 * Meta tag with name="description" (Global and only for home page).
 * Ready for translation (.pot file included).
-* Added russian translation.
+* Added Russian translation.
 
 
 **Coming soon:**
@@ -89,7 +89,7 @@ Yes. But If your language is not available then you can make one. This plugin is
 
 = How does it work? =
 First, go to page “Settings” —> “All Meta Tags”.
-On the plugin page you find the fields where you can enter your ID (meta key “content” value from your verification code), URL to to the your social network profile or name of your social network profile.
+On the plugin page you find the fields where you can enter your ID (meta key “content” value from your verification code), URL to the your social network profile or name of your social network profile.
  to verify your website.
 
 = How much of description I can enter in the text field? =
@@ -106,8 +106,10 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 
 == Screenshots ==
-1. Plugin’s page.
-
+1. Plugin’s page. Block “Web Master Tools”.
+2. Plugin’s page. Block “Domain Verification”.
+3. Plugin’s page. Block “Meta Tags for Home page only”.
+4. Plugin’s page. Block “Meta Tags for all website (Global)”.
 
 == Other Notes ==
 
@@ -138,7 +140,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 = 1.0 =
 * Initial release.
 * Added ready for translation (.pot file included).
-* Added russian translation.
+* Added Russian translation.
 = 0.2 =
 * Beta version.
 = 0.1 =
