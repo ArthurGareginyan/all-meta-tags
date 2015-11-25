@@ -136,6 +136,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 1.1 =
+* Fixed the issue due to which error message is shown in the top of the website when the plugin for the first time installed.
 = 1.0 =
 * Initial release.
 * Added ready for translation (.pot file included).
@@ -147,6 +149,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.1 =
+* Fixed the issue due to which error message is shown in the top of the website when the plugin for the first time installed.
 = 1.0 =
 Please update to first stable release!
 * Added ready for translation (.pot file included).
