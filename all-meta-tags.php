@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your custom Meta Tags to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.1
+ * Version: 1.2
  * License: GPL3
  * Text Domain: allmetatags
  * Domain Path: /languages/
@@ -163,7 +163,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
 /**
  * Generate the Meta Tags
  *
- * @since 1.1
+ * @since 1.2
  */
 function allmetatags_add_meta_tags() {
 
@@ -180,6 +180,7 @@ function allmetatags_add_meta_tags() {
     $facebook = esc_textarea( $options['facebook'] );
     $twitter = esc_textarea( $options['twitter'] );
     $norton = esc_textarea( $options['norton'] );
+    $wot = esc_textarea( $options['wot'] );
 
     $home_description = esc_textarea( $options['home_description'] );
     $home_keywords = esc_textarea( $options['home_keywords'] );
@@ -222,6 +223,9 @@ function allmetatags_add_meta_tags() {
     }
     if (!empty($norton)) {
         $metatags_arr[] = "<meta name='norton-safeweb-site-verification' content='$norton' />";
+    }
+    if (!empty($wot)) {
+        $metatags_arr[] = "<meta name='wot-verification' content='$wot' />";
     }
 
     // Meta Tags for Home Page only

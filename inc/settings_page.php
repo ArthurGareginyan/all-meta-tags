@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.0
+ * @since 1.2
  */
 function allmetatags_render_submenu_page() {
 
@@ -154,6 +154,11 @@ function allmetatags_render_submenu_page() {
                                                                 '1234567890',
                                                                 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="norton-safeweb-site-verification" content=“<b>1234567890</b>” /&gt;',
                                                                 'https://safeweb.norton.com/help/site_owners');?>
+                                        <?php allmetatags_field('wot',
+                                                                'Web of Trust (WOT)',
+                                                                '1234567890',
+                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="wot-verification" content=“<b>1234567890</b>” /&gt;',
+                                                                'https://www.mywot.com/wiki/Verify_your_website');?>
                                     </table>
                                     <?php submit_button( __( 'Save Changes', 'allmetatags' ), 'primary', 'submit', true ); ?>
                                 </div>

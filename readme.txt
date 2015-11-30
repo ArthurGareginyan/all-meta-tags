@@ -1,14 +1,14 @@
 === All Meta Tags ===
 Contributors: Arthur Gareginyan
-Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin,
+Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.0
+Stable tag: 1.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-EASILY add your Meta Tags to the WordPress website's head section.
+EASILY add your Meta Tags to the WordPress website's head section. This is a must have tool for authors and website's owners.
 
 == Description ==
 An easy to use WordPress plugin that gives you the ability to EASILY add your Meta Tags to the head section of your website. 
@@ -33,6 +33,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Google Web Master Tools verification meta tag.
 * Bing Web Master Tools verification meta tag.
 * Yandex Web Master Tools verification meta tag.
+* Web of Trust (WOT) verification meta tag.
 * Meta tag with name="author".
 * Meta tag with name="designer".
 * Meta tag with name="contact".
@@ -136,6 +137,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 1.2 =
+* Added the option for "Web of Trust" (WOT) verification.
 = 1.1 =
 * Fixed the issue due to which error message is shown in the top of the website when the plugin for the first time installed.
 = 1.0 =
@@ -149,6 +152,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.2 =
+* Added the option for "Web of Trust" (WOT) verification.
 = 1.1 =
 * Fixed the issue due to which error message is shown in the top of the website when the plugin for the first time installed.
 = 1.0 =
