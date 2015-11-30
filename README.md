@@ -22,6 +22,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Google Web Master Tools verification meta tag.
 * Bing Web Master Tools verification meta tag.
 * Yandex Web Master Tools verification meta tag.
+* Web of Trust (WOT) verification meta tag.
 * Meta tag with name="author".
 * Meta tag with name="designer".
 * Meta tag with name="contact".
