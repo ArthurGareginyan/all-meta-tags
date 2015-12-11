@@ -4,7 +4,7 @@ Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, goo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,7 +17,7 @@ No need anymore to editing a files of your theme or plugins in order to add meta
 
 Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use this plugin to easily verify your website or domain and get a more effective and efficient sharing results. Example with Pinterest. Once you completed the verification process, people will see a checkmark next to your domain in your Pinterest profile and in pinner search results. That check mark emphasis you have confirmed the ownership of your blog or website on Pinterest. This will help your website to rank better in google and other search engines. You can easily increase your blog traffic using this plugin. "All Meta Tags" is a simple but effective SEO plugin.
 
-Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Home Page.
+Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Static Home Page or the meta Description and Keywords only for Blog Page.
 
 
 = Features =
@@ -38,7 +38,8 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="designer".
 * Meta tag with name="contact".
 * Meta tag with name="copyright".
-* Meta tag with name="description" (Global and only for home page).
+* Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page).
+* Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page).
 * Ready for translation (.pot file included).
 * Added Russian translation.
 
@@ -106,10 +107,11 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 
 == Screenshots ==
-1. Plugin’s page. Block "Web Master Tools".
-2. Plugin’s page. Block "Domain Verification".
-3. Plugin’s page. Block "Meta Tags for Home page only".
-4. Plugin’s page. Block "Meta Tags for all website (Global)".
+1. Plugin’s page. Section "Web Master Tools".
+2. Plugin’s page. Section "Domain Verification".
+3. Plugin’s page. Section "Meta Tags for Static Home Page only".
+4. Plugin’s page. Section "Meta Tags for Default Home Page and Blog Page only".
+5. Plugin’s page. Section "Meta Tags for all website (Global)".
 
 == Other Notes ==
 
@@ -137,6 +139,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 1.3 =
+* Added new section with meta tags for Default Home Page and Blog Page.
+* Home Page section renamed to Static Home Page.
 = 1.2 =
 * Added the option for "Web of Trust" (WOT) verification.
 = 1.1 =
@@ -152,6 +157,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.3 =
+* Added new section with meta tags for Default Home Page and Blog Page.
+* Home Page section renamed to Static Home Page.
 = 1.2 =
 * Added the option for "Web of Trust" (WOT) verification.
 = 1.1 =

@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your custom Meta Tags to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.2
+ * Version: 1.3
  * License: GPL3
  * Text Domain: allmetatags
  * Domain Path: /languages/
@@ -121,7 +121,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
         $value = "";
     endif;
 
-    // Generated the table
+    // Generate the table
     if ( !empty($link) ) :
         $link_out = "<a href='$link' target='_blank'>$label</a>";
     else :
@@ -163,7 +163,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
 /**
  * Generate the Meta Tags
  *
- * @since 1.2
+ * @since 1.3
  */
 function allmetatags_add_meta_tags() {
 
@@ -184,6 +184,9 @@ function allmetatags_add_meta_tags() {
 
     $home_description = esc_textarea( $options['home_description'] );
     $home_keywords = esc_textarea( $options['home_keywords'] );
+
+    $blog_description = esc_textarea( $options['blog_description'] );
+    $blog_keywords = esc_textarea( $options['blog_keywords'] );
 
     $author = esc_textarea( $options['author'] );
     $designer = esc_textarea( $options['designer'] );
@@ -228,15 +231,30 @@ function allmetatags_add_meta_tags() {
         $metatags_arr[] = "<meta name='wot-verification' content='$wot' />";
     }
 
-    // Meta Tags for Home Page only
-    if (!empty($home_description)) {
-        if ( is_home() ) {
+    // Meta Tags for specific pages
+    if ( is_front_page() && is_home() ) {
+        // Default Home Page
+        if (!empty($home_description)) {
+            $metatags_arr[] = "<meta name='description' content='$blog_description' />";
+        }
+        if (!empty($home_keywords)) {
+            $metatags_arr[] = "<meta name='keywords' content='$blog_keywords' />";
+        }
+    } elseif ( is_front_page() ) {
+        // Static Home Page
+        if (!empty($home_description)) {
             $metatags_arr[] = "<meta name='description' content='$home_description' />";
         }
-    }
-    if (!empty($home_keywords)) {
-        if ( is_home() ) {
+        if (!empty($home_keywords)) {
             $metatags_arr[] = "<meta name='keywords' content='$home_keywords' />";
+        }
+    } elseif ( is_home() ) {
+        // Blog Page
+        if (!empty($home_description)) {
+            $metatags_arr[] = "<meta name='description' content='$blog_description' />";
+        }
+        if (!empty($home_keywords)) {
+            $metatags_arr[] = "<meta name='keywords' content='$blog_keywords' />";
         }
     }
 

@@ -6,7 +6,7 @@ No need anymore to editing a files of your theme or plugins in order to add meta
 
 Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use this plugin to easily verify your website or domain and get a more effective and efficient sharing results. Example with Pinterest. Once you completed the verification process, people will see a checkmark next to your domain in your Pinterest profile and in pinner search results. That check mark emphasis you have confirmed the ownership of your blog or website on Pinterest. This will help your website to rank better in google and other search engines. You can easily increase your blog traffic using this plugin. “All Meta Tags” is a simple but effective SEO plugin.
 
-Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Home Page.
+Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Static Home Page or the meta Description and Keywords only for Blog Page.
 
 
 ## Features
@@ -27,7 +27,8 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="designer".
 * Meta tag with name="contact".
 * Meta tag with name="copyright".
-* Meta tag with name="description" (Global and only for home page).
+* Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page).
+* Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page).
 * Ready for translation (.pot file included).
 * Added Russian translation.
 

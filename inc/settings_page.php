@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.2
+ * @since 1.3
  */
 function allmetatags_render_submenu_page() {
 
@@ -165,20 +165,42 @@ function allmetatags_render_submenu_page() {
                             </div>
 
                             <div class="postbox" id="Home">
-                                <h3 class="title">Meta Tags for Home Page only</h3>
+                                <h3 class="title">Meta Tags for Static Home Page only</h3>
                                 <div class="inside">
-                                    <p>You can use the options below to add meta tags such as Description and Keywords only in Home Page of your website.</p>
+                                    <p>You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your website.</p>
                                     <table class="form-table">
                                         <?php allmetatags_field('home_description',
                                                                 'Home Description',
-                                                                'My blog is about plants, nature, the sea and everything I love',
+                                                                'My website is about plants, nature, the sea and everything I love',
                                                                 'Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description.',
                                                                 '',
                                                                 'textarea');?>
                                         <?php allmetatags_field('home_keywords',
                                                                 'Home Keyword(s)',
                                                                 'blog, awesome, handmade, books, theater',
-                                                                'Enter a comma-delimited list of keywords for only Home page of your website.',
+                                                                'Enter a comma-delimited list of keywords for only Static Home Page of your website.',
+                                                                '',
+                                                                'textarea');?>
+                                    </table>
+                                    <?php submit_button( __( 'Save Changes', 'allmetatags' ), 'primary', 'submit', true ); ?>
+                                </div>
+                            </div>
+
+                            <div class="postbox" id="Blog">
+                                <h3 class="title">Meta Tags for Default Home Page and Blog Page only</h3>
+                                <div class="inside">
+                                    <p>You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and Blog Page of your website.</p>
+                                    <table class="form-table">
+                                        <?php allmetatags_field('blog_description',
+                                                                'Blog Description',
+                                                                'My blog is about plants, nature, the sea and everything I love',
+                                                                'Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description.',
+                                                                '',
+                                                                'textarea');?>
+                                        <?php allmetatags_field('blog_keywords',
+                                                                'Blog Keyword(s)',
+                                                                'blog, awesome, handmade, books, theater',
+                                                                'Enter a comma-delimited list of keywords for only Blog Page of your website.',
                                                                 '',
                                                                 'textarea');?>
                                     </table>
