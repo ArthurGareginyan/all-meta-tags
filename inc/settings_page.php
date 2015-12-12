@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.3
+ * @since 1.4
  */
 function allmetatags_render_submenu_page() {
 
@@ -91,8 +91,6 @@ function allmetatags_render_submenu_page() {
 
                         <form name="allmetatags-form" action="options.php" method="post" enctype="multipart/form-data">
                             <?php settings_fields( 'allmetatags_settings_group' ); ?>
-
-                            <?php do_action( 'allmetatags-form-top' ); ?>
 
                             <div class="postbox" id="WebMasterTools">
                                 <h3 class="title">Web Master Tools</h3>
@@ -242,7 +240,6 @@ function allmetatags_render_submenu_page() {
                                 </div>
                             </div>
 
-                            <?php do_action( 'allmetatags-form-bottom' ); ?>
                         </div>
                     </div>
                 </div>

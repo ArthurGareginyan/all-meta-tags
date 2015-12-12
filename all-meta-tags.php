@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your custom Meta Tags to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.3
+ * Version: 1.4
  * License: GPL3
  * Text Domain: allmetatags
  * Domain Path: /languages/

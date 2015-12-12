@@ -4,7 +4,7 @@ Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, goo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -139,6 +139,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 1.4 =
+* Removed more unused do_action() from settings_page.php file.
 = 1.3 =
 * Added new section with meta tags for Default Home Page and Blog Page.
 * Home Page section renamed to Static Home Page.
@@ -157,6 +159,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.4 =
+* Removed more unused do_action() from settings_page.php file.
 = 1.3 =
 * Added new section with meta tags for Default Home Page and Blog Page.
 * Home Page section renamed to Static Home Page.
