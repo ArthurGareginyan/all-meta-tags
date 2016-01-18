@@ -4,7 +4,7 @@
  * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-all-meta-tags.html
  * Description: EASILY and SAFELY add your custom Meta Tags to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
- * Author URI: http://mycyberuniverse.com/author.html
+ * Author URI: http://www.arthurgareginyan.com
  * Version: 1.4
  * License: GPL3
  * Text Domain: allmetatags

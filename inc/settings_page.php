@@ -33,7 +33,7 @@ function allmetatags_render_submenu_page() {
             <?php _e( 'All Meta Tags', 'allmetatags' ); ?>
             <br/>
             <span>
-                <?php _e( 'by <a href="http://mycyberuniverse.com/author.html" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'allmetatags' ); ?>
+                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'allmetatags' ); ?>
             <span/>
 		</h2>
 
