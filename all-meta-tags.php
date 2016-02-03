@@ -2,10 +2,10 @@
 /**
  * Plugin Name: All Meta Tags
  * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-all-meta-tags.html
- * Description: EASILY and SAFELY add your custom Meta Tags to WordPress website's header.
+ * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 1.4
+ * Version: 1.5
  * License: GPL3
  * Text Domain: allmetatags
  * Domain Path: /languages/
@@ -277,8 +277,8 @@ function allmetatags_add_meta_tags() {
 
     // Add comment
     if ( count( $metatags_arr ) > 0 ) {
-        array_unshift( $metatags_arr, "<!-- BEGIN Metadata added by All-Meta-Tags plugin by Arthur Berserkr Gareginyan -->" );
-        array_push( $metatags_arr, "<!-- END Metadata added by All-Meta-Tags plugin by Arthur Berserkr Gareginyan -->" );
+        array_unshift( $metatags_arr, "<!-- [BEGIN] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan. -->" );
+        array_push( $metatags_arr, "<!-- [END] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan. -->" );
     }
 
     // Return the content of array

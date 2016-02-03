@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2015-10-28 13:58+0300\n"
+"POT-Creation-Date: 2016-02-03 22:44+0300\n"
 "PO-Revision-Date: 2015-10-28 13:57+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Poedit-WPHeader: all-meta-tags.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -35,8 +35,12 @@ msgstr ""
 
 #: inc/settings_page.php:36
 msgid ""
-"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank"
-"\">Arthur \"Berserkr\" Gareginyan</a>"
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"\"Berserkr\" Gareginyan</a>"
+msgstr ""
+
+#: inc/settings_page.php:47
+msgid "About"
 msgstr ""
 
 #: inc/settings_page.php:53
@@ -49,9 +53,87 @@ msgid ""
 "simple!"
 msgstr ""
 
-#: inc/settings_page.php:118 inc/settings_page.php:158
-#: inc/settings_page.php:180 inc/settings_page.php:214
+#: inc/settings_page.php:62
+msgid "Donate"
+msgstr ""
+
+#: inc/settings_page.php:64
+msgid ""
+"If you like this plugin and find it useful, help me to make this plugin "
+"even better and keep it up-to-date."
+msgstr ""
+
+#: inc/settings_page.php:70
+msgid "Thanks for your support!"
+msgstr ""
+
+#: inc/settings_page.php:75
+msgid "Help"
+msgstr ""
+
+#: inc/settings_page.php:78
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+
+#: inc/settings_page.php:96
+msgid "Web Master Tools"
+msgstr ""
+
+#: inc/settings_page.php:98
+msgid ""
+"Webmaster Tools require you to verify your domain. This makes sure that you "
+"are the correct owner of your blog or store before they provide their "
+"services to you. You can use the options below to verify your domain. If "
+"your domain is already verified, you can just forget about these."
+msgstr ""
+
+#: inc/settings_page.php:116 inc/settings_page.php:161
+#: inc/settings_page.php:183 inc/settings_page.php:205
+#: inc/settings_page.php:239
 msgid "Save Changes"
+msgstr ""
+
+#: inc/settings_page.php:121
+msgid "Domain Verification"
+msgstr ""
+
+#: inc/settings_page.php:123
+msgid ""
+"Third-party services like Alexa, Pinterest and Google-Plus require you to "
+"verify your domain. This makes sure that you are the correct owner of your "
+"blog or store before they provide their services to you. You can use the "
+"options below to verify your domain. If your domain is already verified, "
+"you can just forget about these."
+msgstr ""
+
+#: inc/settings_page.php:166
+msgid "Meta Tags for Static Home Page only"
+msgstr ""
+
+#: inc/settings_page.php:168
+msgid ""
+"You can use the options below to add meta tags such as Description and "
+"Keywords only in Static Home Page of your website."
+msgstr ""
+
+#: inc/settings_page.php:188
+msgid "Meta Tags for Default Home Page and Blog Page only"
+msgstr ""
+
+#: inc/settings_page.php:190
+msgid ""
+"You can use the options below to add meta tags such as Description and "
+"Keywords only in Default Home Page and Blog Page of your website."
+msgstr ""
+
+#: inc/settings_page.php:210
+msgid "Meta Tags for all website (Global)"
+msgstr ""
+
+#: inc/settings_page.php:212
+msgid ""
+"You can use the options below to add meta tags such as Author, Copyright "
+"and Keywords in everywhere on your website."
 msgstr ""
 
 #. Plugin URI of the plugin/theme

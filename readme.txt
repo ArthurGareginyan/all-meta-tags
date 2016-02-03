@@ -4,14 +4,14 @@ Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, goo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-EASILY add your Meta Tags to the WordPress website's head section. This is a must have tool for authors and website's owners.
+Easily add your Meta Tags to the WordPress website's head section. This is a must have tool for authors and website's owners.
 
 == Description ==
-An easy to use WordPress plugin that gives you the ability to EASILY add your Meta Tags to the head section of your website. 
+An easy to use and lightweight WordPress plugin that gives you the ability to easily add your Meta Tags to the head section of your website. 
 
 No need anymore to editing a files of your theme or plugins in order to add meta tags. You can add they on plugins settings page. Just add your ID (the meta key "content" value from your verification code) or/and the URL to the social media profile of the publisher in the field on the plugin page and this plugin will do the rest for you. It adds required meta tags to the head section of your website automatically, without changing any of your themes file and without slowing down your website. It's really useful in case of any theme update, because your meta tags would never be lost! Your meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
@@ -83,27 +83,27 @@ After installation, a "`All Meta Tags`" menu item will appear in the "`Settings
 
 
 == Frequently Asked Questions ==
-= Will this Plugin work on my WordPress.com website? =
-Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
+= Q. Will this Plugin work on my WordPress.com website? =
+A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
-= Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+= Q. Can I use this plugin on my language? =
+A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
-= How does it work? =
-First, go to page "`Settings`" —> "`All Meta Tags`".
+= Q. How does it work? =
+A. First, go to page "`Settings`" —> "`All Meta Tags`".
 On the plugin page you find the fields where you can enter your `ID` (meta key "content" value from your verification code), `URL` to the your social network profile or name of your social network profile in order to verify your website.
 
-= How much of description I can enter in the text field? =
-I don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description.
+= Q. How much of description I can enter in the text field? =
+A. I don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description.
 
-= How much of keywords I can enter in the text field? =
-I don't limit the number of characters.
+= Q. How much of keywords I can enter in the text field? =
+A. I don't limit the number of characters.
 
-= Where to report bug if found? =
-Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags) and report.
+= Q. Where to report bug if found? =
+A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags) and report.
 
-= Where to share any ideas or suggestions to make the plugin better? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-all-meta-tags.html) and share.
+= Q. Where to share any ideas or suggestions to make the plugin better? =
+A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-all-meta-tags.html) and share.
 
 
 == Screenshots ==
@@ -115,7 +115,7 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 == Other Notes ==
 
-"All Meta Tags" is one of the personal software projects of Arthur Gareginyan.
+"All Meta Tags" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
 
 **License**
 
@@ -139,6 +139,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 1.5 =
+* Authors URI changed.
+* Localization improved.
+* .pot file updated.
+* Russian translation updated.
+* thanks.png replaced.
 = 1.4 =
 * Removed more unused do_action() from settings_page.php file.
 = 1.3 =
@@ -159,6 +165,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.5 =
+* Authors URI changed.
+* Localization improved.
+* .pot file updated.
+* Russian translation updated.
+* thanks.png replaced.
 = 1.4 =
 * Removed more unused do_action() from settings_page.php file.
 = 1.3 =
