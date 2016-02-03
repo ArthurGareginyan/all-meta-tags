@@ -1,4 +1,6 @@
-# WP Plugin "All Meta Tags"
+# All Meta Tags
+
+**Free Premium WorPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/all-meta-tags/blob/master/assets/banner-772x250.png)
 
