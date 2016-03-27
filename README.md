@@ -34,7 +34,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page).
 * Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page).
 * Ready for translation (.pot file included).
-* Added Russian translation.
+* Russian translation.
 
 **Coming soon:**
 
@@ -43,7 +43,8 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="creator".
 * Meta tag with name="publisher".
 * Meta tag with name="language".
-* (Got more ideas? Tell me!)
+
+**Got more ideas? Tell me!**
 
 
 ## Contributing
@@ -74,9 +75,7 @@ Arthur Garegnyan aka Berserkr
 * My Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
 
 
-## Links
-
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-all-meta-tags.html)
+## Link
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/all-meta-tags/)
 
