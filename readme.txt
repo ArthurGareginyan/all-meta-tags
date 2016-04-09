@@ -19,43 +19,45 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 
 Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Static Home Page or the meta Description and Keywords only for Blog Page.
 
-
 = Features =
 
 **Current features:**
 
-* Google+ publisher link.
-* Facebook publisher meta tag.
-* Twitter publisher meta tag.
-* Pinterest verification meta tag.
-* Alexa verification meta tag.
-* Norton Safe Web verification meta tag.
-* Google Web Master Tools verification meta tag.
-* Bing Web Master Tools verification meta tag.
-* Yandex Web Master Tools verification meta tag.
-* Web of Trust (WOT) verification meta tag.
-* Meta tag with name="author".
-* Meta tag with name="designer".
-* Meta tag with name="contact".
-* Meta tag with name="copyright".
-* Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page).
-* Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page).
-* Ready for translation (.pot file included).
-* Added Russian translation.
-
+* Google+ publisher link
+* Facebook publisher meta tag
+* Twitter publisher meta tag
+* Pinterest verification meta tag
+* Alexa verification meta tag
+* Norton Safe Web verification meta tag
+* Google Web Master Tools verification meta tag
+* Bing Web Master Tools verification meta tag
+* Yandex Web Master Tools verification meta tag
+* Web of Trust (WOT) verification meta tag
+* Meta tag with name="author"
+* Meta tag with name="designer"
+* Meta tag with name="contact"
+* Meta tag with name="copyright"
+* Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page)
+* Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page)
+* Ready for translation (.pot file included)
+* Russian translation
 
 **Coming soon:**
 
-* Google Analytics verification meta tag.
-* SpecificFeeds.com verification meta tag.
-* Meta tag with name="creator".
-* Meta tag with name="publisher".
-* Meta tag with name="language".
-* (Got more ideas? Tell me!)
+* Google Analytics verification meta tag
+* SpecificFeeds.com verification meta tag
+* Meta tag with name="creator"
+* Meta tag with name="publisher"
+* Meta tag with name="language"
 
-**Please Vote and Enjoy**
+>**Contribution**
+>
+>Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+>
+>* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/all-meta-tags?rate=5#postform) this plugin.
+>* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
 
-* Your votes really make a difference! Thanks.
 
 == Installation ==
 Install "All Meta Tags" just as you would any other WordPress Plugin.
@@ -97,6 +99,18 @@ A. I don't limit the number of characters, but most search engines use a maximum
 = Q. How much of keywords I can enter in the text field? =
 A. I don't limit the number of characters.
 
+= Q. What about compatibility with plugin "All in One SEO Pack" ? =
+A. To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:
+`<head>
+     ...
+     <meta name="copyright" content="Copyright (c) 2013-2015 Arthur Gareginyan. All Rights Reserved.">
+     ...
+     <meta name="copyright" content="Copyright 2015 Arthur Gareginyan. All Rights Reserved.">
+     ...
+</head>`
+
+In the rest, the "All Meta Tags" and "All in One SEO Pack" is compatible.
+
 = Q. Does this plugin require modification to the theme? =
 A. Absolutely not. This plugin is added/configured entirely from the website's Admin section.
 
@@ -112,13 +126,13 @@ A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareg
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
+= Q. I love this plugin! Can I help somehow? =
+A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! [My website](http://www.arthurgareginyan.com/donate.html)
+
 
 == Screenshots ==
-1. Plugin’s page. Section "Web Master Tools".
-2. Plugin’s page. Section "Domain Verification".
-3. Plugin’s page. Section "Meta Tags for Static Home Page only".
-4. Plugin’s page. Section "Meta Tags for Default Home Page and Blog Page only".
-5. Plugin’s page. Section "Meta Tags for all website (Global)".
+1. Plugin’s page.
+
 
 == Other Notes ==
 
@@ -129,21 +143,24 @@ A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gma
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
-**Support**
-
-* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com)
-
-**Please Vote and Enjoy**
-
-* Your votes really make a difference! Thanks.
-
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 2.0 =
+* Some changes in design of settings page.
+* Constants variables added.
+* Text domain changed to "all-meta-tags".
+* Added compatibility with the translate.wordpress.org.
+* All images are moved to the directory "images".
+* Image "btn_donateCC_LG.gif" is now located in the "images" directory.
+* Plugin URI changed to GitHub repository.
+* Added my personal ad about freelance.
+* Removed custom "Saved" message.
+* .pot file updated.
+* Russian translation updated.
 = 1.5 =
 * Authors URI changed.
 * Localization improved.
@@ -170,24 +187,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
-= 1.5 =
-* Authors URI changed.
-* Localization improved.
-* .pot file updated.
-* Russian translation updated.
-* thanks.png replaced.
-= 1.4 =
-* Removed more unused do_action() from settings_page.php file.
-= 1.3 =
-* Added new section with meta tags for Default Home Page and Blog Page.
-* Home Page section renamed to Static Home Page.
-= 1.2 =
-* Added the option for "Web of Trust" (WOT) verification.
-= 1.1 =
-* Fixed the issue due to which error message is shown in the top of the website when the plugin for the first time installed.
+= 2.0 =
+Please update to new release!
 = 1.0 =
 Please update to first stable release!
-* Added ready for translation (.pot file included).
-* Added russian translation.
 = 0.2 =
 Please update to beta version.
