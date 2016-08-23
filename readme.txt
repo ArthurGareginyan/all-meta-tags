@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.5
-Stable tag: 1.5
+Tested up to: 4.6
+Stable tag: 2.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -39,8 +39,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="copyright"
 * Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page)
 * Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page)
-* Ready for translation (.pot file included)
-* Russian translation
+* Ready for translation (POT file included)
 
 **Coming soon:**
 
@@ -50,13 +49,20 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="publisher"
 * Meta tag with name="language"
 
+= Translation =
+
+Please keep in mind that not all translations are up to date. You are welcome to contribute!
+
+* English (default)
+* Russian
+
 >**Contribution**
 >
 >Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 >
->* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
->* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/all-meta-tags?rate=5#postform) this plugin.
->* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
+>* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/all-meta-tags?rate=5#postform) this plugin.
+>* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/all-meta-tags) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -131,7 +137,7 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 
 
 == Screenshots ==
-1. Plugin’s page.
+1. Plugin page.
 
 
 == Other Notes ==
@@ -149,6 +155,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 2.0.1 =
+* POT file updated.
+* Russian translation updated.
+* Image "thanks.png" removed.
+* Advertisement replaced by new.
+* Added the subject with plugin name to email address on settings page.
+* Function "allmetatags_enqueue_scripts" renamed to "allmetatags_load_scripts".
 = 2.0 =
 * Some changes in design of settings page.
 * Constants variables added.

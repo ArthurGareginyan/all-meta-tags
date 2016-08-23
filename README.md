@@ -35,6 +35,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page).
 * Ready for translation (.pot file included).
 * Russian translation.
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Coming soon:**
 

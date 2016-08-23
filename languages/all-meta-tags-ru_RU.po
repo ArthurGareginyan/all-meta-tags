@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2016-04-09 13:50+0300\n"
-"PO-Revision-Date: 2016-04-09 13:50+0300\n"
+"POT-Creation-Date: 2016-08-23 07:16+0300\n"
+"PO-Revision-Date: 2016-08-23 07:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -33,10 +33,10 @@ msgstr ""
 #: inc/settings_page.php:27
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>"
+"Gareginyan</a>"
 msgstr ""
 "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
-"\"Berserkr\" Гарегинян</a>"
+"Гарегинян</a>"
 
 #: inc/settings_page.php:38
 msgid "About"
@@ -63,49 +63,34 @@ msgid "Help"
 msgstr "Помощь"
 
 #: inc/settings_page.php:54
-msgid "If you want more options then tell me and I will be happy to add it."
-msgstr ""
-"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
-"добавить их."
+msgid "Got something to say? Need help?"
+msgstr "Есть что сказать? Нужна помощь?"
 
 #: inc/settings_page.php:60
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/settings_page.php:63
+#: inc/settings_page.php:62
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin even "
-"better and keep it up-to-date."
+"If you like this plugin and find it useful, please help me to make this "
+"plugin even better and keep it up-to-date."
 msgstr ""
-"Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
-"сделать его ещё лучше."
+"Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
+"помогите мне сделать его ещё лучше."
 
-#: inc/settings_page.php:67
+#: inc/settings_page.php:66
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:72
-msgid "Freelance"
-msgstr "Фриланс"
+#: inc/settings_page.php:71
+msgid "Advertisement"
+msgstr "Реклама"
 
-#: inc/settings_page.php:75
-msgid ""
-"Hello, my name is Arthur and I'm a freelance web designer and developer."
-msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
-
-#: inc/settings_page.php:76
-msgid ""
-"Share your thoughts with me. You may have a brilliant idea in your mind and "
-"I can make it happen, so let’s get started!"
-msgstr ""
-"Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, а "
-"я могу сделать её явью, так что давайте начнём!"
-
-#: inc/settings_page.php:95
+#: inc/settings_page.php:91
 msgid "Web Master Tools"
 msgstr "Веб-мастер инструменты"
 
-#: inc/settings_page.php:97
+#: inc/settings_page.php:93
 msgid ""
 "Webmaster Tools require you to verify your domain. This makes sure that you "
 "are the correct owner of your blog or store before they provide their "
@@ -113,17 +98,17 @@ msgid ""
 "your domain is already verified, you can just forget about these."
 msgstr ""
 
-#: inc/settings_page.php:115 inc/settings_page.php:160
-#: inc/settings_page.php:182 inc/settings_page.php:204
-#: inc/settings_page.php:238
+#: inc/settings_page.php:111 inc/settings_page.php:156
+#: inc/settings_page.php:178 inc/settings_page.php:200
+#: inc/settings_page.php:234
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: inc/settings_page.php:120
+#: inc/settings_page.php:116
 msgid "Domain Verification"
 msgstr "Проверка домена"
 
-#: inc/settings_page.php:122
+#: inc/settings_page.php:118
 msgid ""
 "Third-party services like Alexa, Pinterest and Google-Plus require you to "
 "verify your domain. This makes sure that you are the correct owner of your "
@@ -132,31 +117,31 @@ msgid ""
 "can just forget about these."
 msgstr ""
 
-#: inc/settings_page.php:165
+#: inc/settings_page.php:161
 msgid "Meta Tags for Static Home Page only"
 msgstr "Мета-теги только для Static Home Page"
 
-#: inc/settings_page.php:167
+#: inc/settings_page.php:163
 msgid ""
 "You can use the options below to add meta tags such as Description and "
 "Keywords only in Static Home Page of your website."
 msgstr ""
 
-#: inc/settings_page.php:187
+#: inc/settings_page.php:183
 msgid "Meta Tags for Default Home Page and Blog Page only"
 msgstr "Мета-теги для Default Home Page и только Blog Page"
 
-#: inc/settings_page.php:189
+#: inc/settings_page.php:185
 msgid ""
 "You can use the options below to add meta tags such as Description and "
 "Keywords only in Default Home Page and Blog Page of your website."
 msgstr ""
 
-#: inc/settings_page.php:209
+#: inc/settings_page.php:205
 msgid "Meta Tags for all website (Global)"
 msgstr "Мета-теги для всего веб-сайта (Глобальные)"
 
-#: inc/settings_page.php:211
+#: inc/settings_page.php:207
 msgid ""
 "You can use the options below to add meta tags such as Author, Copyright and "
 "Keywords in everywhere on your website."
@@ -178,6 +163,42 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid "Advertising"
+#~ msgstr "Реклама"
+
+#~ msgid ""
+#~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+#~ "\"Berserkr\" Gareginyan</a>"
+#~ msgstr ""
+#~ "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
+#~ "\"Berserkr\" Гарегинян</a>"
+
+#~ msgid "If you want more options then tell me and I will be happy to add it."
+#~ msgstr ""
+#~ "Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+#~ "добавить их."
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, help me to make this plugin "
+#~ "even better and keep it up-to-date."
+#~ msgstr ""
+#~ "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
+#~ "сделать его ещё лучше."
+
+#~ msgid "Freelance"
+#~ msgstr "Фриланс"
+
+#~ msgid ""
+#~ "Hello, my name is Arthur and I'm a freelance web designer and developer."
+#~ msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
+
+#~ msgid ""
+#~ "Share your thoughts with me. You may have a brilliant idea in your mind "
+#~ "and I can make it happen, so let’s get started!"
+#~ msgstr ""
+#~ "Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, "
+#~ "а я могу сделать её явью, так что давайте начнём!"
 
 #~ msgid "Arthur \"Berserkr\" Gareginyan"
 #~ msgstr "Артур “Берсерк” Гарегинян"
