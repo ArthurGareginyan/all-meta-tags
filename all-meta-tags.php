@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.0.1
+ * Version: 3.0
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -86,14 +86,14 @@ add_action( 'admin_menu', 'allmetatags_register_submenu_page' );
 /**
  * Attach Settings Page
  *
- * @since 2.0
+ * @since 3.0
  */
-require_once( ALLMT_PATH . 'inc/settings_page.php' );
+require_once( ALLMT_PATH . 'inc/php/settings_page.php' );
 
 /**
  *  Load scripts and style sheet for settings page
  *
- * @since 2.0
+ * @since 3.0
  */
 function allmetatags_load_scripts($hook) {
 
@@ -102,7 +102,12 @@ function allmetatags_load_scripts($hook) {
         return;
     }
 
-    wp_enqueue_style('styles', ALLMT_URL . 'inc/style.css');
+    // Style sheet
+    wp_enqueue_style( 'admin-css', ALLMT_URL . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( 'admin-js', ALLMT_URL . 'inc/js/admin.js', array(), false, true );
+
 }
 add_action('admin_enqueue_scripts', 'allmetatags_load_scripts');
 

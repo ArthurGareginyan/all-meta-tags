@@ -155,6 +155,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 3.0 =
+* The structure of files changed.
+* Style sheet of settings page improved and better commented.
+* Style sheet of settings page optimized for mobile devices.
+* Added JavaScript file for settings page.
+* Added JavaScript function of automatic remove the "successful" message after 3 seconds.
 = 2.0.1 =
 * POT file updated.
 * Russian translation updated.
