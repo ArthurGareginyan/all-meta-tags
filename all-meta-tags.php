@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.0
+ * Version: 3.1
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -29,6 +29,7 @@
  *
  */
 
+
 /**
  * Prevent Direct Access
  *
@@ -37,14 +38,15 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Define constants
+ * Define global constants
  *
- * @since 2.0
+ * @since 3.1
  */
 defined('ALLMT_DIR') or define('ALLMT_DIR', dirname(plugin_basename(__FILE__)));
 defined('ALLMT_BASE') or define('ALLMT_BASE', plugin_basename(__FILE__));
 defined('ALLMT_URL') or define('ALLMT_URL', plugin_dir_url(__FILE__));
 defined('ALLMT_PATH') or define('ALLMT_PATH', plugin_dir_path(__FILE__));
+defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.1');
 
 /**
  * Register text domain
@@ -93,7 +95,7 @@ require_once( ALLMT_PATH . 'inc/php/settings_page.php' );
 /**
  *  Load scripts and style sheet for settings page
  *
- * @since 3.0
+ * @since 3.1
  */
 function allmetatags_load_scripts($hook) {
 
@@ -103,13 +105,13 @@ function allmetatags_load_scripts($hook) {
     }
 
     // Style sheet
-    wp_enqueue_style( 'admin-css', ALLMT_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( 'allmetatags-admin-css', ALLMT_URL . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( 'admin-js', ALLMT_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( 'allmetatags-admin-js', ALLMT_URL . 'inc/js/admin.js', array(), false, true );
 
 }
-add_action('admin_enqueue_scripts', 'allmetatags_load_scripts');
+add_action( 'admin_enqueue_scripts', 'allmetatags_load_scripts' );
 
 /**
  * Register settings
@@ -312,7 +314,7 @@ function allmetatags_add_metadata_head() {
             PHP_EOL,
             PHP_EOL;
 }
-add_action('wp_head', 'allmetatags_add_metadata_head', 0);
+add_action( 'wp_head', 'allmetatags_add_metadata_head', 0 );
 
 /**
  * Delete options on uninstall
