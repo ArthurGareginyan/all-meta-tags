@@ -4,7 +4,7 @@ Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, goo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.1
+Stable tag: 3.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,6 +33,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Bing Web Master Tools verification meta tag
 * Yandex Web Master Tools verification meta tag
 * Web of Trust (WOT) verification meta tag
+* Custom meta tags
 * Meta tag with name="author"
 * Meta tag with name="designer"
 * Meta tag with name="contact"
@@ -155,6 +156,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 3.2 =
+* Added field for custom meta tags. (Thanks to Juliano Dias for the suggestion)
+* Ready for translation improved.
 = 3.1 =
 * Added prefixes to the stylesheet and script names when using wp_enqueue_style() and wp_enqueue_script().
 * Added constant for storing the plugin version number.

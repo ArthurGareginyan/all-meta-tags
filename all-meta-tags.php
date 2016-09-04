@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.1
+ * Version: 3.2
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -126,7 +126,7 @@ add_action( 'admin_init', 'allmetatags_register_settings' );
 /**
  * Render fields
  *
- * @since 1.0
+ * @since 3.2
  */
 function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, $textarea=null) {
 
@@ -134,7 +134,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
     $options = get_option( 'allmetatags_settings' );
 
     if ( !empty($options[$name]) ) :
-        $value = sanitize_text_field( $options[$name] );
+        $value = esc_attr( $options[$name] );
     else :
         $value = "";
     endif;
@@ -181,7 +181,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
 /**
  * Generate the Meta Tags
  *
- * @since 1.3
+ * @since 3.2
  */
 function allmetatags_add_meta_tags() {
 
@@ -199,6 +199,7 @@ function allmetatags_add_meta_tags() {
     $twitter = esc_textarea( $options['twitter'] );
     $norton = esc_textarea( $options['norton'] );
     $wot = esc_textarea( $options['wot'] );
+    $custom_meta = $options['custom_meta'];
 
     $home_description = esc_textarea( $options['home_description'] );
     $home_keywords = esc_textarea( $options['home_keywords'] );
@@ -247,6 +248,9 @@ function allmetatags_add_meta_tags() {
     }
     if (!empty($wot)) {
         $metatags_arr[] = "<meta name='wot-verification' content='$wot' />";
+    }
+    if (!empty($custom_meta)) {
+        $metatags_arr[] = $custom_meta;
     }
 
     // Meta Tags for specific pages

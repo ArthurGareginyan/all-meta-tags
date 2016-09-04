@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.0
+ * @since 3.2
  */
 function allmetatags_render_submenu_page() {
 
@@ -95,18 +95,18 @@ function allmetatags_render_submenu_page() {
                                         <?php allmetatags_field('google',
                                                                 'Google Webmaster Tools',
                                                                 '1234567890',
-                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="google-site-verification" content=“<b>1234567890</b>” /&gt;',
-                                                                'https://www.google.com/webmasters/verification/');?>
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="google-site-verification" content=“<b>1234567890</b>” /&gt;', 'all-meta-tags' ),
+                                                                'https://www.google.com/webmasters/verification/'); ?>
                                         <?php allmetatags_field('bing',
                                                                 'Bing Webmaster Tools',
                                                                 '1234567890',
-                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="msvalidate.01" content=“<b>1234567890</b>” /&gt;',
-                                                                'http://www.bing.com/webmaster/');?>
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="msvalidate.01" content=“<b>1234567890</b>” /&gt;', 'all-meta-tags' ),
+                                                                'http://www.bing.com/webmaster/'); ?>
                                         <?php allmetatags_field('yandex',
                                                                 'Yandex Webmaster Tools',
                                                                 '1234567890',
-                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="yandex-verification" content=“<b>1234567890</b>” /&gt;',
-                                                                'https://webmaster.yandex.com');?>
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="yandex-verification" content=“<b>1234567890</b>” /&gt;', 'all-meta-tags' ),
+                                                                'https://webmaster.yandex.com'); ?>
                                     </table>
                                     <?php submit_button( __( 'Save Changes', 'all-meta-tags' ), 'primary', 'submit', true ); ?>
                                 </div>
@@ -120,38 +120,44 @@ function allmetatags_render_submenu_page() {
                                         <?php allmetatags_field('pinterest',
                                                                 'Pinterest',
                                                                 '1234567890',
-                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="p:domain_verify" content=“<b>1234567890</b>” /&gt;',
-                                                                'https://help.pinterest.com/en/articles/confirm-your-website');?>
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="p:domain_verify" content=“<b>1234567890</b>” /&gt;', 'all-meta-tags' ),
+                                                                'https://help.pinterest.com/en/articles/confirm-your-website'); ?>
                                         <?php allmetatags_field('google_author',
                                                                 'Google+',
                                                                 'https://plus.google.com/+ArthurGareginyan/',
-                                                                'Enter an absolute URL to the Google+ profile of the publisher. </br>Example: https://plus.google.com/+ArthurGareginyan/',
-                                                                'https://plus.google.com/');?>
+                                                                __( 'Enter an absolute URL to the Google+ profile of the publisher. </br>Example: https://plus.google.com/+ArthurGareginyan/', 'all-meta-tags' ),
+                                                                'https://plus.google.com/'); ?>
                                         <?php allmetatags_field('facebook',
                                                                 'Facebook',
                                                                 'https://www.facebook.com/arthur.gareginyan',
-                                                                'Enter an absolute URL to the Facebook profile of the publisher. </br>Example: https://www.facebook.com/arthur.gareginyan',
-                                                                'https://www.facebook.com/');?>
+                                                                __( 'Enter an absolute URL to the Facebook profile of the publisher. </br>Example: https://www.facebook.com/arthur.gareginyan', 'all-meta-tags' ),
+                                                                'https://www.facebook.com/'); ?>
                                         <?php allmetatags_field('twitter',
                                                                 'Twitter',
                                                                 '@AGareginyan',
-                                                                'Enter the Twitter username of the publisher. </br>Example: @AGareginyan',
-                                                                'https://twitter.com/');?>
+                                                                __( 'Enter the Twitter username of the publisher. </br>Example: @AGareginyan', 'all-meta-tags' ),
+                                                                'https://twitter.com/'); ?>
                                         <?php allmetatags_field('alexa',
                                                                 'Alexa',
                                                                 '1234567890',
-                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="alexaVerifyID" content=“<b>1234567890</b>” /&gt;',
-                                                                'http://www.alexa.com/siteowners/claim');?>
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="alexaVerifyID" content=“<b>1234567890</b>” /&gt;', 'all-meta-tags' ),
+                                                                'http://www.alexa.com/siteowners/claim'); ?>
                                         <?php allmetatags_field('norton',
                                                                 'Norton Safe Web',
                                                                 '1234567890',
-                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="norton-safeweb-site-verification" content=“<b>1234567890</b>” /&gt;',
-                                                                'https://safeweb.norton.com/help/site_owners');?>
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="norton-safeweb-site-verification" content=“<b>1234567890</b>” /&gt;', 'all-meta-tags' ),
+                                                                'https://safeweb.norton.com/help/site_owners'); ?>
                                         <?php allmetatags_field('wot',
                                                                 'Web of Trust (WOT)',
                                                                 '1234567890',
-                                                                'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="wot-verification" content=“<b>1234567890</b>” /&gt;',
-                                                                'https://www.mywot.com/wiki/Verify_your_website');?>
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="wot-verification" content=“<b>1234567890</b>” /&gt;', 'all-meta-tags' ),
+                                                                'https://www.mywot.com/wiki/Verify_your_website'); ?>
+                                        <?php allmetatags_field('custom_meta',
+                                                                __( 'Custom Meta Tags', 'all-meta-tags' ),
+                                                                '&lt;meta name="google-site-verification" content=“1234567890” /&gt;',
+                                                                __( 'If you can\'t find a field to enter your required meta tag then you can add it here. In this field you can add multiple meta tags.', 'all-meta-tags' ),
+                                                                '',
+                                                                'textarea'); ?>
                                     </table>
                                     <?php submit_button( __( 'Save Changes', 'all-meta-tags' ), 'primary', 'submit', true ); ?>
                                 </div>
@@ -163,17 +169,17 @@ function allmetatags_render_submenu_page() {
                                     <p><?php _e( 'You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your website.', 'all-meta-tags' ); ?></p>
                                     <table class="form-table">
                                         <?php allmetatags_field('home_description',
-                                                                'Home Description',
+                                                                __( 'Home Description', 'all-meta-tags' ),
                                                                 'My website is about plants, nature, the sea and everything I love',
-                                                                'Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description.',
+                                                                __( 'Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description.', 'all-meta-tags' ),
                                                                 '',
-                                                                'textarea');?>
+                                                                'textarea'); ?>
                                         <?php allmetatags_field('home_keywords',
-                                                                'Home Keyword(s)',
+                                                                __( 'Home Keyword(s)', 'all-meta-tags' ),
                                                                 'blog, awesome, handmade, books, theater',
-                                                                'Enter a comma-delimited list of keywords for only Static Home Page of your website.',
+                                                                __( 'Enter a comma-delimited list of keywords for only Static Home Page of your website.', 'all-meta-tags' ),
                                                                 '',
-                                                                'textarea');?>
+                                                                'textarea'); ?>
                                     </table>
                                     <?php submit_button( __( 'Save Changes', 'all-meta-tags' ), 'primary', 'submit', true ); ?>
                                 </div>
@@ -185,17 +191,17 @@ function allmetatags_render_submenu_page() {
                                     <p><?php _e( 'You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and Blog Page of your website.', 'all-meta-tags' ); ?></p>
                                     <table class="form-table">
                                         <?php allmetatags_field('blog_description',
-                                                                'Blog Description',
+                                                                __( 'Blog Description', 'all-meta-tags' ),
                                                                 'My blog is about plants, nature, the sea and everything I love',
-                                                                'Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description.',
+                                                                __( 'Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description.', 'all-meta-tags' ),
                                                                 '',
-                                                                'textarea');?>
+                                                                'textarea'); ?>
                                         <?php allmetatags_field('blog_keywords',
-                                                                'Blog Keyword(s)',
+                                                                __( 'Blog Keyword(s)', 'all-meta-tags' ),
                                                                 'blog, awesome, handmade, books, theater',
-                                                                'Enter a comma-delimited list of keywords for only Blog Page of your website.',
+                                                                __( 'Enter a comma-delimited list of keywords for only Blog Page of your website.', 'all-meta-tags' ),
                                                                 '',
-                                                                'textarea');?>
+                                                                'textarea'); ?>
                                     </table>
                                     <?php submit_button( __( 'Save Changes', 'all-meta-tags' ), 'primary', 'submit', true ); ?>
                                 </div>
@@ -207,29 +213,29 @@ function allmetatags_render_submenu_page() {
                                     <p><?php _e( 'You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your website.', 'all-meta-tags' ); ?></p>
                                     <table class="form-table">
                                         <?php allmetatags_field('author',
-                                                                'Author',
+                                                                __( 'Author', 'all-meta-tags' ),
                                                                 'Arthur Gareginyan',
                                                                 '',
-                                                                '');?>
+                                                                ''); ?>
                                         <?php allmetatags_field('designer',
-                                                                'Designer',
+                                                                __( 'Designer', 'all-meta-tags' ),
                                                                 'Arthur Gareginyan',
                                                                 '',
-                                                                '');?>
+                                                                ''); ?>
                                         <?php allmetatags_field('contact',
-                                                                'Contact',
+                                                                __( 'Contact', 'all-meta-tags' ),
                                                                 'arthurgareginyan@gmail.com',
-                                                                '');?>
+                                                                ''); ?>
                                         <?php allmetatags_field('copyright',
-                                                                'Copyright',
+                                                                __( 'Copyright', 'all-meta-tags' ),
                                                                 'Copyright (c) 2013-2016 Arthur Gareginyan. All Rights Reserved.',
-                                                                '');?>
+                                                                ''); ?>
                                         <?php allmetatags_field('keywords',
-                                                                'Keyword(s)',
+                                                                __( 'Keyword(s)', 'all-meta-tags' ),
                                                                 'blog, awesome, handmade, books, theater',
-                                                                'Enter a comma-delimited list of global keywords for your website.',
+                                                                __( 'Enter a comma-delimited list of global keywords for your website.', 'all-meta-tags' ),
                                                                 '',
-                                                                'textarea');?>
+                                                                'textarea'); ?>
                                     </table>
                                     <?php submit_button( __( 'Save Changes', 'all-meta-tags' ), 'primary', 'submit', true ); ?>
                                 </div>
