@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.2
+ * Version: 3.3
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -46,7 +46,7 @@ defined('ALLMT_DIR') or define('ALLMT_DIR', dirname(plugin_basename(__FILE__)));
 defined('ALLMT_BASE') or define('ALLMT_BASE', plugin_basename(__FILE__));
 defined('ALLMT_URL') or define('ALLMT_URL', plugin_dir_url(__FILE__));
 defined('ALLMT_PATH') or define('ALLMT_PATH', plugin_dir_path(__FILE__));
-defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.1');
+defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.3');
 
 /**
  * Register text domain
@@ -181,7 +181,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
 /**
  * Generate the Meta Tags
  *
- * @since 3.2
+ * @since 3.3
  */
 function allmetatags_add_meta_tags() {
 
@@ -295,6 +295,32 @@ function allmetatags_add_meta_tags() {
     }
     if (!empty($keywords)) {
         $metatags_arr[] = "<meta name='keywords' content='$keywords' />";
+    }
+
+    // WooCommerce & Google Shopping (Merchant Center)
+    if ( class_exists( 'WooCommerce' ) ) {
+
+        if ( is_product() ) {
+            
+            $name = get_the_title();
+            $description = get_the_excerpt();
+            $image = simplexml_load_string(get_the_post_thumbnail());
+            $imagesrc = $image->attributes()->src;
+            $price = get_post_meta( get_the_ID(), '_price', true);
+            $currency = get_woocommerce_currency();
+
+            $google_shopping = "<div itemtype='http://schema.org/Product' itemscope>
+                        <meta itemprop='name' content='$name'>
+                        <meta itemprop='description' content='$description'>
+                        <meta itemprop='image' content='$imagesrc'>
+                        <div itemprop='offers' itemscope itemtype='http://schema.org/Offer'>
+                            <meta itemprop='price' content='$price' />
+                            <meta itemprop='priceCurrency' content='$currency' />
+                        </div>
+                    </div>";
+            $metatags_arr[] = $google_shopping;
+        }
+
     }
 
     // Add comment

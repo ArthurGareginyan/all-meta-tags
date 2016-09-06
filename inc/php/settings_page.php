@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.2
+ * @since 3.3
  */
 function allmetatags_render_submenu_page() {
 
@@ -240,6 +240,24 @@ function allmetatags_render_submenu_page() {
                                     <?php submit_button( __( 'Save Changes', 'all-meta-tags' ), 'primary', 'submit', true ); ?>
                                 </div>
                             </div>
+
+                            <div class="postbox" id="WooCommerse">
+                                <h3 class="title"><?php _e( 'WooCommerse & Google Shopping', 'all-meta-tags' ); ?></h3>
+                                <div class="inside">
+                                    <p><?php _e( 'This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women\'s T-shirt that sells for 16 dollars and 80 cents of US.', 'all-meta-tags' ); ?></p>
+<pre>&lt;div itemtype=&quot;http://schema.org/Product&quot; itemscope=&quot;&quot;&gt;
+    &lt;meta itemprop=&quot;name&quot; content=&quot;Womens T-shirt&quot;&gt;
+    &lt;meta itemprop=&quot;description&quot; content=&quot;Constructed in cotton sweat fabric, this lovely piece...&quot;&gt;
+    &lt;meta itemprop=&quot;name&quot; content=&quot;http://example.com/wp-content/uploads/2015/09/product-1.jpg&quot;&gt;
+    &lt;div itemprop=&quot;offers&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Offer&quot;&gt;
+        &lt;meta itemprop=&quot;price&quot; content=&quot;16.80&quot;&gt;
+        &lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                                    <p><?php _e( 'Check these data generated on the pages of your website you can <a href="https://search.google.com/structured-data/testing-tool" target="_blank">here</a>.', 'all-meta-tags' ); ?></p>
+                                </div>
+                            </div>
+
                         </form>
                     </div>
                 </div>

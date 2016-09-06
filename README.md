@@ -17,34 +17,35 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 
 **Current features:**
 
-* Google+ publisher link.
-* Facebook publisher meta tag.
-* Twitter publisher meta tag.
-* Pinterest verification meta tag.
-* Alexa verification meta tag.
-* Norton Safe Web verification meta tag.
-* Google Web Master Tools verification meta tag.
-* Bing Web Master Tools verification meta tag.
-* Yandex Web Master Tools verification meta tag.
-* Web of Trust (WOT) verification meta tag.
+* Google+ publisher link
+* Facebook publisher meta tag
+* Twitter publisher meta tag
+* Pinterest verification meta tag
+* Alexa verification meta tag
+* Norton Safe Web verification meta tag
+* Google Web Master Tools verification meta tag
+* Bing Web Master Tools verification meta tag
+* Yandex Web Master Tools verification meta tag
+* Web of Trust (WOT) verification meta tag
 * Custom meta tags
-* Meta tag with name="author".
-* Meta tag with name="designer".
-* Meta tag with name="contact".
-* Meta tag with name="copyright".
-* Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page).
-* Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page).
-* Ready for translation (.pot file included).
-* Russian translation.
+* Google Shopping (Merchant Center) structured data on WooCommerce product pages
+* Meta tag with name="author"
+* Meta tag with name="designer"
+* Meta tag with name="contact"
+* Meta tag with name="copyright"
+* Meta tag with name="description" (Global, only for Static Home Page and only for Blog Page)
+* Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page)
+* Ready for translation (POT file included)
+* Russian translation
 * Published on [WordPess.org](http://wordpess.org/)
 
 **Coming soon:**
 
-* Google Analytics verification meta tag.
-* SpecificFeeds.com verification meta tag.
-* Meta tag with name="creator".
-* Meta tag with name="publisher".
-* Meta tag with name="language".
+* Google Analytics verification meta tag
+* SpecificFeeds.com verification meta tag
+* Meta tag with name="creator"
+* Meta tag with name="publisher"
+* Meta tag with name="language"
 
 **Got more ideas? Tell me!**
 

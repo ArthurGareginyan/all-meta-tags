@@ -98,3 +98,12 @@ textarea,
 .postbox a {
     text-decoration: none;
 }
+
+/* <pre> tag in "WooCommerse" section
+ -------------------------------------------------------------- */
+#WooCommerse pre {
+    border: 1px solid grey;
+    padding: 3px 5px 2px;
+    margin: 0 10px 0 10px;
+    overflow: scroll;
+}

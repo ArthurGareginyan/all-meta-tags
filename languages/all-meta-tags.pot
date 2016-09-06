@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2016-09-04 14:30+0300\n"
+"POT-Creation-Date: 2016-09-06 10:52+0300\n"
 "PO-Revision-Date: 2015-10-28 13:57+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -271,6 +271,25 @@ msgstr ""
 
 #: inc/php/settings_page.php:236
 msgid "Enter a comma-delimited list of global keywords for your website."
+msgstr ""
+
+#: inc/php/settings_page.php:245
+msgid "WooCommerse & Google Shopping"
+msgstr ""
+
+#: inc/php/settings_page.php:247
+msgid ""
+"This plugin automatically adds the necessary Google Shopping (Merchant "
+"Center) structured data on all WooCommerce product pages on your website. "
+"Here is the markup for women's T-shirt that sells for 16 dollars and 80 "
+"cents of US."
+msgstr ""
+
+#: inc/php/settings_page.php:257
+msgid ""
+"Check these data generated on the pages of your website you can <a href="
+"\"https://search.google.com/structured-data/testing-tool\" target=\"_blank"
+"\">here</a>."
 msgstr ""
 
 #. Plugin URI of the plugin/theme
