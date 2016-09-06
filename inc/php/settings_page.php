@@ -248,7 +248,7 @@ function allmetatags_render_submenu_page() {
 <pre>&lt;div itemtype=&quot;http://schema.org/Product&quot; itemscope=&quot;&quot;&gt;
     &lt;meta itemprop=&quot;name&quot; content=&quot;Womens T-shirt&quot;&gt;
     &lt;meta itemprop=&quot;description&quot; content=&quot;Constructed in cotton sweat fabric, this lovely piece...&quot;&gt;
-    &lt;meta itemprop=&quot;name&quot; content=&quot;http://example.com/wp-content/uploads/2015/09/product-1.jpg&quot;&gt;
+    &lt;meta itemprop=&quot;image&quot; content=&quot;http://example.com/wp-content/uploads/2015/09/product-1.jpg&quot;&gt;
     &lt;div itemprop=&quot;offers&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Offer&quot;&gt;
         &lt;meta itemprop=&quot;price&quot; content=&quot;16.80&quot;&gt;
         &lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot;&gt;
