@@ -1,74 +1,77 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2016-10-10 01:30+0300\n"
-"PO-Revision-Date: 2016-10-10 01:30+0300\n"
-"Last-Translator: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-16 12:15+0300\n"
+"PO-Revision-Date: 2016-10-16 12:17+0300\n"
+"Last-Translator: Sergio <srg2010@yahoo.com>\n"
 "Language-Team: \n"
-"Language: ru\n"
+"Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: all-meta-tags.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: es_MX\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: all-meta-tags.php:73
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Ajustes"
 
 #. Plugin Name of the plugin/theme
 #: all-meta-tags.php:85 inc/php/settings_page.php:24
 msgid "All Meta Tags"
-msgstr ""
+msgstr "Todos los Meta Tags"
 
 #: inc/php/settings_page.php:27
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
 msgstr ""
-"от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
-"Гарегинян</a>"
+"por <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"Gareginyan</a>"
 
 #: inc/php/settings_page.php:38
 msgid "About"
-msgstr "О плагине"
+msgstr "Acerca"
 
 #: inc/php/settings_page.php:40
 msgid "This plugin allows you to easily add Meta Tags to your website."
-msgstr "Этот плагин позволяет легко добавлять Мета-Теги на ваш веб-сайт."
+msgstr "Este plugin te permite agregar fácilmente Meta Tags a tu sitio web."
 
 #: inc/php/settings_page.php:45
 msgid "Using"
-msgstr "Как пользоваться"
+msgstr "Usando"
 
 #: inc/php/settings_page.php:47
 msgid ""
 "To use, enter your custom Meta Tags, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
-"Для использования, введите данные ваших Мета-Тегов, затем нажмите кнопку "
-"“Сохранить изменения”. Это так просто!"
+"Para usar, ingrese el nombre de su Meta Tag, luego de click en \"Salvar "
+"Cambios\". Es así de simple."
 
 #: inc/php/settings_page.php:52
 msgid "Help"
-msgstr "Помощь"
+msgstr "Ayuda"
 
 #: inc/php/settings_page.php:54
 msgid "Got something to say? Need help?"
-msgstr "Есть что сказать? Нужна помощь?"
+msgstr "Tiene algo que decir? Necesitas ayuda?"
 
 #: inc/php/settings_page.php:60
 msgid "Donate"
-msgstr "Поддержать разработку"
+msgstr "Donar"
 
 #: inc/php/settings_page.php:62
 msgid ""
@@ -76,21 +79,20 @@ msgid ""
 "contribution helps cover my costs and lets me spend more time building "
 "things for people like you to enjoy."
 msgstr ""
-"Я независимый разработчик, без регулярного дохода, так что каждый маленький "
-"вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
-"создание программ для людей как вы."
+"Si te gusta este plugin y lo encuentras útil, por favor ayudame hacer este "
+"plugin aún mejor y tenerlo actualizado."
 
 #: inc/php/settings_page.php:66
 msgid "Thanks for your support!"
-msgstr "Спасибо за вашу поддержку!"
+msgstr "Gracias por su apoyo!"
 
 #: inc/php/settings_page.php:71
 msgid "Advertisement"
-msgstr "Реклама"
+msgstr "Publicidad"
 
 #: inc/php/settings_page.php:91
 msgid "Web Master Tools"
-msgstr "Веб-мастер инструменты"
+msgstr "Herramientas para Web Master"
 
 #: inc/php/settings_page.php:93
 msgid ""
@@ -99,6 +101,11 @@ msgid ""
 "services to you. You can use the options below to verify your domain. If "
 "your domain is already verified, you can just forget about these."
 msgstr ""
+"Herramientas para webmasters requieren que verifique su dominio. Esto se "
+"asegura de que usted es el correcto propietario de su blog o tienda antes de "
+"que prestan sus servicios a usted. Puede utilizar las opciones de abajo para "
+"comprobar su dominio. Si su dominio ya está verificado, puede olvidarse de "
+"ellas."
 
 #: inc/php/settings_page.php:98
 msgid ""
@@ -125,11 +132,11 @@ msgstr ""
 #: inc/php/settings_page.php:184 inc/php/settings_page.php:206
 #: inc/php/settings_page.php:240
 msgid "Save Changes"
-msgstr "Сохранить изменения"
+msgstr "Guardar Cambios"
 
 #: inc/php/settings_page.php:116
 msgid "Domain Verification"
-msgstr "Подтверждение домена"
+msgstr "Verificar Dominio"
 
 #: inc/php/settings_page.php:118
 msgid ""
@@ -139,6 +146,11 @@ msgid ""
 "options below to verify your domain. If your domain is already verified, you "
 "can just forget about these."
 msgstr ""
+"Servicios de terceros como Alexa, Pinterest y Google-Plus requieren que "
+"verifique su dominio. Esto se asegura de que usted es el correcto "
+"propietario de su blog o tienda antes de que prestan sus servicios a usted. "
+"Puede utilizar las opciones de abajo para comprobar su dominio. Si su "
+"dominio ya está verificado, puede olvidarse de ellas."
 
 #: inc/php/settings_page.php:123
 msgid ""
@@ -186,29 +198,29 @@ msgstr ""
 
 #: inc/php/settings_page.php:156
 msgid "Custom Meta Tags"
-msgstr "Пользовательские мета-теги"
+msgstr ""
 
 #: inc/php/settings_page.php:158
 msgid ""
 "If you can't find a field to enter your required meta tag then you can add "
 "it here. In this field you can add multiple meta tags."
 msgstr ""
-"Если вы не можете найти поле для нужного вам мета-тега, то добавьте ваш мета-"
-"тег сюда. В это поле вы можете добавить несколько мета-тегов."
 
 #: inc/php/settings_page.php:167
 msgid "Meta Tags for Static Home Page only"
-msgstr "Мета-теги только для Static Home Page"
+msgstr "Meta Tags solo para Paginas de Inicio estática"
 
 #: inc/php/settings_page.php:169
 msgid ""
 "You can use the options below to add meta tags such as Description and "
 "Keywords only in Static Home Page of your website."
 msgstr ""
+"Puede usar las opciones abajo para agregar meta tags, como Descripción y "
+"palabras claves solo en Paginas de Inicio estática en su sitio web."
 
 #: inc/php/settings_page.php:172
 msgid "Home Description"
-msgstr "Описание главной страницы"
+msgstr ""
 
 #: inc/php/settings_page.php:174 inc/php/settings_page.php:196
 msgid ""
@@ -218,7 +230,7 @@ msgstr ""
 
 #: inc/php/settings_page.php:178
 msgid "Home Keyword(s)"
-msgstr "Ключевые слова главной страницы"
+msgstr ""
 
 #: inc/php/settings_page.php:180
 msgid ""
@@ -228,21 +240,24 @@ msgstr ""
 
 #: inc/php/settings_page.php:189
 msgid "Meta Tags for Default Home Page and Blog Page only"
-msgstr "Мета-теги для Default Home Page и только Blog Page"
+msgstr "Meta Tags por defecto pagina de inicio y pagina de blog solamente"
 
 #: inc/php/settings_page.php:191
 msgid ""
 "You can use the options below to add meta tags such as Description and "
 "Keywords only in Default Home Page and Blog Page of your website."
 msgstr ""
+"Puede utilizar las opciones de abajo para agregar meta tags, tales como "
+"descripción y palabras claves sólo en página principal predeterminada y Blog "
+"página de su sitio web."
 
 #: inc/php/settings_page.php:194
 msgid "Blog Description"
-msgstr "Описание блога"
+msgstr ""
 
 #: inc/php/settings_page.php:200
 msgid "Blog Keyword(s)"
-msgstr "Ключевые слова блога"
+msgstr ""
 
 #: inc/php/settings_page.php:202
 msgid ""
@@ -251,43 +266,43 @@ msgstr ""
 
 #: inc/php/settings_page.php:211
 msgid "Meta Tags for all website (Global)"
-msgstr "Мета-теги для всего веб-сайта (Глобальные)"
+msgstr "Meta Tags para todo el sitio web (Global)"
 
 #: inc/php/settings_page.php:213
 msgid ""
 "You can use the options below to add meta tags such as Author, Copyright and "
 "Keywords in everywhere on your website."
 msgstr ""
+"Puede usar las opciones abajo para agregar meta tags como Autor, Derecho "
+"autor, palabras clavs en cualquier sitio de su pagina web."
 
 #: inc/php/settings_page.php:216
 msgid "Author"
-msgstr "Автор"
+msgstr ""
 
 #: inc/php/settings_page.php:221
 msgid "Designer"
-msgstr "Дизайнер"
+msgstr ""
 
 #: inc/php/settings_page.php:226
 msgid "Contact"
-msgstr "Контакты"
+msgstr ""
 
 #: inc/php/settings_page.php:230
 msgid "Copyright"
-msgstr "Copyright"
+msgstr ""
 
 #: inc/php/settings_page.php:234
 msgid "Keyword(s)"
-msgstr "Ключевые слова"
+msgstr ""
 
 #: inc/php/settings_page.php:236
 msgid "Enter a comma-delimited list of global keywords for your website."
 msgstr ""
-"Введите, разделенный запятыми, список глобальных ключевых слов для вашего "
-"веб-сайта."
 
 #: inc/php/settings_page.php:245
 msgid "WooCommerce & Google Shopping"
-msgstr "WooCommerce и Google Shopping"
+msgstr ""
 
 #: inc/php/settings_page.php:247
 msgid ""
@@ -296,10 +311,6 @@ msgid ""
 "Here is the markup for women's T-shirt that sells for 16 dollars and 80 "
 "cents of US."
 msgstr ""
-"Этот плагин автоматически добавляет необходимые Google Shopping (Merchant "
-"Center) мета теги на все страницы WooCommerce продуктов. Вот так выглядит "
-"разметка для женской футболки которая продаётся за 16 долларов и 80 центов "
-"США."
 
 #: inc/php/settings_page.php:257
 msgid ""
@@ -307,9 +318,6 @@ msgid ""
 "\"https://search.google.com/structured-data/testing-tool\" target=\"_blank"
 "\">here</a>."
 msgstr ""
-"Проверить эти данные сгенерированные на страницах вашего вебсайта вы можете "
-"<a href=\"https://search.google.com/structured-data/testing-tool\" target="
-"\"_blank\">здесь</a>."
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/all-meta-tags"
@@ -319,68 +327,20 @@ msgstr ""
 msgid ""
 "Easily and safely add your custom Meta Tags to WordPress website's header."
 msgstr ""
+"La forma más fácil y segura para agregar Meta Tags a la cabecera de tu sitio "
+"WordPress."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
-msgstr "Артур Гарегинян"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
 
-#~ msgid "WooCommerse & Google Shopping"
-#~ msgstr "WooCommerse и Google Shopping"
-
 #~ msgid ""
 #~ "If you like this plugin and find it useful, please help me to make this "
 #~ "plugin even better and keep it up-to-date."
 #~ msgstr ""
-#~ "Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
-#~ "помогите мне сделать его ещё лучше."
-
-#~ msgid "Advertising"
-#~ msgstr "Реклама"
-
-#~ msgid ""
-#~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-#~ "\"Berserkr\" Gareginyan</a>"
-#~ msgstr ""
-#~ "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
-#~ "\"Berserkr\" Гарегинян</a>"
-
-#~ msgid "If you want more options then tell me and I will be happy to add it."
-#~ msgstr ""
-#~ "Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
-#~ "добавить их."
-
-#~ msgid ""
-#~ "If you like this plugin and find it useful, help me to make this plugin "
-#~ "even better and keep it up-to-date."
-#~ msgstr ""
-#~ "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
-#~ "сделать его ещё лучше."
-
-#~ msgid "Freelance"
-#~ msgstr "Фриланс"
-
-#~ msgid ""
-#~ "Hello, my name is Arthur and I'm a freelance web designer and developer."
-#~ msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
-
-#~ msgid ""
-#~ "Share your thoughts with me. You may have a brilliant idea in your mind "
-#~ "and I can make it happen, so let’s get started!"
-#~ msgstr ""
-#~ "Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, "
-#~ "а я могу сделать её явью, так что давайте начнём!"
-
-#~ msgid "Arthur \"Berserkr\" Gareginyan"
-#~ msgstr "Артур “Берсерк” Гарегинян"
-
-#~ msgid "Your Meta Tags was sucessfully updated."
-#~ msgstr "Ваши Мета-Теги были успешно обновлены."
-
-#~ msgid ""
-#~ "EASILY and SAFELY add your custom Meta Tags to WordPress website's header."
-#~ msgstr ""
-#~ "ЛЕГКО и НАДЁЖНО добавляйте ваши Мета-Теги в шапку WordPress веб-сайта."
+#~ "Si te gusta este plugin y lo encuentras útil, por favor ayudame hacer "
+#~ "este plugin aún mejor y tenerlo actualizado."

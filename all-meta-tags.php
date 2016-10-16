@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.3
+ * Version: 3.4
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -40,13 +40,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define global constants
  *
- * @since 3.1
+ * @since 3.4
  */
 defined('ALLMT_DIR') or define('ALLMT_DIR', dirname(plugin_basename(__FILE__)));
 defined('ALLMT_BASE') or define('ALLMT_BASE', plugin_basename(__FILE__));
 defined('ALLMT_URL') or define('ALLMT_URL', plugin_dir_url(__FILE__));
 defined('ALLMT_PATH') or define('ALLMT_PATH', plugin_dir_path(__FILE__));
-defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.3');
+defined('ALLMT_TEXT') or define('ALLMT_TEXT', 'all-meta-tags');
+defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.4');
 
 /**
  * Register text domain
@@ -54,7 +55,7 @@ defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.3');
  * @since 2.0
  */
 function allmetatags_textdomain() {
-	load_plugin_textdomain( 'all-meta-tags', false, ALLMT_DIR . '/languages/' );
+	load_plugin_textdomain( ALLMT_TEXT, false, ALLMT_DIR . '/languages/' );
 }
 add_action( 'init', 'allmetatags_textdomain' );
 
@@ -69,11 +70,11 @@ add_action( 'init', 'allmetatags_textdomain' );
  * @return array        Array of links to be output on Plugin Admin page.
  */
 function allmetatags_settings_link( $links ) {
-	$settings_page = '<a href="' . admin_url( 'options-general.php?page=all-meta-tags.php' ) .'">' . __( 'Settings', 'all-meta-tags' ) . '</a>';
+	$settings_page = '<a href="' . admin_url( 'options-general.php?page=all-meta-tags.php' ) .'">' . __( 'Settings', ALLMT_TEXT ) . '</a>';
 	array_unshift( $links, $settings_page );
 	return $links;
 }
-add_filter( "plugin_action_links_".ALLMT_BASE, 'allmetatags_settings_link' );
+add_filter( 'plugin_action_links_'.ALLMT_BASE, 'allmetatags_settings_link' );
 
 /**
  * Register "All Meta Tags" submenu in "Settings" Admin Menu
@@ -81,7 +82,7 @@ add_filter( "plugin_action_links_".ALLMT_BASE, 'allmetatags_settings_link' );
  * @since 2.0
  */
 function allmetatags_register_submenu_page() {
-	add_options_page( __( 'All Meta Tags', 'all-meta-tags' ), __( 'All Meta Tags', 'all-meta-tags' ), 'manage_options', basename( __FILE__ ), 'allmetatags_render_submenu_page' );
+	add_options_page( __( 'All Meta Tags', ALLMT_TEXT ), __( 'All Meta Tags', ALLMT_TEXT ), 'manage_options', basename( __FILE__ ), 'allmetatags_render_submenu_page' );
 }
 add_action( 'admin_menu', 'allmetatags_register_submenu_page' );
 

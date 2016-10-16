@@ -99,9 +99,9 @@ textarea,
     text-decoration: none;
 }
 
-/* <pre> tag in "WooCommerse" section
+/* <pre> tag in "WooCommerce" section
  -------------------------------------------------------------- */
-#WooCommerse pre {
+#WooCommerce pre {
     border: 1px solid grey;
     padding: 3px 5px 2px;
     margin: 0 10px 0 10px;
