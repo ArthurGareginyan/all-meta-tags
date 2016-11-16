@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.3
+ * @since 3.6
  */
 function allmetatags_render_submenu_page() {
 
@@ -67,12 +67,9 @@ function allmetatags_render_submenu_page() {
                         </div>
                     </div>
 
-                    <div id="advertisement" class="postbox">
-                        <h3 class="title"><?php _e( 'Advertisement', ALLMT_TEXT ); ?></h3>
-                        <div class="inside">
-                            <a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=36439_5_1_21" target="_blank" rel="nofollow"><img style="border:0px" src="http://www.elegantthemes.com/affiliates/media/banners/divi_250x250.jpg" width="250" height="250" alt="Divi WordPress Theme"></a>
-                        </div>
-                    </div>
+                    <a href="//www.iconfinder.com/?ref=ArthurGareginyan" target="_blank" rel="nofollow">
+                        <img style="border:0px" src="<?php echo plugins_url('../img/banner.png', __FILE__); ?>" width="280" height="180" alt="">
+                    </a>
 
 
                 </div>
@@ -152,6 +149,11 @@ function allmetatags_render_submenu_page() {
                                                                 '1234567890',
                                                                 __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="wot-verification" content=“<b>1234567890</b>” /&gt;', ALLMT_TEXT ),
                                                                 'https://www.mywot.com/wiki/Verify_your_website'); ?>
+                                        <?php allmetatags_field('specificfeeds',
+                                                                'SpecificFeeds',
+                                                                '1234567890',
+                                                                __( 'Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta name="specificfeeds-verification-code" content=“<b>1234567890</b>” /&gt;', ALLMT_TEXT ),
+                                                                'https://www.specificfeeds.com/rss?pub=2jcpuERsm61dbHbp2czf9A'); ?>
                                         <?php allmetatags_field('custom_meta',
                                                                 __( 'Custom Meta Tags', ALLMT_TEXT ),
                                                                 '&lt;meta name="google-site-verification" content=“1234567890” /&gt;',

@@ -1,23 +1,25 @@
 === All Meta Tags ===
 Contributors: Arthur Gareginyan
-Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, google shopping, google merchant center, structured data, woocommerce, schemas
+Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, google shopping, google merchant center, structured data, woocommerce, schemas
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.5
+Stable tag: 3.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Easily add your Meta Tags to the WordPress website's head section. This is a must have tool for authors and website owners.
 
 == Description ==
-An easy to use and lightweight WordPress plugin that gives you the ability to easily add your Meta Tags to the head section of your website. 
+An easy to use and lightweight WordPress plugin that gives you the ability to easily add your Meta Tags to the head section of your website.
 
 No need anymore to editing a files of your theme or plugins in order to add meta tags. You can add they on plugins settings page. Just add your ID (the meta key "content" value from your verification code) or/and the URL to the social media profile of the publisher in the field on the plugin page and this plugin will do the rest for you. It adds required meta tags to the head section of your website automatically, without changing any of your themes file and without slowing down your website. It's really useful in case of any theme update, because your meta tags would never be lost! Your meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use this plugin to easily verify your website or domain and get a more effective and efficient sharing results. Example with Pinterest. Once you completed the verification process, people will see a checkmark next to your domain in your Pinterest profile and in pinner search results. That check mark emphasis you have confirmed the ownership of your blog or website on Pinterest. This will help your website to rank better in google and other search engines. You can easily increase your blog traffic using this plugin. "All Meta Tags" is a simple but effective SEO plugin.
 
 Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Static Home Page or the meta Description and Keywords only for Blog Page.
+
+If you want more options then tell me and I will be happy to add it.
 
 = Features =
 
@@ -33,6 +35,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Bing Web Master Tools verification meta tag
 * Yandex Web Master Tools verification meta tag
 * Web of Trust (WOT) verification meta tag
+* SpecificFeeds verification meta tag
 * Custom meta tags
 * Google Shopping (Merchant Center) structured data on WooCommerce product pages
 * Meta tag with name="author"
@@ -46,7 +49,6 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 **Coming soon:**
 
 * Google Analytics verification meta tag
-* SpecificFeeds.com verification meta tag
 * Meta tag with name="creator"
 * Meta tag with name="publisher"
 * Meta tag with name="language"
@@ -159,6 +161,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 3.6 =
+* Added option for SpecificFeeds.com verification code.
+* Translations updated.
+* Ad banner replaced with new.
+* Readme for translations updated.
 = 3.5 =
 * Added Spanish translation. (Thanks [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 = 3.4 =

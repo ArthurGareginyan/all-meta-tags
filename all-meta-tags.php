@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.5
+ * Version: 3.6
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -40,14 +40,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define global constants
  *
- * @since 3.5
+ * @since 3.6
  */
 defined('ALLMT_DIR') or define('ALLMT_DIR', dirname(plugin_basename(__FILE__)));
 defined('ALLMT_BASE') or define('ALLMT_BASE', plugin_basename(__FILE__));
 defined('ALLMT_URL') or define('ALLMT_URL', plugin_dir_url(__FILE__));
 defined('ALLMT_PATH') or define('ALLMT_PATH', plugin_dir_path(__FILE__));
 defined('ALLMT_TEXT') or define('ALLMT_TEXT', 'all-meta-tags');
-defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.5');
+defined('ALLMT_VERSION') or define('ALLMT_VERSION', '3.6');
 
 /**
  * Register text domain
@@ -182,7 +182,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
 /**
  * Generate the Meta Tags
  *
- * @since 3.3
+ * @since 3.6
  */
 function allmetatags_add_meta_tags() {
 
@@ -200,6 +200,7 @@ function allmetatags_add_meta_tags() {
     $twitter = esc_textarea( $options['twitter'] );
     $norton = esc_textarea( $options['norton'] );
     $wot = esc_textarea( $options['wot'] );
+    $specificfeeds = esc_textarea( $options['specificfeeds'] );
     $custom_meta = $options['custom_meta'];
 
     $home_description = esc_textarea( $options['home_description'] );
@@ -249,6 +250,9 @@ function allmetatags_add_meta_tags() {
     }
     if (!empty($wot)) {
         $metatags_arr[] = "<meta name='wot-verification' content='$wot' />";
+    }
+    if (!empty($specificfeeds)) {
+        $metatags_arr[] = "<meta name='specificfeeds-verification-code' content='$specificfeeds' />";
     }
     if (!empty($custom_meta)) {
         $metatags_arr[] = $custom_meta;
@@ -326,8 +330,8 @@ function allmetatags_add_meta_tags() {
 
     // Add comment
     if ( count( $metatags_arr ) > 0 ) {
-        array_unshift( $metatags_arr, "<!-- [BEGIN] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan. -->" );
-        array_push( $metatags_arr, "<!-- [END] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan. -->" );
+        array_unshift( $metatags_arr, "<!-- [BEGIN] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan (https://www.arthurgareginyan.com) -->" );
+        array_push( $metatags_arr, "<!-- [END] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan (https://www.arthurgareginyan.com) -->" );
     }
 
     // Return the content of array
