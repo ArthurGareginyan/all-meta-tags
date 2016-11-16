@@ -27,6 +27,7 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 * Bing Web Master Tools verification meta tag
 * Yandex Web Master Tools verification meta tag
 * Web of Trust (WOT) verification meta tag
+* SpecificFeeds verification meta tag
 * Custom meta tags
 * Google Shopping (Merchant Center) structured data on WooCommerce product pages
 * Meta tag with name="author"
@@ -42,7 +43,6 @@ Also you can use this plugin to add required meta tags such as Author, Designer,
 **Coming soon:**
 
 * Google Analytics verification meta tag
-* SpecificFeeds.com verification meta tag
 * Meta tag with name="creator"
 * Meta tag with name="publisher"
 * Meta tag with name="language"
