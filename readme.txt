@@ -1,6 +1,6 @@
 === All Meta Tags ===
 Contributors: Arthur Gareginyan
-Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, google shopping, google merchant center, structured data, woocommerce, schemas
+Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, specific feeds, feed, rss feed, google shopping, google merchant center, structured data, woocommerce, schemas
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
@@ -162,7 +162,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 = 3.6 =
-* Added option for SpecificFeeds.com verification code.
+* Added option for SpecificFeeds verification code.
 * Translations updated.
 * Ad banner replaced with new.
 * Readme for translations updated.
