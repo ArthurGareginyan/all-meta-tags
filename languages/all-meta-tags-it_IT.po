@@ -1,0 +1,327 @@
+# Translation of Plugins - All Meta Tags - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - All Meta Tags - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - All Meta Tags - Stable (latest release)\n"
+"POT-Creation-Date: 2016-12-02 22:11+0300\n"
+"PO-Revision-Date: 2016-12-02 22:11+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: all-meta-tags.php:73
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. Plugin Name of the plugin/theme
+#: all-meta-tags.php:85 inc/php/settings_page.php:24
+msgid "All Meta Tags"
+msgstr "All Meta Tags"
+
+#: inc/php/settings_page.php:27
+msgid "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur Gareginyan</a>"
+msgstr "di <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur Gareginyan</a>"
+
+#: inc/php/settings_page.php:38
+msgid "About"
+msgstr "Informazioni"
+
+#: inc/php/settings_page.php:40
+msgid "This plugin allows you to easily add Meta Tags to your website."
+msgstr "Questo plugin ti permette di aggiungere facilmente tag meta al tuo sito web."
+
+#: inc/php/settings_page.php:45
+msgid "Using"
+msgstr "Utilizzo"
+
+#: inc/php/settings_page.php:47
+msgid "To use, enter your custom Meta Tags, then click \"Save Changes\". It's that simple!"
+msgstr ""
+"Per l'utilizzo, inserisci i tuoi tag meta personalizzati, quindi fai clic su \"Salva modifiche\". Tutto qui!"
+
+#: inc/php/settings_page.php:52
+msgid "Help"
+msgstr "Aiuto"
+
+#: inc/php/settings_page.php:54
+msgid "Got something to say? Need help?"
+msgstr "Hai qualcosa da dirmi? Hai bisogno di aiuto?"
+
+#: inc/php/settings_page.php:60
+msgid "Donate"
+msgstr "Dona"
+
+#: inc/php/settings_page.php:62
+msgid ""
+"I'm an independent developer, without a regular income, so every little contribution helps cover my costs and "
+"lets me spend more time building things for people like you to enjoy."
+msgstr ""
+"Sono uno sviluppatore indipendente, senza un reddito stabile, quindi ogni piccolo contributo è utile a coprire i "
+"miei costi e mi consente di impiegare più tempo nello sviluppo di strumenti per persone che come te li "
+"apprezzano."
+
+#: inc/php/settings_page.php:66
+msgid "Thanks for your support!"
+msgstr "Grazie per il tuo supporto!"
+
+#: inc/php/settings_page.php:88
+msgid "Web Master Tools"
+msgstr "Webmaster Tools"
+
+#: inc/php/settings_page.php:90
+msgid ""
+"Webmaster Tools require you to verify your domain. This makes sure that you are the correct owner of your blog "
+"or store before they provide their services to you. You can use the options below to verify your domain. If your "
+"domain is already verified, you can just forget about these."
+msgstr ""
+"Webmaster Tools ti richiede di verificare il tuo dominio. Ciò assicura che tu sia il vero proprietario del tuo "
+"blog o negozio prima che ti forniscano i loro servizi. Puoi usare le opzioni qui sotto per verificare il tuo "
+"dominio. Se il tuo dominio è già verificato, puoi semplicemente ignorarle."
+
+#: inc/php/settings_page.php:95
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:100
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:105
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:108 inc/php/settings_page.php:164 inc/php/settings_page.php:186
+#: inc/php/settings_page.php:208 inc/php/settings_page.php:242
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: inc/php/settings_page.php:113
+msgid "Domain Verification"
+msgstr "Verifica dominio"
+
+#: inc/php/settings_page.php:115
+msgid ""
+"Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain. This makes sure "
+"that you are the correct owner of your blog or store before they provide their services to you. You can use the "
+"options below to verify your domain. If your domain is already verified, you can just forget about these."
+msgstr ""
+"Servizi di terze parti come Alexa, Pinterest e Google+ ti richiedono di verificare il tuo dominio. Ciò assicura "
+"che tu sia il vero proprietario del tuo blog o negozio prima che ti forniscano i loro servizi. Puoi usare le "
+"opzioni qui sotto per verificare il tuo dominio. Se il tuo dominio è già verificato, puoi semplicemente "
+"ignorarle."
+
+#: inc/php/settings_page.php:120
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:125
+msgid ""
+"Enter an absolute URL to the Google+ profile of the publisher. </br>Example: https://plus.google.com/"
+"+ArthurGareginyan/"
+msgstr "Inserisci un URL assoluto al tuo profilo Google+. </br>Esempio: https://plus.google.com/+ArthurGareginyan/"
+
+#: inc/php/settings_page.php:130
+msgid ""
+"Enter an absolute URL to the Facebook profile of the publisher. </br>Example: https://www.facebook.com/arthur."
+"gareginyan"
+msgstr ""
+"Inserisci un URL assoluto al tuo profilo Facebook. </br>Esempio: https://www.facebook.com/arthur.gareginyan"
+
+#: inc/php/settings_page.php:135
+msgid "Enter the Twitter username of the publisher. </br>Example: @AGareginyan"
+msgstr "Inserisci il tuo nome utente Twitter. </br>Esempio: @AGareginyan"
+
+#: inc/php/settings_page.php:140
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:145
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta  come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:150
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta  come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:155
+msgid ""
+"Enter your meta key “content” value from your verification code to verify your website. </br>Example: &lt;meta "
+"name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
+msgstr ""
+"Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta  come da tuo codice di "
+"verifica.</br>Esempio: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/settings_page.php:158
+msgid "Custom Meta Tags"
+msgstr "Tag meta personalizzati"
+
+#: inc/php/settings_page.php:160
+msgid ""
+"If you can't find a field to enter your required meta tag then you can add it here. In this field you can add "
+"multiple meta tags."
+msgstr ""
+"Se non riesci a trovare un campo per inserire il tuo meta tag richiesto allora puoi aggiungerlo qui. In questo "
+"campo puoi aggiungere tag meta multipli."
+
+#: inc/php/settings_page.php:169
+msgid "Meta Tags for Static Home Page only"
+msgstr "Tag meta solo per la pagina home statica"
+
+#: inc/php/settings_page.php:171
+msgid ""
+"You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your "
+"website."
+msgstr ""
+"Puoi usare le opzioni qui sotto per aggiungere tag meta quali Description e Keywords solo alla pagina home "
+"statica del tuo sito web."
+
+#: inc/php/settings_page.php:174
+msgid "Home Description"
+msgstr "Descrizione home"
+
+#: inc/php/settings_page.php:176 inc/php/settings_page.php:198
+msgid ""
+"Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars "
+"for the home description."
+msgstr ""
+"Inserisci una breve descrizione del tuo sito web (150-250 caratteri). La maggior parte dei motori di ricerca usa "
+"un massimo di 160 caratteri per la descrizione della home."
+
+#: inc/php/settings_page.php:180
+msgid "Home Keyword(s)"
+msgstr "Parole chiave home"
+
+#: inc/php/settings_page.php:182
+msgid "Enter a comma-delimited list of keywords for only Static Home Page of your website."
+msgstr ""
+"Inserisci una lista delimitata da virgole di parole chiave solo per la pagina home statica del tuo sito web."
+
+#: inc/php/settings_page.php:191
+msgid "Meta Tags for Default Home Page and Blog Page only"
+msgstr "Tag meta solo per pagina home predefinita e pagina blog"
+
+#: inc/php/settings_page.php:193
+msgid ""
+"You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and "
+"Blog Page of your website."
+msgstr ""
+"Puoi usare le opzioni qui sotto per aggiungere tag meta quali Description e Keywords solo alla pagina home "
+"predefinita e alla pagina blog del tuo sito web."
+
+#: inc/php/settings_page.php:196
+msgid "Blog Description"
+msgstr "Descrizione blog"
+
+#: inc/php/settings_page.php:202
+msgid "Blog Keyword(s)"
+msgstr "Parole chiave blog"
+
+#: inc/php/settings_page.php:204
+msgid "Enter a comma-delimited list of keywords for only Blog Page of your website."
+msgstr "Inserisci una lista delimitata da virgole di parole chiave solo per la pagina blog del tuo sito web."
+
+#: inc/php/settings_page.php:213
+msgid "Meta Tags for all website (Global)"
+msgstr "Tag meta per tutto il sito (globale)"
+
+#: inc/php/settings_page.php:215
+msgid ""
+"You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your "
+"website."
+msgstr ""
+"Puoi usare le opzioni qui sotto per aggiungere tag meta quali Author, Copyright e Keywords ovunque sul tuo sito."
+
+#: inc/php/settings_page.php:218
+msgid "Author"
+msgstr "Autore"
+
+#: inc/php/settings_page.php:223
+msgid "Designer"
+msgstr "Designer"
+
+#: inc/php/settings_page.php:228
+msgid "Contact"
+msgstr "Contatti"
+
+#: inc/php/settings_page.php:232
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/php/settings_page.php:236
+msgid "Keyword(s)"
+msgstr "Parole chiave"
+
+#: inc/php/settings_page.php:238
+msgid "Enter a comma-delimited list of global keywords for your website."
+msgstr "Inserisci una lista delimitata da virgole di parole chiave globali per il tuo sito web."
+
+#: inc/php/settings_page.php:247
+msgid "WooCommerce & Google Shopping"
+msgstr "WooCommerce & Google Shopping"
+
+#: inc/php/settings_page.php:249
+msgid ""
+"This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all "
+"WooCommerce product pages on your website. Here is the markup for women's T-shirt that sells for 16 dollars and "
+"80 cents of US."
+msgstr ""
+"Questo plugin aggiunge automaticamente i dati strutturati necessari a Google Shopping (Merchant Center) su tutte "
+"le pagine prodotto WooCommerce del tuo sito web. Ecco il codice per una maglietta da donna al prezzo di 16 "
+"dollari e 80 centesimi."
+
+#: inc/php/settings_page.php:259
+msgid ""
+"Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-"
+"data/testing-tool\" target=\"_blank\">here</a>."
+msgstr ""
+"Puoi controllare <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">qui</a> "
+"tali dati generati sulle pagine del tuo sito web."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ArthurGareginyan/all-meta-tags"
+msgstr "https://github.com/ArthurGareginyan/all-meta-tags"
+
+#. Description of the plugin/theme
+msgid "Easily and safely add your custom Meta Tags to WordPress website's header."
+msgstr "Aggiungi facilmente e in modo sicuro i tuoi tag meta personalizzati all'header del tuo sito WordPress."
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr "Arthur Gareginyan"
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr "http://www.arthurgareginyan.com"

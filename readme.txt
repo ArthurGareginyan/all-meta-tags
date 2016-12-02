@@ -4,7 +4,7 @@ Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, goo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.6
+Stable tag: 3.7
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -61,6 +61,7 @@ Please keep in mind that not all translations are up to date. You are welcome to
 * Russian
 * Spanish - Mexico (translation by Sergio Yeyo Troncoso)
 * Spanish (translation by [Ramiro Garcés](http://www.ramirogarces.com.ve/))
+* Italian (translation by Stefano Tombolini)
 
 >**Contribution**
 >
@@ -161,6 +162,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 3.7 =
+* Added Italian translation. (Thanks to Stefano Tombolini)
+* Image of the donate button changed.
 = 3.6 =
 * Added option for SpecificFeeds verification code.
 * Translations updated.
