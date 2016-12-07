@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.7
+ * Version: 3.8
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -182,7 +182,7 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
 /**
  * Generate the Meta Tags
  *
- * @since 3.6
+ * @since 3.8
  */
 function allmetatags_add_meta_tags() {
 
@@ -306,11 +306,15 @@ function allmetatags_add_meta_tags() {
     if ( class_exists( 'WooCommerce' ) ) {
 
         if ( is_product() ) {
-            
+
             $name = get_the_title();
             $description = get_the_excerpt();
             $image = simplexml_load_string(get_the_post_thumbnail());
-            $imagesrc = $image->attributes()->src;
+            if ( !empty($image) ) {
+                $imagesrc = $image->attributes()->src;
+            } else {
+                $imagesrc = "";
+            }
             $price = get_post_meta( get_the_ID(), '_price', true);
             $currency = get_woocommerce_currency();
 

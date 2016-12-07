@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, specific feeds, feed, rss feed, google shopping, google merchant center, structured data, woocommerce, schemas
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.6
-Stable tag: 3.7
+Tested up to: 4.7
+Stable tag: 3.8
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -162,6 +162,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 == Changelog ==
+= 3.8 =
+* Fixed the error due to which the "Fatal error: Uncaught Error: Call to a member function attributes() on boolean" message showed when the product page has no image.
 = 3.7 =
 * Added Italian translation. (Thanks to Stefano Tombolini)
 * Image of the donate button changed.
