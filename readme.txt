@@ -183,6 +183,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
 = 4.0 =
 * The design of the plugin settings page is completely redone.
 * Added additional donate link to the "Plugins" page.
@@ -215,38 +216,48 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Fixed the parameter that contain the path to source files in all translation files.
 * The POT file updated.
 * Translations updated.
+
 = 3.8 =
 * Fixed the error due to which the "Fatal error: Uncaught Error: Call to a member function attributes() on boolean" message showed when the product page has no image.
+
 = 3.7 =
 * Added Italian translation. (Thanks to Stefano Tombolini)
 * Image of the donate button changed.
+
 = 3.6 =
 * Added option for SpecificFeeds verification code.
 * Translations updated.
 * Ad banner replaced with new.
 * Readme for translations updated.
+
 = 3.5 =
 * Added Spanish translation. (Thanks [Ramiro Garcés](http://www.ramirogarces.com.ve/))
+
 = 3.4 =
 * Added Spanish-Mexico translation. (Thanks to Sergio Yeyo Troncoso)
 * Russian translation updated.
 * Added the Readme.txt file for translation contribution.
 * Added global constant for plugin text-domain.
+
 = 3.3 =
 * Added an option for automatic adding the Google Shopping structured data on all WooCommerce product pages. (Thanks to Juliano Dias for the suggestion and help)
 * Russian translation updated.
+
 = 3.2 =
 * Added field for custom meta tags. (Thanks to Juliano Dias for the suggestion)
 * Ready for translation improved.
+
 = 3.1 =
 * Added prefixes to the stylesheet and script names when using wp_enqueue_style() and wp_enqueue_script().
 * Added constant for storing the plugin version number.
+
 = 3.0 =
 * The structure of files changed.
 * Style sheet of settings page improved and better commented.
 * Style sheet of settings page optimized for mobile devices.
 * Added JavaScript file for settings page.
 * Added JavaScript function of automatic remove the "successful" message after 3 seconds.
+
 = 2.0.1 =
 * POT file updated.
 * Russian translation updated.
@@ -254,6 +265,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Advertisement replaced by new.
 * Added the subject with plugin name to email address on settings page.
 * Function "allmetatags_enqueue_scripts" renamed to "allmetatags_load_scripts".
+
 = 2.0 =
 * Some changes in design of settings page.
 * Constants variables added.
@@ -266,29 +278,37 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Removed custom "Saved" message.
 * .pot file updated.
 * Russian translation updated.
+
 = 1.5 =
 * Authors URI changed.
 * Localization improved.
 * .pot file updated.
 * Russian translation updated.
 * thanks.png replaced.
+
 = 1.4 =
 * Removed more unused do_action() from page.php file.
+
 = 1.3 =
 * Added new section with meta tags for Default Home Page and Blog Page.
 * Home Page section renamed to Static Home Page.
+
 = 1.2 =
 * Added the option for "Web of Trust" (WOT) verification.
 = 1.1 =
 * Fixed the issue due to which error message is shown in the top of the website when the plugin for the first time installed.
+
 = 1.0 =
 * Initial release.
 * Added ready for translation (.pot file included).
 * Added Russian translation.
+
 = 0.3 =
 * Release candidate.
+
 = 0.2 =
 * Beta version.
+
 = 0.1 =
 * Alfa version.
 
