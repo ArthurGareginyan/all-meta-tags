@@ -5,49 +5,38 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Render fields
+ * Render fields for saving settings data to BD
  *
- * @since 3.2
+ * @since 4.1
  */
-function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, $textarea=null) {
+function allmetatags_field( $name, $label, $placeholder, $help=null, $link=null, $textarea=null ) {
 
-    // Declare variables
-    $options = get_option( 'allmetatags_settings' );
+    // Read options from BD
+    $options = get_option( ALLMT_SETTINGS . '_settings' );
 
-    if ( !empty($options[$name]) ) :
+    if ( !empty( $options[$name] ) ) {
         $value = esc_attr( $options[$name] );
-    else :
+    } else {
         $value = "";
-    endif;
+    }
 
     // Generate the table
-    if ( !empty($link) ) :
+    if ( !empty( $link ) ) {
         $link_out = "<a href='$link' target='_blank'>$label</a>";
-    else :
+    } else {
         $link_out = "$label";
-    endif;
+    }
 
-    if ( !empty($textarea) ) :
-        $field_out = "<textarea cols='50' rows='3' name='allmetatags_settings[$name]' placeholder='$placeholder'>$value</textarea>";
-    else :
-        $field_out = "<input type='text' name='allmetatags_settings[$name]' size='50' value='$value' placeholder='$placeholder'>";
-    endif;
+    if ( !empty( $textarea ) ) {
+        $field_out = "<textarea cols='50' rows='3' name='" . ALLMT_SETTINGS . "_settings[$name]' placeholder='$placeholder'>$value</textarea>";
+    } else {
+        $field_out = "<input type='text' name='" . ALLMT_SETTINGS . "_settings[$name]' size='50' value='$value' placeholder='$placeholder'>";
+    }
 
-    if ( !empty($help) ) :
-        $help_out = "<tr>
-                        <td></td>
-                        <td class='help-text'>
-                            $help
-                        </td>
-                     </tr>";
-    else :
-        $help_out = "";
-    endif;
-
-    // Put table to the variable
+    // Put table to the variables $out and $help_out
     $out = "<tr>
                 <th scope='row'>
                     $link_out
@@ -55,23 +44,33 @@ function allmetatags_field($name, $label, $placeholder, $help=null, $link=null, 
                 <td>
                     $field_out
                 </td>
-            </tr>
-            $help_out";
+            </tr>";
+    if ( !empty( $help ) ) {
+        $help_out = "<tr>
+                        <td></td>
+                        <td class='help-text'>
+                            $help
+                        </td>
+                     </tr>";
+    } else {
+        $help_out = "";
+    }
 
     // Print the generated table
-    echo $out;
+    echo $out . $help_out;
 }
 
 /**
  * Generate the Meta Tags
  *
- * @since 3.8
+ * @since 4.1
  */
 function allmetatags_add_meta_tags() {
 
-    // Read options from BD, sanitiz data and declare variables
-    $options = get_option( 'allmetatags_settings' );
+    // Read options from BD
+    $options = get_option( ALLMT_SETTINGS . '_settings' );
 
+    // Sanitiz data and declare variables
     $google = esc_textarea( $options['google'] );
     $bing = esc_textarea( $options['bing'] );
     $yandex = esc_textarea( $options['yandex'] );
@@ -101,87 +100,87 @@ function allmetatags_add_meta_tags() {
     $metatags_arr[] = "";
 
     // Web Master Tools
-    if (!empty($google)) {
+    if ( !empty( $google ) ) {
         $metatags_arr[] = "<meta name='google-site-verification' content='$google' />";
     }
-    if (!empty($yandex)) {
+    if ( !empty( $yandex ) ) {
         $metatags_arr[] = "<meta name='yandex-verification' content='$yandex' />";
     }
-    if (!empty($bing)) {
+    if ( !empty( $bing ) ) {
         $metatags_arr[] = "<meta name='msvalidate.01' content='$bing' />";
     }
 
     // Website Verification Services
-    if (!empty($pinterest)) {
+    if ( !empty( $pinterest ) ) {
         $metatags_arr[] = "<meta name='p:domain_verify' content='$pinterest' />";
     }
-    if (!empty($google_author)) {
+    if ( !empty( $google_author ) ) {
         $metatags_arr[] = "<link rel='author' href='$google_author'>";
     }
-    if (!empty($facebook)) {
+    if ( !empty( $facebook ) ) {
         $metatags_arr[] = "<meta name='article:publisher' content='$facebook' />";
     }
-    if (!empty($twitter)) {
+    if ( !empty( $twitter ) ) {
         $metatags_arr[] = "<meta name='twitter:site' content='$twitter' />";
         $metatags_arr[] = "<meta name='twitter:creator' content='$twitter' />";
     }
-    if (!empty($alexa)) {
+    if ( !empty( $alexa ) ) {
         $metatags_arr[] = "<meta name='alexaVerifyID' content='$alexa' />";
     }
-    if (!empty($norton)) {
+    if ( !empty( $norton ) ) {
         $metatags_arr[] = "<meta name='norton-safeweb-site-verification' content='$norton' />";
     }
-    if (!empty($wot)) {
+    if ( !empty( $wot ) ) {
         $metatags_arr[] = "<meta name='wot-verification' content='$wot' />";
     }
-    if (!empty($specificfeeds)) {
+    if ( !empty( $specificfeeds ) ) {
         $metatags_arr[] = "<meta name='specificfeeds-verification-code' content='$specificfeeds' />";
     }
-    if (!empty($custom_meta)) {
+    if ( !empty( $custom_meta ) ) {
         $metatags_arr[] = $custom_meta;
     }
 
     // Meta Tags for specific pages
     if ( is_front_page() && is_home() ) {
         // Default Home Page
-        if (!empty($home_description)) {
+        if ( !empty( $home_description ) ) {
             $metatags_arr[] = "<meta name='description' content='$blog_description' />";
         }
-        if (!empty($home_keywords)) {
+        if ( !empty( $home_keywords ) ) {
             $metatags_arr[] = "<meta name='keywords' content='$blog_keywords' />";
         }
     } elseif ( is_front_page() ) {
         // Static Home Page
-        if (!empty($home_description)) {
+        if ( !empty( $home_description ) ) {
             $metatags_arr[] = "<meta name='description' content='$home_description' />";
         }
-        if (!empty($home_keywords)) {
+        if ( !empty( $home_keywords ) ) {
             $metatags_arr[] = "<meta name='keywords' content='$home_keywords' />";
         }
     } elseif ( is_home() ) {
         // Blog Page
-        if (!empty($home_description)) {
+        if ( !empty( $home_description ) ) {
             $metatags_arr[] = "<meta name='description' content='$blog_description' />";
         }
-        if (!empty($home_keywords)) {
+        if ( !empty( $home_keywords ) ) {
             $metatags_arr[] = "<meta name='keywords' content='$blog_keywords' />";
         }
     }
 
     // Meta Tags for all website
-    if (!empty($author)) {
+    if ( !empty( $author ) ) {
         $metatags_arr[] = "<meta name='author' content='$author' />";
     }
-    if (!empty($designer)) {
+    if ( !empty( $designer ) ) {
         $metatags_arr[] = "<meta name='designer' content='$designer' />";
     }
-    if (!empty($contact)) {
+    if ( !empty( $contact ) ) {
         $metatags_arr[] = "<meta name='contact' content='$contact' />";
     }
-    if (!empty($copyright)) {
+    if ( !empty( $copyright ) ) {
         $metatags_arr[] = "<meta name='copyright' content='$copyright' />";
     }
-    if (!empty($keywords)) {
+    if ( !empty( $keywords ) ) {
         $metatags_arr[] = "<meta name='keywords' content='$keywords' />";
     }
 
@@ -193,7 +192,7 @@ function allmetatags_add_meta_tags() {
             $name = get_the_title();
             $description = get_the_excerpt();
             $image = simplexml_load_string(get_the_post_thumbnail());
-            if ( !empty($image) ) {
+            if ( !empty( $image ) ) {
                 $imagesrc = $image->attributes()->src;
             } else {
                 $imagesrc = "";
@@ -228,7 +227,7 @@ function allmetatags_add_meta_tags() {
 /**
  * Include the Meta Tags in head area
  *
- * @since 1.0
+ * @since 4.1
  */
 function allmetatags_add_metadata_head() {
     echo    PHP_EOL,
@@ -236,4 +235,4 @@ function allmetatags_add_metadata_head() {
             PHP_EOL,
             PHP_EOL;
 }
-add_action( 'wp_head', 'allmetatags_add_metadata_head', 0 );
+add_action( 'wp_head', ALLMT_PREFIX . '_add_metadata_head', 0 );

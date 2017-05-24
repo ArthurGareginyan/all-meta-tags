@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.0.1
+ * Version: 4.1
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -50,19 +50,23 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Define global constants
  *
- * @since 3.7
+ * @since 4.1
  */
-defined('ALLMT_DIR') or define('ALLMT_DIR', dirname(plugin_basename(__FILE__)));
-defined('ALLMT_BASE') or define('ALLMT_BASE', plugin_basename(__FILE__));
-defined('ALLMT_URL') or define('ALLMT_URL', plugin_dir_url(__FILE__));
-defined('ALLMT_PATH') or define('ALLMT_PATH', plugin_dir_path(__FILE__));
-defined('ALLMT_TEXT') or define('ALLMT_TEXT', 'all-meta-tags');
-defined('ALLMT_VERSION') or define('ALLMT_VERSION', '4.0.1');
+defined( 'ALLMT_DIR' ) or define( 'ALLMT_DIR', dirname( plugin_basename( __FILE__ ) ) );
+defined( 'ALLMT_BASE' ) or define( 'ALLMT_BASE', plugin_basename( __FILE__ ) );
+defined( 'ALLMT_URL' ) or define( 'ALLMT_URL', plugin_dir_url( __FILE__ ) );
+defined( 'ALLMT_PATH' ) or define( 'ALLMT_PATH', plugin_dir_path( __FILE__ ) );
+defined( 'ALLMT_TEXT' ) or define( 'ALLMT_TEXT', 'all-meta-tags' );
+defined( 'ALLMT_SLUG' ) or define( 'ALLMT_SLUG', 'all-meta-tags' );
+defined( 'ALLMT_PREFIX' ) or define( 'ALLMT_PREFIX', 'allmetatags' );
+defined( 'ALLMT_SETTINGS' ) or define( 'ALLMT_SETTINGS', 'allmetatags' );
+defined( 'ALLMT_NAME' ) or define( 'ALLMT_NAME', 'All Meta Tags' );
+defined( 'ALLMT_VERSION' ) or define( 'ALLMT_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
 
 /**
  * Load the plugin modules

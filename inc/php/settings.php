@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Tab
  *
- * @since 4.0
+ * @since 4.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -37,7 +37,7 @@ defined('ABSPATH') or die("Restricted access!");
                 <h3 class="title"><?php _e( 'Help', ALLMT_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'Got something to say? Need help?', ALLMT_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=All Meta Tags">arthurgareginyan@gmail.com</a></p>
+                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo ALLMT_NAME; ?>">arthurgareginyan@gmail.com</a></p>
                 </div>
             </div>
 
@@ -50,12 +50,12 @@ defined('ABSPATH') or die("Restricted access!");
         <div id="post-body-content" class="has-sidebar-content">
             <div class="meta-box-sortabless">
 
-                <form name="allmetatags-form" action="options.php" method="post" enctype="multipart/form-data">
-                    <?php settings_fields( 'allmetatags_settings_group' ); ?>
+                <form action="options.php" method="post" enctype="multipart/form-data">
+                    <?php settings_fields( ALLMT_SETTINGS . '_settings_group' ); ?>
 
                     <?php
                         // Get options from the BD
-                        $options = get_option( 'allmetatags_settings' );
+                        $options = get_option( ALLMT_SETTINGS . '_settings' );
                     ?>
 
                     <div class="postbox" id="WebMasterTools">
@@ -234,7 +234,7 @@ defined('ABSPATH') or die("Restricted access!");
                         </div>
                     </div>
 
-                    <div id="support-addition" class="postbox">
+                    <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', ALLMT_TEXT ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', ALLMT_TEXT ); ?></p>

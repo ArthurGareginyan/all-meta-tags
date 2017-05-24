@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - All Meta Tags - Development (trunk)\n"
-"POT-Creation-Date: 2017-05-07 13:22+0300\n"
-"PO-Revision-Date: 2017-05-07 13:22+0300\n"
+"POT-Creation-Date: 2017-05-23 08:33+0300\n"
+"PO-Revision-Date: 2017-05-23 08:33+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -29,11 +29,6 @@ msgstr "Ajustes"
 msgid "Donate"
 msgstr "Hacer una donación"
 
-#. Plugin Name of the plugin/theme
-#: inc/php/core.php:62 inc/php/page.php:25
-msgid "All Meta Tags"
-msgstr "Todas las meta etiquetas"
-
 #: inc/php/messages.php:30
 msgid "Hello. I'm Arthur, the author of this plugin."
 msgstr ""
@@ -56,7 +51,7 @@ msgstr ""
 msgid "by %s Arthur Gareginyan %s"
 msgstr "por %s Arthur Gareginyan %s"
 
-#: inc/php/page.php:41 inc/php/page.php:61
+#: inc/php/page.php:41 inc/php/page.php:60
 msgid "Usage"
 msgstr "Uso"
 
@@ -64,11 +59,11 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:43 inc/php/page.php:175 inc/php/settings.php:192
+#: inc/php/page.php:43 inc/php/page.php:177 inc/php/settings.php:192
 msgid "Author"
 msgstr "Autor"
 
-#: inc/php/page.php:44 inc/php/page.php:184 inc/php/settings.php:28 inc/php/settings.php:238
+#: inc/php/page.php:44 inc/php/page.php:186 inc/php/settings.php:28 inc/php/settings.php:238
 msgid "Support"
 msgstr "Soporte"
 
@@ -76,51 +71,51 @@ msgstr "Soporte"
 msgid "Family"
 msgstr ""
 
-#: inc/php/page.php:63
+#: inc/php/page.php:62
 msgid "To add the meta tags to your website, simply follow these steps:"
 msgstr ""
 
-#: inc/php/page.php:65
+#: inc/php/page.php:64
 msgid "Go to the \"Settings\" tab."
 msgstr ""
 
-#: inc/php/page.php:66
+#: inc/php/page.php:65
 msgid "Fill in the required fields, select the desired settings and click the \"Save Changes\" button."
 msgstr ""
 
-#: inc/php/page.php:67
+#: inc/php/page.php:66
 msgid "Enjoy the improved SEO of your website."
 msgstr ""
 
-#: inc/php/page.php:67
+#: inc/php/page.php:66
 msgid "It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:69
+#: inc/php/page.php:68
 msgid "Note!"
 msgstr ""
 
-#: inc/php/page.php:69
+#: inc/php/page.php:68
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 
-#: inc/php/page.php:78
+#: inc/php/page.php:77
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: inc/php/page.php:100
+#: inc/php/page.php:99
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr ""
 
-#: inc/php/page.php:101
+#: inc/php/page.php:100
 msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
 msgstr ""
 
-#: inc/php/page.php:103
+#: inc/php/page.php:102
 msgid "Can I use this plugin on my language?"
 msgstr ""
 
-#: inc/php/page.php:105
+#: inc/php/page.php:104
 #, php-format
 msgid ""
 "Yes. But If your language is not available then you can make one. This plugin is ready for translation. "
@@ -129,39 +124,39 @@ msgid ""
 "(<code>*.po, *.mo</code>) to me at the %s and I will include the translation within the next plugin update."
 msgstr ""
 
-#: inc/php/page.php:110
+#: inc/php/page.php:109
 msgid "How does it work?"
 msgstr ""
 
-#: inc/php/page.php:111
+#: inc/php/page.php:110
 msgid ""
 "On the \"Settings\" tab, fill in the required fields, select the desired settings and click the \"Save "
 "Changes\" button. Enjoy the improved SEO of your website. It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:113
+#: inc/php/page.php:112
 msgid "How much of description I can enter in the text field?"
 msgstr ""
 
-#: inc/php/page.php:114
+#: inc/php/page.php:113
 msgid ""
 "I don't limit the number of characters, but most search engines use a maximum of 160 chars for the home "
 "description."
 msgstr ""
 
-#: inc/php/page.php:116
+#: inc/php/page.php:115
 msgid "How much of keywords I can enter in the text field?"
 msgstr ""
 
-#: inc/php/page.php:117
+#: inc/php/page.php:116
 msgid "I don't limit the number of characters."
 msgstr ""
 
-#: inc/php/page.php:119
+#: inc/php/page.php:118
 msgid "I can't get verify my website. What am I doing wrong?"
 msgstr ""
 
-#: inc/php/page.php:120
+#: inc/php/page.php:119
 msgid ""
 "The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is "
 "confusing as you only have to paste in the serial key number/letters (<code>1234567890</code>) and not the "
@@ -169,43 +164,43 @@ msgid ""
 "paste that into the relevant field and you will see “Success” message appear within a few seconds."
 msgstr ""
 
-#: inc/php/page.php:122
+#: inc/php/page.php:121
 msgid "What about compatibility with plugin \"All in One SEO Pack\"?"
 msgstr ""
 
-#: inc/php/page.php:123
+#: inc/php/page.php:122
 msgid ""
 "To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both "
 "plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:"
 msgstr ""
 
-#: inc/php/page.php:131
+#: inc/php/page.php:130
 msgid "In the rest, the \"All Meta Tags\" and \"All in One SEO Pack\" is compatible."
 msgstr ""
 
-#: inc/php/page.php:133
+#: inc/php/page.php:132
 msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
-#: inc/php/page.php:134
+#: inc/php/page.php:133
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr ""
 
-#: inc/php/page.php:136
+#: inc/php/page.php:135
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
-#: inc/php/page.php:137
+#: inc/php/page.php:136
 msgid ""
 "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin "
 "settings page."
 msgstr ""
 
-#: inc/php/page.php:139
+#: inc/php/page.php:138
 msgid "It's not working. What could be wrong?"
 msgstr ""
 
-#: inc/php/page.php:140
+#: inc/php/page.php:139
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common reason for this is a web "
 "browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to "
@@ -213,37 +208,50 @@ msgid ""
 "may solve the problem."
 msgstr ""
 
-#: inc/php/page.php:141
+#: inc/php/page.php:140
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's "
 "support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much "
 "information as possible, including a link to your website where the problem can be seen."
 msgstr ""
 
+#: inc/php/page.php:142
+msgid ""
+"The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
+msgstr ""
+
 #: inc/php/page.php:143
-msgid "Where to report bug if found?"
+msgid ""
+"This plugin can not cause such problem. More likely, the problem are related to the settings of the website. "
+"It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or "
+"some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login "
+"to the website, this too can help."
 msgstr ""
 
 #: inc/php/page.php:145
+msgid "Where to report bug if found?"
+msgstr ""
+
+#: inc/php/page.php:147
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
 msgstr ""
 
-#: inc/php/page.php:151
+#: inc/php/page.php:153
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 
-#: inc/php/page.php:153
+#: inc/php/page.php:155
 #, php-format
 msgid ""
 "Any suggestions are very welcome! Please send me an email to %s arthurgareginyan@gmail.com %s. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:159
+#: inc/php/page.php:161
 msgid "I love this plugin! Can I help somehow?"
 msgstr ""
 
-#: inc/php/page.php:161
+#: inc/php/page.php:163
 #, php-format
 msgid ""
 "Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and "
@@ -527,6 +535,10 @@ msgid ""
 msgstr ""
 "Puedes revisar los datos generados para las páginas de tu sitio web <a href=\"https://search.google.com/"
 "structured-data/testing-tool\" target=\"_blank\">aquí</a>."
+
+#. Plugin Name of the plugin/theme
+msgid "All Meta Tags"
+msgstr "Todas las meta etiquetas"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/all-meta-tags"
