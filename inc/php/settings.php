@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.1
+ * @since 4.2
  */
 ?>
     <!-- SIDEBAR -->
@@ -52,11 +52,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                 <form action="options.php" method="post" enctype="multipart/form-data">
                     <?php settings_fields( ALLMT_SETTINGS . '_settings_group' ); ?>
-
-                    <?php
-                        // Get options from the BD
-                        $options = get_option( ALLMT_SETTINGS . '_settings' );
-                    ?>
 
                     <div class="postbox" id="WebMasterTools">
                         <h3 class="title"><?php _e( 'Web Master Tools', ALLMT_TEXT ); ?></h3>
