@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.2
+ * Version: 4.3
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -79,7 +79,7 @@ allmetatags_define_constants( 'SETTINGS', 'allmetatags' );
  */
 require_once( ALLMT_PATH . 'inc/php/core.php' );
 require_once( ALLMT_PATH . 'inc/php/upgrade.php' );
-require_once( ALLMT_PATH . 'inc/php/version.php' );
+require_once( ALLMT_PATH . 'inc/php/versioning.php' );
 require_once( ALLMT_PATH . 'inc/php/enqueue.php' );
 require_once( ALLMT_PATH . 'inc/php/functional.php' );
 require_once( ALLMT_PATH . 'inc/php/page.php' );

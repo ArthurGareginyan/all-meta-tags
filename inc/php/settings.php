@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.2
+ * @since 4.3
  */
 ?>
     <!-- SIDEBAR -->
@@ -21,6 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <h3 class="title"><?php _e( 'About', ALLMT_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily add Meta Tags to your website.', ALLMT_TEXT ); ?></p>
+                    <p class="version"><?php _e( 'Version', ALLMT_TEXT ); ?> <?php echo ALLMT_VERSION; ?></p>
                 </div>
             </div>
 

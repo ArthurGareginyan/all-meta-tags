@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - All Meta Tags - Development (trunk)\n"
-"POT-Creation-Date: 2017-05-23 08:33+0300\n"
-"PO-Revision-Date: 2017-05-23 08:33+0300\n"
+"POT-Creation-Date: 2017-06-04 13:30+0300\n"
+"PO-Revision-Date: 2017-06-04 13:30+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -59,11 +59,11 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:43 inc/php/page.php:177 inc/php/settings.php:192
+#: inc/php/page.php:43 inc/php/page.php:177 inc/php/settings.php:188
 msgid "Author"
 msgstr "Autor"
 
-#: inc/php/page.php:44 inc/php/page.php:186 inc/php/settings.php:28 inc/php/settings.php:238
+#: inc/php/page.php:44 inc/php/page.php:186 inc/php/settings.php:29 inc/php/settings.php:234
 msgid "Support"
 msgstr "Soporte"
 
@@ -266,7 +266,11 @@ msgstr "Acerca  de"
 msgid "This plugin allows you to easily add Meta Tags to your website."
 msgstr "Este plugin te permite añadir fácilmente Meta Etiquetas personalizadas a tu sitio web."
 
-#: inc/php/settings.php:30 inc/php/settings.php:240
+#: inc/php/settings.php:24
+msgid "Version"
+msgstr ""
+
+#: inc/php/settings.php:31 inc/php/settings.php:236
 msgid ""
 "I'm an independent developer, without a regular income, so every little contribution helps cover my costs "
 "and lets me spend more time building things for people like you to enjoy."
@@ -275,27 +279,27 @@ msgstr ""
 "sea, me ayuda a cubrir mis gastos y me permite dedicar más tiempo para construir cosas que pueda disfrutar "
 "gente como tú."
 
-#: inc/php/settings.php:31 inc/php/settings.php:241
+#: inc/php/settings.php:32 inc/php/settings.php:237
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:242
+#: inc/php/settings.php:33 inc/php/settings.php:238
 msgid "Thanks for your support!"
 msgstr "¡Gracias por su colaboración!"
 
-#: inc/php/settings.php:37
+#: inc/php/settings.php:38
 msgid "Help"
 msgstr "Ayuda"
 
-#: inc/php/settings.php:39
+#: inc/php/settings.php:40
 msgid "Got something to say? Need help?"
 msgstr "¿Tienes algo que decir? ¿Necesitas ayuda?"
 
-#: inc/php/settings.php:62
+#: inc/php/settings.php:58
 msgid "Web Master Tools"
 msgstr "Web Master Tools"
 
-#: inc/php/settings.php:64
+#: inc/php/settings.php:60
 msgid ""
 "Webmaster Tools require you to verify your domain. This makes sure that you are the correct owner of your "
 "blog or store before they provide their services to you. You can use the options below to verify your "
@@ -305,7 +309,7 @@ msgstr ""
 "antes de que ellos te brinden su servicio. Puedes usar las opciones que aparecen a continuación para "
 "verificar tu dominio. Si tu dominio ya está verificado, puedes obviar esto."
 
-#: inc/php/settings.php:69
+#: inc/php/settings.php:65
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
@@ -313,7 +317,7 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:74
+#: inc/php/settings.php:70
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
@@ -321,7 +325,7 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:79
+#: inc/php/settings.php:75
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
@@ -329,16 +333,16 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:82 inc/php/settings.php:138 inc/php/settings.php:160 inc/php/settings.php:182
-#: inc/php/settings.php:216
+#: inc/php/settings.php:78 inc/php/settings.php:134 inc/php/settings.php:156 inc/php/settings.php:178
+#: inc/php/settings.php:212
 msgid "Save Changes"
 msgstr "Guardar los cambios"
 
-#: inc/php/settings.php:87
+#: inc/php/settings.php:83
 msgid "Domain Verification"
 msgstr "Verificación del domino"
 
-#: inc/php/settings.php:89
+#: inc/php/settings.php:85
 msgid ""
 "Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain. This makes "
 "sure that you are the correct owner of your blog or store before they provide their services to you. You can "
@@ -350,7 +354,7 @@ msgstr ""
 "opciones que aparecen a continuación para verificar tu dominio. Si tu dominio ya está verificado, puedes "
 "obviar esto."
 
-#: inc/php/settings.php:94
+#: inc/php/settings.php:90
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
@@ -358,7 +362,7 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:99
+#: inc/php/settings.php:95
 msgid ""
 "Enter an absolute URL to the Google+ profile of the publisher. <br>Example: https://plus.google.com/"
 "+ArthurGareginyan/"
@@ -366,7 +370,7 @@ msgstr ""
 "Ingresa la URL completa del perfil de Google+ del editor. <br>Ejemplo: https://plus.google.com/"
 "+ArthurGareginyan/"
 
-#: inc/php/settings.php:104
+#: inc/php/settings.php:100
 msgid ""
 "Enter an absolute URL to the Facebook profile of the publisher. <br>Example: https://www.facebook.com/arthur."
 "gareginyan"
@@ -374,11 +378,11 @@ msgstr ""
 "Ingresa la URL completa del perfil de Facebook del editor. <br>Ejemplo: https://www.facebook.com/arthur."
 "gareginyan"
 
-#: inc/php/settings.php:109
+#: inc/php/settings.php:105
 msgid "Enter the Twitter username of the publisher. <br>Example: @AGareginyan"
 msgstr "Ingresa el nombre de usuario de Twitter del editor. <br>Ejemplo: @AGareginyan"
 
-#: inc/php/settings.php:114
+#: inc/php/settings.php:110
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
@@ -386,7 +390,7 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:119
+#: inc/php/settings.php:115
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
@@ -394,7 +398,7 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:124
+#: inc/php/settings.php:120
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
@@ -402,7 +406,7 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:129
+#: inc/php/settings.php:125
 msgid ""
 "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;"
 "meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
@@ -410,11 +414,11 @@ msgstr ""
 "Ingresa el valor de tu meta clave “content” proveniente del código de verificación de tu sitio web. </"
 "br>Ejemplo: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
 
-#: inc/php/settings.php:132
+#: inc/php/settings.php:128
 msgid "Custom Meta Tags"
 msgstr "Meta etiquetas personalizadas"
 
-#: inc/php/settings.php:134
+#: inc/php/settings.php:130
 msgid ""
 "If you can't find a field to enter your required meta tag then you can add it here. In this field you can "
 "add multiple meta tags."
@@ -422,11 +426,11 @@ msgstr ""
 "Si no encuentras un campo para introducir la meta etiqueta que requieres, puedes añadirla aquí. En este "
 "campo puedes agregar varias meta etiquetas."
 
-#: inc/php/settings.php:143
+#: inc/php/settings.php:139
 msgid "Meta Tags for Static Home Page only"
 msgstr "Meta etiquetas sólo para la página de inicio estática"
 
-#: inc/php/settings.php:145
+#: inc/php/settings.php:141
 msgid ""
 "You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of "
 "your website."
@@ -434,11 +438,11 @@ msgstr ""
 "Puedes usar las opciones que están abajo para añadir meta etiquetas, tales como Descripción y Palabras Clave "
 "sólo en la página de inicio de tu sitio web."
 
-#: inc/php/settings.php:148
+#: inc/php/settings.php:144
 msgid "Home Description"
 msgstr "Descripción del sitio"
 
-#: inc/php/settings.php:150 inc/php/settings.php:172
+#: inc/php/settings.php:146 inc/php/settings.php:168
 msgid ""
 "Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 "
 "chars for the home description."
@@ -446,21 +450,21 @@ msgstr ""
 "Ingresa una breve descripción de tu sitio web (Entre 150 y 250 caracteres). La mayoría de los motores de "
 "búsqueda usa un máximo de 160 caracteres para esta descripción."
 
-#: inc/php/settings.php:154
+#: inc/php/settings.php:150
 msgid "Home Keyword(s)"
 msgstr "Palabra(s) clave de la página de inicio"
 
-#: inc/php/settings.php:156
+#: inc/php/settings.php:152
 msgid "Enter a comma-delimited list of keywords for only Static Home Page of your website."
 msgstr ""
 "Ingresa una lista, separadas por comas, de todas las palabras clave sólo para la página estática de inicio "
 "de tu sitio web."
 
-#: inc/php/settings.php:165
+#: inc/php/settings.php:161
 msgid "Meta Tags for Default Home Page and Blog Page only"
 msgstr "Meta etiquetas sólo para la página de inicio y la del blog"
 
-#: inc/php/settings.php:167
+#: inc/php/settings.php:163
 msgid ""
 "You can use the options below to add meta tags such as Description and Keywords only in Default Home Page "
 "and Blog Page of your website."
@@ -468,25 +472,25 @@ msgstr ""
 "Puedes usar las opciones que están abajo para añadir meta etiquetas, tales como Descripción y Palabras Clave "
 "en la página de inicio y en la del blog de tu sitio web."
 
-#: inc/php/settings.php:170
+#: inc/php/settings.php:166
 msgid "Blog Description"
 msgstr "Descripción del blog"
 
-#: inc/php/settings.php:176
+#: inc/php/settings.php:172
 msgid "Blog Keyword(s)"
 msgstr "Palabra(s) clave del blog"
 
-#: inc/php/settings.php:178
+#: inc/php/settings.php:174
 msgid "Enter a comma-delimited list of keywords for only Blog Page of your website."
 msgstr ""
 "Ingresa una lista, separadas por comas, de todas las palabras clave sólo para la página del blog de tu sitio "
 "web."
 
-#: inc/php/settings.php:187
+#: inc/php/settings.php:183
 msgid "Meta Tags for all website (Global)"
 msgstr "Meta etiquetas para todo el sitio web (Globales)"
 
-#: inc/php/settings.php:189
+#: inc/php/settings.php:185
 msgid ""
 "You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your "
 "website."
@@ -494,31 +498,31 @@ msgstr ""
 "Puedes usar las opciones que están abajo para añadir meta etiquetas, tales como Autor, Derechos Reservados y "
 "Palabras Clave en cualquier parte de tu sitio web."
 
-#: inc/php/settings.php:197
+#: inc/php/settings.php:193
 msgid "Designer"
 msgstr "Diseñador"
 
-#: inc/php/settings.php:202
+#: inc/php/settings.php:198
 msgid "Contact"
 msgstr "Contacto"
 
-#: inc/php/settings.php:206
+#: inc/php/settings.php:202
 msgid "Copyright"
 msgstr "Derechos reservados"
 
-#: inc/php/settings.php:210
+#: inc/php/settings.php:206
 msgid "Keyword(s)"
 msgstr "Palabra(s) clave"
 
-#: inc/php/settings.php:212
+#: inc/php/settings.php:208
 msgid "Enter a comma-delimited list of global keywords for your website."
 msgstr "Ingresa un listado, separado por comas, de las palabras clave globales para tu sitio web."
 
-#: inc/php/settings.php:221
+#: inc/php/settings.php:217
 msgid "WooCommerce & Google Shopping"
 msgstr "WooCommerce y Google Shopping"
 
-#: inc/php/settings.php:223
+#: inc/php/settings.php:219
 msgid ""
 "This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all "
 "WooCommerce product pages on your website. Here is the markup for women's T-shirt that sells for 16 dollars "
@@ -528,7 +532,7 @@ msgstr ""
 "páginas de producto de tu sitio web. Aquí esta el código para una blusa de mujer que cuesta 16 dólares con "
 "80 centavos norteamericanos."
 
-#: inc/php/settings.php:233
+#: inc/php/settings.php:229
 msgid ""
 "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/"
 "structured-data/testing-tool\" target=\"_blank\">here</a>."
