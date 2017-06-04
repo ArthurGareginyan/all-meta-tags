@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
 "POT-Creation-Date: 2017-06-04 13:30+0300\n"
-"PO-Revision-Date: 2017-06-04 13:30+0300\n"
+"PO-Revision-Date: 2017-06-04 13:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -304,7 +304,7 @@ msgstr "Этот плагин позволяет легко добавлять �
 
 #: inc/php/settings.php:24
 msgid "Version"
-msgstr ""
+msgstr "Версия"
 
 #: inc/php/settings.php:31 inc/php/settings.php:236
 msgid ""
