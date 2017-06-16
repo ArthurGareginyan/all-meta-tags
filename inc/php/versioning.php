@@ -18,6 +18,7 @@ function allmetatags_versioning() {
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
+    // Put value of constants to variables for easier access
     $version_files = ALLMT_VERSION;
     $settings = ALLMT_SETTINGS;
 

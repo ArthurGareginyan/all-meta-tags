@@ -1,5 +1,5 @@
 /*
- * Plugin JavaScript and JQuery code for the admin pages of website
+ * Plugin JavaScript and jQuery code for the admin pages of website
  *
  * @package     All Meta Tags
  * @uthor       Arthur Gareginyan

@@ -10,26 +10,34 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 4.1
+ * @since 4.4
  */
 function allmetatags_load_scripts_admin( $hook ) {
 
+    // Put value of constants to variables for easier access
+    $slug = ALLMT_SLUG;
+    $prefix = ALLMT_PREFIX;
+    $url = ALLMT_URL;
+
     // Return if the page is not a settings page of this plugin
-    $settings_page = 'settings_page_' . ALLMT_SLUG;
+    $settings_page = 'settings_page_' . $slug;
     if ( $settings_page != $hook ) {
         return;
     }
 
+    // Load jQuery library
+    wp_enqueue_script( 'jquery' );
+
     // Style sheet
-    wp_enqueue_style( ALLMT_PREFIX . '-admin-css', ALLMT_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( ALLMT_PREFIX . '-admin-js', ALLMT_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Bootstrap library
-    wp_enqueue_style( ALLMT_PREFIX . '-bootstrap-css', ALLMT_URL . 'inc/lib/bootstrap/bootstrap.css' );
-    wp_enqueue_style( ALLMT_PREFIX . '-bootstrap-theme-css', ALLMT_URL . 'inc/lib/bootstrap/bootstrap-theme.css' );
-    wp_enqueue_script( ALLMT_PREFIX . '-bootstrap-js', ALLMT_URL . 'inc/lib/bootstrap/bootstrap.js' );
+    wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css' );
+    wp_enqueue_style( $prefix . '-bootstrap-theme-css', $url . 'inc/lib/bootstrap/bootstrap-theme.css' );
+    wp_enqueue_script( $prefix . '-bootstrap-js', $url . 'inc/lib/bootstrap/bootstrap.js' );
 
 }
 add_action( 'admin_enqueue_scripts', ALLMT_PREFIX . '_load_scripts_admin' );
