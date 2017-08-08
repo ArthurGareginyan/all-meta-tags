@@ -17,14 +17,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
     <div class="inner-sidebar">
         <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
-            <div id="about" class="postbox">
+            <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily add Meta Tags to your website.', $text ); ?></p>
                 </div>
             </div>
 
-            <div id="support" class="postbox">
+            <div class="postbox support">
                 <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
@@ -33,12 +33,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
-            <div id="help" class="postbox">
+            <div class="postbox help">
                 <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
                 </div>
             </div>
+
+            <div class="include-banner"></div>
 
         </div>
     </div>
@@ -52,7 +54,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <form action="options.php" method="post" enctype="multipart/form-data">
                     <?php settings_fields( ALLMT_SETTINGS . '_settings_group' ); ?>
 
-                    <div class="postbox" id="WebMasterTools">
+                    <div class="postbox" id="webmastertools">
                         <h3 class="title"><?php _e( 'Web Master Tools', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Webmaster Tools require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these.', $text ); ?></p>
@@ -79,7 +81,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="DomainVerification">
+                    <div class="postbox" id="domainverification">
                         <h3 class="title"><?php _e( 'Domain Verification', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these.', $text ); ?></p>
@@ -137,7 +139,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="Home">
+                    <div class="postbox" id="home">
                         <h3 class="title"><?php _e( 'Meta Tags for Static Home Page only', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your website.', $text ); ?></p>
@@ -161,7 +163,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="Blog">
+                    <div class="postbox" id="blog">
                         <h3 class="title"><?php _e( 'Meta Tags for Default Home Page and Blog Page only', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and Blog Page of your website.', $text ); ?></p>
@@ -185,7 +187,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="Everywhere">
+                    <div class="postbox" id="everywhere">
                         <h3 class="title"><?php _e( 'Meta Tags for all website (Global)', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your website.', $text ); ?></p>
@@ -221,7 +223,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="WooCommerce">
+                    <div class="postbox" id="woocommerce">
                         <h3 class="title"><?php _e( 'WooCommerce & Google Shopping', $text ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women\'s T-shirt that sells for 16 dollars and 80 cents of US.', $text ); ?></p>

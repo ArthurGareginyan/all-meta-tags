@@ -8,27 +8,18 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Render fields for saving settings data to BD
+ * Render fields for saving settings data to database
  *
  * @since 4.1
  */
 function allmetatags_field( $name, $label, $placeholder, $help=null, $link=null, $textarea=null ) {
 
-    // Read options from BD
+    // Read options from database and declare variables
     $options = get_option( ALLMT_SETTINGS . '_settings' );
-
-    if ( !empty( $options[$name] ) ) {
-        $value = esc_attr( $options[$name] );
-    } else {
-        $value = "";
-    }
+    $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
 
     // Generate the table
-    if ( !empty( $link ) ) {
-        $link_out = "<a href='$link' target='_blank'>$label</a>";
-    } else {
-        $link_out = "$label";
-    }
+    $link_out = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
 
     if ( !empty( $textarea ) ) {
         $field_out = "<textarea cols='50' rows='3' name='" . ALLMT_SETTINGS . "_settings[$name]' placeholder='$placeholder'>$value</textarea>";
@@ -67,7 +58,7 @@ function allmetatags_field( $name, $label, $placeholder, $help=null, $link=null,
  */
 function allmetatags_add_meta_tags() {
 
-    // Read options from BD
+    // Read options from database
     $options = get_option( ALLMT_SETTINGS . '_settings' );
 
     // Sanitiz data and declare variables
