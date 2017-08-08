@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function allmetatags_render_submenu_page() {
 

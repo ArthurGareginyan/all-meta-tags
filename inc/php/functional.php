@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render fields for saving settings data to database
  *
- * @since 4.1
+ * @since 4.5
  */
 function allmetatags_field( $name, $label, $placeholder, $help=null, $link=null, $textarea=null ) {
 
