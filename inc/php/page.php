@@ -2,27 +2,23 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Page
- *
- * @since 4.6
  */
-function allmetatags_render_submenu_page() {
+function spacexchimp_p004_render_submenu_page() {
 
     // Put value of constants to variables for easier access
-    $name = ALLMT_NAME;
-    $slug = ALLMT_SLUG;
-    $version = ALLMT_VERSION;
-    $text = ALLMT_TEXT;
+    $name = SPACEXCHIMP_P004_NAME;
+    $slug = SPACEXCHIMP_P004_SLUG;
+    $version = SPACEXCHIMP_P004_VERSION;
+    $text = SPACEXCHIMP_P004_TEXT;
 
     // Call messages
-    allmetatags_hello_message();
-    allmetatags_error_message();
+    spacexchimp_p004_hello_message();
+    spacexchimp_p004_error_message();
 
     // Layout of page
     ?>
@@ -56,9 +52,9 @@ function allmetatags_render_submenu_page() {
             <!-- TAB 1 -->
             <div class="tab-page fade active in" id="tab-core">
                 <!-- INCLUDE SIDEBAR -->
-                <?php require_once( ALLMT_PATH . 'inc/php/sidebar.php' ); ?>
+                <?php require_once( SPACEXCHIMP_P004_PATH . 'inc/php/sidebar.php' ); ?>
                 <!-- INCLUDE SETTINGS -->
-                <?php require_once( ALLMT_PATH . 'inc/php/settings.php' ); ?>
+                <?php require_once( SPACEXCHIMP_P004_PATH . 'inc/php/settings.php' ); ?>
             </div>
             <!-- END-TAB 1 -->
 
@@ -200,12 +196,12 @@ function allmetatags_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                     <div class="inside">
-                        <img src="<?php echo ALLMT_URL . 'inc/img/thanks.png'; ?>" alt="Thanks!" class="pull-right">
+                        <img src="<?php echo SPACEXCHIMP_P004_URL . 'inc/img/thanks.png'; ?>" alt="Thanks!" class="pull-right">
                         <p><?php _e( 'If you appreciate my work, you can buy me a coffee!', $text ); ?></p>
-                        <p><?php _e( 'I spend a lot of time and effort trying to make sure that the themes, plugins and another things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
-                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default btn-labeled">
+                        <p><?php _e( 'I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default button-labeled">
                                 <span class="btn-label">
-                                    <img src="<?php echo ALLMT_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                    <img src="<?php echo SPACEXCHIMP_P004_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
                                 </span>
                                 <?php _e( 'Donate with PayPal', $text ); ?>
                         </a>

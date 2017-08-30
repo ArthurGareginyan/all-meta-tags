@@ -2,64 +2,16 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Render fields for saving settings data to database
- *
- * @since 4.5
- */
-function allmetatags_field( $name, $label, $placeholder, $help=null, $link=null, $textarea=null ) {
-
-    // Read options from database and declare variables
-    $options = get_option( ALLMT_SETTINGS . '_settings' );
-    $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
-
-    // Generate the table
-    $link_out = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
-
-    if ( !empty( $textarea ) ) {
-        $field_out = "<textarea cols='50' rows='3' name='" . ALLMT_SETTINGS . "_settings[$name]' placeholder='$placeholder'>$value</textarea>";
-    } else {
-        $field_out = "<input type='text' name='" . ALLMT_SETTINGS . "_settings[$name]' size='50' value='$value' placeholder='$placeholder'>";
-    }
-
-    // Put table to the variables $out and $help_out
-    $out = "<tr>
-                <th scope='row'>
-                    $link_out
-                </th>
-                <td>
-                    $field_out
-                </td>
-            </tr>";
-    if ( !empty( $help ) ) {
-        $help_out = "<tr>
-                        <td></td>
-                        <td class='help-text'>
-                            $help
-                        </td>
-                     </tr>";
-    } else {
-        $help_out = "";
-    }
-
-    // Print the generated table
-    echo $out . $help_out;
-}
-
-/**
  * Generate the Meta Tags
- *
- * @since 4.1
  */
-function allmetatags_add_meta_tags() {
+function spacexchimp_p004_add_meta_tags() {
 
     // Read options from database
-    $options = get_option( ALLMT_SETTINGS . '_settings' );
+    $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
 
     // Sanitiz data and declare variables
     $google = esc_textarea( $options['google'] );
@@ -217,13 +169,11 @@ function allmetatags_add_meta_tags() {
 
 /**
  * Include the Meta Tags in head area
- *
- * @since 4.1
  */
-function allmetatags_add_metadata_head() {
+function spacexchimp_p004_add_metadata_head() {
     echo    PHP_EOL,
-            implode(PHP_EOL, allmetatags_add_meta_tags()),
+            implode(PHP_EOL, spacexchimp_p004_add_meta_tags()),
             PHP_EOL,
             PHP_EOL;
 }
-add_action( 'wp_head', ALLMT_PREFIX . '_add_metadata_head', 0 );
+add_action( 'wp_head', 'spacexchimp_p004_add_metadata_head', 0 );
