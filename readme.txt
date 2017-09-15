@@ -4,7 +4,7 @@ Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, goo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.8
+Stable tag: 4.9
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -103,7 +103,7 @@ Manually via FTP access:
 4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`All Meta Tags`" menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Meta Tags Inserter`" menu item will appear in the "`Space X-Chimp`" section of Admin Panel. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -118,7 +118,7 @@ A. Yes. This plugin is ready for translation and has already been translated int
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, fill in the required fields, select the desired settings and click the "Save changes" button. Enjoy the improved SEO of your website. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`All Meta Tags`".
+You can find the plugin settings page at "`WP Admin Panel`" -> "`Space X-Chimp`" -> "`Meta Tags Inserter`".
 
 = Q. How much of description I can enter in the text field? =
 A. I don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description.
@@ -133,9 +133,9 @@ A. The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, Sp
 A. To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:
 `<head>
      ...
-     <meta name="copyright" content="Copyright (c) 2013-2017 Arthur Gareginyan. All Rights Reserved.">
+     <meta name="copyright" content="Copyright (c) 2013-2017 Space X-Chimp Studio. All Rights Reserved.">
      ...
-     <meta name="copyright" content="Copyright 2017 Arthur Gareginyan. All Rights Reserved.">
+     <meta name="copyright" content="Copyright 2017 Space X-Chimp Studio. All Rights Reserved.">
      ...
 </head>`
 
@@ -194,6 +194,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.9 =
+* Added the top level menu item of the brand.
+* The submenu item of the plugin has moved to the menu item of the brand.
+* The menu item of the plugin is renamed.
+* The "Author" tab on the settings page is removed.
+* Content of the "Support" tab on the settings page is updated.
+* Copyright of plugin files is changed to the "Space X-Chimp Studio".
+* The "Support" tab renamed to the "Support Me".
+* The "Usage" tab renamed to the "Usage Instructions".
 
 = 4.8 =
 * Plugin data that saved in the database upgraded to version 0001.

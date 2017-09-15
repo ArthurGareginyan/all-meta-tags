@@ -5,12 +5,12 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 4.8
+ * Version: 4.9
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
  *
- * Copyright 2015-2017 Arthur Gareginyan ( website : https://www.arthurgareginyan.com )
+ * Copyright 2015-2017 Space X-Chimp Studio ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

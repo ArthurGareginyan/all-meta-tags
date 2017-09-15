@@ -179,7 +179,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                    );
                                      spacexchimp_p004_control_field( 'copyright',
                                                                      __( 'Copyright', $text ),
-                                                                     'Copyright (c) 2013-2017 Arthur Gareginyan. All Rights Reserved.',
+                                                                     'Copyright (c) 2013-2017 Space X-Chimp Studio. All Rights Reserved.',
                                                                      ''
                                                                    );
                                      spacexchimp_p004_control_textarea( 'keywords',
