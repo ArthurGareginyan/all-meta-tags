@@ -159,8 +159,8 @@ function spacexchimp_p004_add_meta_tags() {
 
     // Add comment
     if ( count( $metatags_arr ) > 0 ) {
-        array_unshift( $metatags_arr, "<!-- [BEGIN] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan (https://www.arthurgareginyan.com) -->" );
-        array_push( $metatags_arr, "<!-- [END] Metadata added via 'All Meta Tags' plugin by Arthur Gareginyan (https://www.arthurgareginyan.com) -->" );
+        array_unshift( $metatags_arr, "<!-- [BEGIN] Metadata added via All-Meta-Tags plugin by Space X-Chimp Studio ( https://www.spacexchimp.com ) -->" );
+        array_push( $metatags_arr, "<!-- [END] Metadata added via All-Meta-Tags plugin by Space X-Chimp Studio ( https://www.spacexchimp.com ) -->" );
     }
 
     // Return the content of array
