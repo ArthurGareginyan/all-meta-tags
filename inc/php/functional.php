@@ -132,6 +132,7 @@ function spacexchimp_p004_add_meta_tags() {
 
         if ( is_product() ) {
 
+            // Get product data
             $name = get_the_title();
             $description = get_the_excerpt();
             $image = simplexml_load_string(get_the_post_thumbnail());
@@ -143,6 +144,7 @@ function spacexchimp_p004_add_meta_tags() {
             $price = get_post_meta( get_the_ID(), '_price', true);
             $currency = get_woocommerce_currency();
 
+            // Generate output code with product data
             $google_shopping = "<div itemtype='http://schema.org/Product' itemscope>
                         <meta itemprop='name' content='$name'>
                         <meta itemprop='description' content='$description'>
