@@ -621,16 +621,3 @@ msgstr "Arthur Gareginyan"
 #. Author URI of the plugin/theme
 msgid "https://www.arthurgareginyan.com"
 msgstr "https://www.arthurgareginyan.com"
-
-#~ msgid "by %s Arthur Gareginyan %s"
-#~ msgstr "di %s Arthur Gareginyan %s"
-
-#~ msgid "To use, enter your custom Meta Tags, then click \"Save changes\". It's that simple!"
-#~ msgstr ""
-#~ "Per l'utilizzo, inserisci i tuoi tag meta personalizzati, quindi fai clic su \"Salva modifiche\". Tutto qui!"
-
-#~ msgid "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur Gareginyan</a>"
-#~ msgstr "di <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur Gareginyan</a>"
-
-#~ msgid "Using"
-#~ msgstr "Utilizzo"
