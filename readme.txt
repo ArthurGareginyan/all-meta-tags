@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, specific feeds, feed, rss feed, google shopping, google merchant center, structured data, woocommerce, schemas
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.8
-Stable tag: 4.12
+Tested up to: 4.9
+Stable tag: 4.13
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -75,6 +75,16 @@ This plugin is ready for translation and has already been translated into severa
 * Italian (translation by Stefano Tombolini)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/all-meta-tags).
+
+**System requirements**
+
+* [PHP](https://php.net) version **5.2** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommendations:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
 
 **Contribution**
 
@@ -195,6 +205,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.13 =
+* The plugin is fully tested for compatibility with WordPress version 4.9.
+* CSS code improved.
 
 = 4.12 =
 * German translation added. (Thanks to Michael)
