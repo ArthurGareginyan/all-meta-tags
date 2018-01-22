@@ -4,7 +4,7 @@ Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, goo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.13
+Stable tag: 4.14
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -21,7 +21,7 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 
 Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Static Home Page or the meta Description and Keywords only for Blog Page.
 
-If you want more options then tell me and I will be happy to add it.
+If you want more options then tell us and we will be happy to add it.
 
 **Features**
 
@@ -125,28 +125,28 @@ After installation and activation, the "`Meta Tags Inserter`" menu item will ap
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to me at the arthurgareginyan@gmail.com and I will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to us at the arthurgareginyan@gmail.com and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, fill in the required fields, select the desired settings and click the "Save changes" button. Enjoy the improved SEO of your website. It's that simple!
 You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`Meta Tags Inserter`".
 
 = Q. How much of description I can enter in the text field? =
-A. I don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description.
+A. We don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description.
 
 = Q. How much of keywords I can enter in the text field? =
-A. I don't limit the number of characters.
+A. We don't limit the number of characters.
 
-= Q. I can't get verify my website. What am I doing wrong? =
+= Q. I can't get verify the website of the creator. What am I doing wrong? =
 A. The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (`1234567890`) and not the whole tag (`<meta name="google-site-verification" content=“1234567890” />`). So just paste that into the relevant field and you will see “Success” message appear within a few seconds.
 
 = Q. What about compatibility with the "All in One SEO Pack" plugin ? =
 A. To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:
 `<head>
      ...
-     <meta name="copyright" content="Copyright (c) 2013-2017 Space X-Chimp Studio. All Rights Reserved.">
+     <meta name="copyright" content="Copyright (c) 2013-2018 Space X-Chimp. All Rights Reserved.">
      ...
-     <meta name="copyright" content="Copyright 2017 Space X-Chimp Studio. All Rights Reserved.">
+     <meta name="copyright" content="Copyright 2018 Space X-Chimp. All Rights Reserved.">
      ...
 </head>`
 
@@ -161,19 +161,19 @@ A. Absolutely not. This plugin can be configured with no knowledge of HTML or CS
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
 
-It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
+It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
-= Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
+= Q. The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
 
 = Q. Where to report bug if found? =
 A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags) and report.
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Any suggestions are very welcome! Please send me an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
+A. Any suggestions are very welcome! Please send us an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [my website](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any financial contributions are welcome! Just visit [the website of the creator](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
 
 
 == Screenshots ==
@@ -206,6 +206,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.14 =
+* Texts updated.
+* The year in the copyright text is updated.
+* The sidebar items are rearranged.
+* Translation files updated.
+
 = 4.13 =
 * The plugin is fully tested for compatibility with WordPress version 4.9.
 * CSS code improved.
@@ -229,7 +235,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The menu item of the plugin is renamed.
 * The "Author" tab on the settings page is removed.
 * Content of the "Support" tab on the settings page is updated.
-* Copyright of plugin files is changed to the "Space X-Chimp Studio".
+* Copyright of plugin files is changed to the "Space X-Chimp".
 * The "Support" tab renamed to the "Support Me".
 * The "Usage" tab renamed to the "Usage Instructions".
 

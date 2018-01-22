@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-23 04:53+0300\n"
-"PO-Revision-Date: 2017-09-23 04:53+0300\n"
+"POT-Creation-Date: 2018-01-20 14:29+0300\n"
+"PO-Revision-Date: 2018-01-20 14:29+0300\n"
 "Last-Translator: Sergio <srg2010@yahoo.com>\n"
 "Language-Team: \n"
 "Language: es_MX\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: all-meta-tags.php\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
@@ -37,26 +37,26 @@ msgid "Meta Tags Inserter"
 msgstr "Meta Tags Inserter"
 
 #: inc/php/messages.php:26
-msgid "Hello. I'm Arthur, the author of this plugin."
+msgid "Hello. We are the team of Space X-Chimp."
 msgstr ""
 
 #: inc/php/messages.php:28
 #, php-format
-msgid "Thank you for installing my plugin! I hope you will love it! %s"
+msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr ""
 
-#: inc/php/messages.php:61
+#: inc/php/messages.php:68
 msgid "You have installed an old version of this plugin."
 msgstr ""
 
-#: inc/php/messages.php:62
+#: inc/php/messages.php:69
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
 #: inc/php/page.php:30
 #, php-format
-msgid "by %s Space X-Chimp Studio %s"
-msgstr "por %s Space X-Chimp Studio %s"
+msgid "by %s Space X-Chimp %s"
+msgstr "por %s Space X-Chimp %s"
 
 #: inc/php/page.php:36
 msgid "Version"
@@ -70,7 +70,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/settings.php:215 inc/php/sidebar.php:23
+#: inc/php/page.php:46 inc/php/settings.php:215 inc/php/sidebar.php:30
 msgid "Support"
 msgstr "Soporte"
 
@@ -114,96 +114,98 @@ msgstr ""
 msgid "Note!"
 msgstr ""
 
-#: inc/php/page.php:73
-msgid "If you want more options then tell me and I will be happy to add it."
+#: inc/php/page.php:74
+#, php-format
+msgid ""
+"If you want more options then %s tell us %s and we will be happy to add it."
 msgstr ""
 
-#: inc/php/page.php:82
+#: inc/php/page.php:88
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: inc/php/page.php:86
+#: inc/php/page.php:92
 msgid ""
 "If you have a question, please read the Frequently Asked Questions below to "
 "see if the answer is here."
 msgstr ""
 
-#: inc/php/page.php:108
+#: inc/php/page.php:114
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr ""
 
-#: inc/php/page.php:109
+#: inc/php/page.php:115
 msgid ""
 "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
 "websites."
 msgstr ""
 
-#: inc/php/page.php:111
+#: inc/php/page.php:117
 msgid "Can I use this plugin on my language?"
 msgstr ""
 
-#: inc/php/page.php:112
+#: inc/php/page.php:118
 msgid ""
 "Yes. This plugin is ready for translation and has already been translated "
 "into several languages."
 msgstr ""
 
-#: inc/php/page.php:114
+#: inc/php/page.php:120
 #, php-format
 msgid ""
 "If you want to help translate this plugin then please visit the %s. You can "
 "also use the POT file, that is included and placed in the \"languages\" "
 "folder, in order to create a translation PO file. Just send the PO file to "
-"me at the %s and I will include this translation within the next plugin "
+"us at the %s and we will include this translation within the next plugin "
 "update."
 msgstr ""
 
-#: inc/php/page.php:119
+#: inc/php/page.php:125
 msgid ""
 "Maybe not all existed translations are up to date. You are welcome to "
 "contribute corrections!"
 msgstr ""
 
-#: inc/php/page.php:120
+#: inc/php/page.php:126
 msgid ""
 "Many of plugin users would be delighted if you share your translation with "
 "the community. Thanks for your contribution!"
 msgstr ""
 
-#: inc/php/page.php:122
+#: inc/php/page.php:128
 msgid "How does it work?"
 msgstr ""
 
-#: inc/php/page.php:123
+#: inc/php/page.php:129
 msgid ""
 "On the \"Settings\" tab, fill in the required fields, select the desired "
 "settings and click the \"Save changes\" button. Enjoy the improved SEO of "
 "your website. It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:125
+#: inc/php/page.php:131
 msgid "How much of description I can enter in the text field?"
 msgstr ""
 
-#: inc/php/page.php:126
+#: inc/php/page.php:132
 msgid ""
-"I don't limit the number of characters, but most search engines use a "
+"We don't limit the number of characters, but most search engines use a "
 "maximum of 160 chars for the home description."
 msgstr ""
 
-#: inc/php/page.php:128
+#: inc/php/page.php:134
 msgid "How much of keywords I can enter in the text field?"
 msgstr ""
 
-#: inc/php/page.php:129
-msgid "I don't limit the number of characters."
+#: inc/php/page.php:135
+msgid "We don't limit the number of characters."
 msgstr ""
 
-#: inc/php/page.php:131
-msgid "I can't get verify my website. What am I doing wrong?"
+#: inc/php/page.php:137
+msgid "I can't get verify the website of the creator. What am I doing wrong?"
 msgstr ""
 
-#: inc/php/page.php:132
+#: inc/php/page.php:138
 msgid ""
 "The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, "
 "SpecificFeeds) gives you is confusing as you only have to paste in the "
@@ -213,47 +215,47 @@ msgid ""
 "“Success” message appear within a few seconds."
 msgstr ""
 
-#: inc/php/page.php:134
+#: inc/php/page.php:140
 msgid "What about compatibility with plugin \"All in One SEO Pack\"?"
 msgstr ""
 
-#: inc/php/page.php:135
+#: inc/php/page.php:141
 msgid ""
 "To make these plugins compatible you need to stick to one simple rule: do "
 "not fill the same field in both plugins at once. Otherwise both plugins "
 "fulfill their work and you will get a duplicate actions, for example:"
 msgstr ""
 
-#: inc/php/page.php:143
+#: inc/php/page.php:149
 msgid ""
 "In the rest, the \"All Meta Tags\" and \"All in One SEO Pack\" is compatible."
 msgstr ""
 
-#: inc/php/page.php:145
+#: inc/php/page.php:151
 msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
-#: inc/php/page.php:146
+#: inc/php/page.php:152
 msgid ""
 "Absolutely not. This plugin is configurable entirely from the plugin "
 "settings page."
 msgstr ""
 
-#: inc/php/page.php:148
+#: inc/php/page.php:154
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
-#: inc/php/page.php:149
+#: inc/php/page.php:155
 msgid ""
 "Absolutely not. This plugin can be configured with no knowledge of HTML or "
 "CSS, using an easy-to-use plugin settings page."
 msgstr ""
 
-#: inc/php/page.php:151
+#: inc/php/page.php:157
 msgid "It's not working. What could be wrong?"
 msgstr ""
 
-#: inc/php/page.php:152
+#: inc/php/page.php:158
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common "
 "reason for this is a web browser's cache. Every web browser stores a cache "
@@ -262,21 +264,22 @@ msgid ""
 "browser's cache may solve the problem."
 msgstr ""
 
-#: inc/php/page.php:153
+#: inc/php/page.php:159
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a "
-"support request in the plugin's support forum on WordPress.org, I'd be happy "
-"to give it a look and try to help out. Please include as much information as "
-"possible, including a link to your website where the problem can be seen."
+"support request in the plugin's support forum on WordPress.org, we'd be "
+"happy to give it a look and try to help out. Please include as much "
+"information as possible, including a link to your website where the problem "
+"can be seen."
 msgstr ""
 
-#: inc/php/page.php:155
+#: inc/php/page.php:161
 msgid ""
-"The last WordPress update is preventing me from editing my website that is "
-"using this plugin. Why is this?"
+"The last WordPress update is preventing me from editing the website of the "
+"creator that is using this plugin. Why is this?"
 msgstr ""
 
-#: inc/php/page.php:156
+#: inc/php/page.php:162
 msgid ""
 "This plugin can not cause such problem. More likely, the problem are related "
 "to the settings of the website. It could just be a cache, so please try to "
@@ -285,71 +288,76 @@ msgid ""
 "please try to re-login to the website, this too can help."
 msgstr ""
 
-#: inc/php/page.php:158
+#: inc/php/page.php:164
 msgid "Where to report bug if found?"
 msgstr ""
 
-#: inc/php/page.php:160
+#: inc/php/page.php:166
 #, php-format
-msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
+msgid ""
+"Please visit %s this page %s and report. Please do not forget to specify the "
+"name of the plugin. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:166
+#: inc/php/page.php:172
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 
-#: inc/php/page.php:168
+#: inc/php/page.php:174
 #, php-format
 msgid ""
-"Any suggestions are very welcome! Please send me an email to %s. Thank you!"
+"Any suggestions are very welcome! Just contact us %s here %s. Please do not "
+"forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:173
+#: inc/php/page.php:180
 msgid "I love this plugin! Can I help somehow?"
 msgstr ""
 
-#: inc/php/page.php:175
+#: inc/php/page.php:182
 #, php-format
 msgid ""
-"Yes, any financial contributions are welcome! Just visit %s my website %s, "
-"click on the donate button, and thank you!"
+"Yes, any financial contributions are welcome! Just visit %s the website of "
+"the creator %s, click on the donate button, and thank you!"
 msgstr ""
 
-#: inc/php/page.php:181
+#: inc/php/page.php:188
 msgid "My question wasn't answered here."
 msgstr ""
 
-#: inc/php/page.php:183
+#: inc/php/page.php:190
 #, php-format
 msgid ""
-"You can ask your question on the plugin support page %s. But please keep in "
-"mind that this plugin is free, and there is no a special support team, so I "
-"have no way to answer everyone."
+"You can ask your question on %s this page %s. But please keep in mind that "
+"this plugin is free, and there is no a special support team, so we have no "
+"way to answer everyone."
 msgstr ""
 
-#: inc/php/page.php:196
+#: inc/php/page.php:204
 msgid "Support Me"
 msgstr ""
 
-#: inc/php/page.php:204 inc/php/settings.php:222 inc/php/sidebar.php:30
+#: inc/php/page.php:212 inc/php/settings.php:222 inc/php/sidebar.php:37
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/page.php:209
+#: inc/php/page.php:217
 #, php-format
 msgid ""
 "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-"
-"Chimp Studio %s."
+"Chimp %s."
 msgstr ""
+"¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-"
+"Chimp %s."
 
-#: inc/php/page.php:217
+#: inc/php/page.php:225
 msgid ""
 "My intention is to create projects that will make this world a better place. "
 "I'm really passionate about my work, I like what I'm doing and hope that you "
 "will be enriched by my projects too."
 msgstr ""
 
-#: inc/php/page.php:218
+#: inc/php/page.php:226
 msgid ""
 "I spend a lot of time and effort trying to make sure that the themes, "
 "plugins and other things I build are useful, and the ultimate proof of that "
@@ -359,11 +367,11 @@ msgid ""
 "you to enjoy."
 msgstr ""
 
-#: inc/php/page.php:219
+#: inc/php/page.php:227
 msgid "If you appreciate my work, you can buy me a coffee!"
 msgstr ""
 
-#: inc/php/page.php:220
+#: inc/php/page.php:228
 msgid "Thank you for your support!"
 msgstr ""
 
@@ -601,7 +609,7 @@ msgid ""
 "\">here</a>."
 msgstr ""
 
-#: inc/php/settings.php:217 inc/php/sidebar.php:25
+#: inc/php/settings.php:217 inc/php/sidebar.php:32
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -610,7 +618,7 @@ msgstr ""
 "Si te gusta este plugin y lo encuentras útil, por favor ayudame hacer este "
 "plugin aún mejor y tenerlo actualizado."
 
-#: inc/php/settings.php:224 inc/php/sidebar.php:32
+#: inc/php/settings.php:224 inc/php/sidebar.php:39
 msgid "Thanks for your support!"
 msgstr "Gracias por su apoyo!"
 
@@ -622,11 +630,11 @@ msgstr "Acerca"
 msgid "This plugin allows you to easily add Meta Tags to your website."
 msgstr "Este plugin te permite agregar fácilmente Meta Tags a tu sitio web."
 
-#: inc/php/sidebar.php:37
+#: inc/php/sidebar.php:23
 msgid "Help"
 msgstr "Ayuda"
 
-#: inc/php/sidebar.php:39
+#: inc/php/sidebar.php:25
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Tiene algo que decir? Necesitas ayuda?"
 
