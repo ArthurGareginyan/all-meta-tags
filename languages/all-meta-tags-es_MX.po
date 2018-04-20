@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-20 14:29+0300\n"
-"PO-Revision-Date: 2018-01-20 14:29+0300\n"
-"Last-Translator: Sergio <srg2010@yahoo.com>\n"
+"POT-Creation-Date: 2018-04-20 01:15+0300\n"
+"PO-Revision-Date: 2018-04-20 01:15+0300\n"
+"Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
@@ -12,14 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: all-meta-tags.php\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
-"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
-"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
-"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
-"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Loco-Target-Locale: es_MX\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
@@ -116,8 +112,7 @@ msgstr ""
 
 #: inc/php/page.php:74
 #, php-format
-msgid ""
-"If you want more options then %s tell us %s and we will be happy to add it."
+msgid "If you want more options then %s tell us %s and we will be happy to add it."
 msgstr ""
 
 #: inc/php/page.php:88
@@ -125,9 +120,7 @@ msgid "Frequently Asked Questions"
 msgstr ""
 
 #: inc/php/page.php:92
-msgid ""
-"If you have a question, please read the Frequently Asked Questions below to "
-"see if the answer is here."
+msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
 msgstr ""
 
 #: inc/php/page.php:114
@@ -135,9 +128,7 @@ msgid "Will this plugin work on my WordPress.COM website?"
 msgstr ""
 
 #: inc/php/page.php:115
-msgid ""
-"Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
-"websites."
+msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
 msgstr ""
 
 #: inc/php/page.php:117
@@ -145,31 +136,20 @@ msgid "Can I use this plugin on my language?"
 msgstr ""
 
 #: inc/php/page.php:118
-msgid ""
-"Yes. This plugin is ready for translation and has already been translated "
-"into several languages."
+msgid "Yes. This plugin is ready for translation and has already been translated into several languages."
 msgstr ""
 
 #: inc/php/page.php:120
 #, php-format
-msgid ""
-"If you want to help translate this plugin then please visit the %s. You can "
-"also use the POT file, that is included and placed in the \"languages\" "
-"folder, in order to create a translation PO file. Just send the PO file to "
-"us at the %s and we will include this translation within the next plugin "
-"update."
+msgid "If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation PO file. Just send the PO file to us at the %s and we will include this translation within the next plugin update."
 msgstr ""
 
 #: inc/php/page.php:125
-msgid ""
-"Maybe not all existed translations are up to date. You are welcome to "
-"contribute corrections!"
+msgid "Maybe not all existed translations are up to date. You are welcome to contribute corrections!"
 msgstr ""
 
 #: inc/php/page.php:126
-msgid ""
-"Many of plugin users would be delighted if you share your translation with "
-"the community. Thanks for your contribution!"
+msgid "Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr ""
 
 #: inc/php/page.php:128
@@ -177,10 +157,7 @@ msgid "How does it work?"
 msgstr ""
 
 #: inc/php/page.php:129
-msgid ""
-"On the \"Settings\" tab, fill in the required fields, select the desired "
-"settings and click the \"Save changes\" button. Enjoy the improved SEO of "
-"your website. It's that simple!"
+msgid "On the \"Settings\" tab, fill in the required fields, select the desired settings and click the \"Save changes\" button. Enjoy the improved SEO of your website. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:131
@@ -188,9 +165,7 @@ msgid "How much of description I can enter in the text field?"
 msgstr ""
 
 #: inc/php/page.php:132
-msgid ""
-"We don't limit the number of characters, but most search engines use a "
-"maximum of 160 chars for the home description."
+msgid "We don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description."
 msgstr ""
 
 #: inc/php/page.php:134
@@ -202,17 +177,11 @@ msgid "We don't limit the number of characters."
 msgstr ""
 
 #: inc/php/page.php:137
-msgid "I can't get verify the website of the creator. What am I doing wrong?"
+msgid "I can't get verify my website. What am I doing wrong?"
 msgstr ""
 
 #: inc/php/page.php:138
-msgid ""
-"The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, "
-"SpecificFeeds) gives you is confusing as you only have to paste in the "
-"serial key number/letters (<code>1234567890</code>) and not the whole tag "
-"(<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;"
-"</code>). So just paste that into the relevant field and you will see "
-"“Success” message appear within a few seconds."
+msgid "The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (<code>1234567890</code>) and not the whole tag (<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;</code>). So just paste that into the relevant field and you will see “Success” message appear within a few seconds."
 msgstr ""
 
 #: inc/php/page.php:140
@@ -220,15 +189,11 @@ msgid "What about compatibility with plugin \"All in One SEO Pack\"?"
 msgstr ""
 
 #: inc/php/page.php:141
-msgid ""
-"To make these plugins compatible you need to stick to one simple rule: do "
-"not fill the same field in both plugins at once. Otherwise both plugins "
-"fulfill their work and you will get a duplicate actions, for example:"
+msgid "To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:"
 msgstr ""
 
 #: inc/php/page.php:149
-msgid ""
-"In the rest, the \"All Meta Tags\" and \"All in One SEO Pack\" is compatible."
+msgid "In the rest, the \"All Meta Tags\" and \"All in One SEO Pack\" is compatible."
 msgstr ""
 
 #: inc/php/page.php:151
@@ -236,9 +201,7 @@ msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
 #: inc/php/page.php:152
-msgid ""
-"Absolutely not. This plugin is configurable entirely from the plugin "
-"settings page."
+msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr ""
 
 #: inc/php/page.php:154
@@ -246,9 +209,7 @@ msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
 #: inc/php/page.php:155
-msgid ""
-"Absolutely not. This plugin can be configured with no knowledge of HTML or "
-"CSS, using an easy-to-use plugin settings page."
+msgid "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
 msgstr ""
 
 #: inc/php/page.php:157
@@ -256,36 +217,19 @@ msgid "It's not working. What could be wrong?"
 msgstr ""
 
 #: inc/php/page.php:158
-msgid ""
-"As with every plugin, it's possible that things don't work. The most common "
-"reason for this is a web browser's cache. Every web browser stores a cache "
-"of the websites you visit (pages, images, and etc.) to reduce bandwidth "
-"usage and server load. This is called the browser's cache.​ Clearing your "
-"browser's cache may solve the problem."
+msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
 msgstr ""
 
 #: inc/php/page.php:159
-msgid ""
-"It's impossible to tell what could be wrong exactly, but if you post a "
-"support request in the plugin's support forum on WordPress.org, we'd be "
-"happy to give it a look and try to help out. Please include as much "
-"information as possible, including a link to your website where the problem "
-"can be seen."
+msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
 msgstr ""
 
 #: inc/php/page.php:161
-msgid ""
-"The last WordPress update is preventing me from editing the website of the "
-"creator that is using this plugin. Why is this?"
+msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr ""
 
 #: inc/php/page.php:162
-msgid ""
-"This plugin can not cause such problem. More likely, the problem are related "
-"to the settings of the website. It could just be a cache, so please try to "
-"clear your website's cache (may be you using a caching plugin, or some web "
-"service such as the CloudFlare) and then the cache of your web browser. Also "
-"please try to re-login to the website, this too can help."
+msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr ""
 
 #: inc/php/page.php:164
@@ -294,9 +238,7 @@ msgstr ""
 
 #: inc/php/page.php:166
 #, php-format
-msgid ""
-"Please visit %s this page %s and report. Please do not forget to specify the "
-"name of the plugin. Thank you!"
+msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:172
@@ -305,9 +247,7 @@ msgstr ""
 
 #: inc/php/page.php:174
 #, php-format
-msgid ""
-"Any suggestions are very welcome! Just contact us %s here %s. Please do not "
-"forget to specify the name of the plugin. Thank you!"
+msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:180
@@ -316,9 +256,7 @@ msgstr ""
 
 #: inc/php/page.php:182
 #, php-format
-msgid ""
-"Yes, any financial contributions are welcome! Just visit %s the website of "
-"the creator %s, click on the donate button, and thank you!"
+msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:188
@@ -327,10 +265,7 @@ msgstr ""
 
 #: inc/php/page.php:190
 #, php-format
-msgid ""
-"You can ask your question on %s this page %s. But please keep in mind that "
-"this plugin is free, and there is no a special support team, so we have no "
-"way to answer everyone."
+msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
 #: inc/php/page.php:204
@@ -343,28 +278,15 @@ msgstr ""
 
 #: inc/php/page.php:217
 #, php-format
-msgid ""
-"Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-"
-"Chimp %s."
-msgstr ""
-"¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-"
-"Chimp %s."
+msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
+msgstr "¡Hola! Mi nombre es %s Arthur Gareginyan %s y soy el fundador de %s Space X-Chimp %s."
 
 #: inc/php/page.php:225
-msgid ""
-"My intention is to create projects that will make this world a better place. "
-"I'm really passionate about my work, I like what I'm doing and hope that you "
-"will be enriched by my projects too."
+msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 msgstr ""
 
 #: inc/php/page.php:226
-msgid ""
-"I spend a lot of time and effort trying to make sure that the themes, "
-"plugins and other things I build are useful, and the ultimate proof of that "
-"for me is that you actually want to use them. But, I’m an independent "
-"developer, without a regular income, so every little contribution helps "
-"cover my costs and lets me spend more time building things for people like "
-"you to enjoy."
+msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr ""
 
 #: inc/php/page.php:227
@@ -384,37 +306,19 @@ msgid "Web Master Tools"
 msgstr "Herramientas para Web Master"
 
 #: inc/php/settings.php:27
-msgid ""
-"Webmaster Tools require you to verify your domain. This makes sure that you "
-"are the correct owner of your blog or store before they provide their "
-"services to you. You can use the options below to verify your domain. If "
-"your domain is already verified, you can just forget about these."
-msgstr ""
-"Herramientas para webmasters requieren que verifique su dominio. Esto se "
-"asegura de que usted es el correcto propietario de su blog o tienda antes de "
-"que prestan sus servicios a usted. Puede utilizar las opciones de abajo para "
-"comprobar su dominio. Si su dominio ya está verificado, puede olvidarse de "
-"ellas."
+msgid "Webmaster Tools require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
+msgstr "Herramientas para webmasters requieren que verifique su dominio. Esto se asegura de que usted es el correcto propietario de su blog o tienda antes de que prestan sus servicios a usted. Puede utilizar las opciones de abajo para comprobar su dominio. Si su dominio ya está verificado, puede olvidarse de ellas."
 
 #: inc/php/settings.php:33
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"google-site-verification\" "
-"content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:39
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"msvalidate.01\" "
-"content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:45
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"yandex-verification\" "
-"content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:54
@@ -422,36 +326,19 @@ msgid "Domain Verification"
 msgstr "Verificar Dominio"
 
 #: inc/php/settings.php:56
-msgid ""
-"Third-party services like Alexa, Pinterest and Google-Plus require you to "
-"verify your domain. This makes sure that you are the correct owner of your "
-"blog or store before they provide their services to you. You can use the "
-"options below to verify your domain. If your domain is already verified, you "
-"can just forget about these."
-msgstr ""
-"Servicios de terceros como Alexa, Pinterest y Google-Plus requieren que "
-"verifique su dominio. Esto se asegura de que usted es el correcto "
-"propietario de su blog o tienda antes de que prestan sus servicios a usted. "
-"Puede utilizar las opciones de abajo para comprobar su dominio. Si su "
-"dominio ya está verificado, puede olvidarse de ellas."
+msgid "Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
+msgstr "Servicios de terceros como Alexa, Pinterest y Google-Plus requieren que verifique su dominio. Esto se asegura de que usted es el correcto propietario de su blog o tienda antes de que prestan sus servicios a usted. Puede utilizar las opciones de abajo para comprobar su dominio. Si su dominio ya está verificado, puede olvidarse de ellas."
 
 #: inc/php/settings.php:62
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"p:domain_verify\" "
-"content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:68
-msgid ""
-"Enter an absolute URL to the Google+ profile of the publisher. <br>Example: "
-"https://plus.google.com/+ArthurGareginyan/"
+msgid "Enter an absolute URL to the Google+ profile of the publisher. <br>Example: https://plus.google.com/+ArthurGareginyan/"
 msgstr ""
 
 #: inc/php/settings.php:74
-msgid ""
-"Enter an absolute URL to the Facebook profile of the publisher. <br>Example: "
-"https://www.facebook.com/arthur.gareginyan"
+msgid "Enter an absolute URL to the Facebook profile of the publisher. <br>Example: https://www.facebook.com/arthur.gareginyan"
 msgstr ""
 
 #: inc/php/settings.php:80
@@ -459,31 +346,19 @@ msgid "Enter the Twitter username of the publisher. <br>Example: @AGareginyan"
 msgstr ""
 
 #: inc/php/settings.php:86
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"alexaVerifyID\" "
-"content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:92
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"norton-safeweb-site-verification"
-"\" content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:98
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"wot-verification\" "
-"content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:104
-msgid ""
-"Enter your meta key “content” value from your verification code to verify "
-"your website. <br>Example: &lt;meta name=\"specificfeeds-verification-code\" "
-"content=“<b>1234567890</b>” /&gt;"
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
 msgstr ""
 
 #: inc/php/settings.php:108
@@ -491,9 +366,7 @@ msgid "Custom Meta Tags"
 msgstr ""
 
 #: inc/php/settings.php:110
-msgid ""
-"If you can't find a field to enter your required meta tag then you can add "
-"it here. In this field you can add multiple meta tags."
+msgid "If you can't find a field to enter your required meta tag then you can add it here. In this field you can add multiple meta tags."
 msgstr ""
 
 #: inc/php/settings.php:118
@@ -501,21 +374,15 @@ msgid "Meta Tags for Static Home Page only"
 msgstr "Meta Tags solo para Paginas de Inicio estática"
 
 #: inc/php/settings.php:120
-msgid ""
-"You can use the options below to add meta tags such as Description and "
-"Keywords only in Static Home Page of your website."
-msgstr ""
-"Puede usar las opciones abajo para agregar meta tags, como Descripción y "
-"palabras claves solo en Paginas de Inicio estática en su sitio web."
+msgid "You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your website."
+msgstr "Puede usar las opciones abajo para agregar meta tags, como Descripción y palabras claves solo en Paginas de Inicio estática en su sitio web."
 
 #: inc/php/settings.php:124
 msgid "Home Description"
 msgstr ""
 
 #: inc/php/settings.php:126 inc/php/settings.php:147
-msgid ""
-"Enter a short description of your website (150-250 characters). Most search "
-"engines use a maximum of 160 chars for the home description."
+msgid "Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description."
 msgstr ""
 
 #: inc/php/settings.php:129
@@ -523,9 +390,7 @@ msgid "Home Keyword(s)"
 msgstr ""
 
 #: inc/php/settings.php:131
-msgid ""
-"Enter a comma-delimited list of keywords for only Static Home Page of your "
-"website."
+msgid "Enter a comma-delimited list of keywords for only Static Home Page of your website."
 msgstr ""
 
 #: inc/php/settings.php:139
@@ -533,13 +398,8 @@ msgid "Meta Tags for Default Home Page and Blog Page only"
 msgstr "Meta Tags por defecto pagina de inicio y pagina de blog solamente"
 
 #: inc/php/settings.php:141
-msgid ""
-"You can use the options below to add meta tags such as Description and "
-"Keywords only in Default Home Page and Blog Page of your website."
-msgstr ""
-"Puede utilizar las opciones de abajo para agregar meta tags, tales como "
-"descripción y palabras claves sólo en página principal predeterminada y Blog "
-"página de su sitio web."
+msgid "You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and Blog Page of your website."
+msgstr "Puede utilizar las opciones de abajo para agregar meta tags, tales como descripción y palabras claves sólo en página principal predeterminada y Blog página de su sitio web."
 
 #: inc/php/settings.php:145
 msgid "Blog Description"
@@ -550,8 +410,7 @@ msgid "Blog Keyword(s)"
 msgstr ""
 
 #: inc/php/settings.php:152
-msgid ""
-"Enter a comma-delimited list of keywords for only Blog Page of your website."
+msgid "Enter a comma-delimited list of keywords for only Blog Page of your website."
 msgstr ""
 
 #: inc/php/settings.php:160
@@ -559,12 +418,8 @@ msgid "Meta Tags for all website (Global)"
 msgstr "Meta Tags para todo el sitio web (Global)"
 
 #: inc/php/settings.php:162
-msgid ""
-"You can use the options below to add meta tags such as Author, Copyright and "
-"Keywords in everywhere on your website."
-msgstr ""
-"Puede usar las opciones abajo para agregar meta tags como Autor, Derecho "
-"autor, palabras clavs en cualquier sitio de su pagina web."
+msgid "You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your website."
+msgstr "Puede usar las opciones abajo para agregar meta tags como Autor, Derecho autor, palabras clavs en cualquier sitio de su pagina web."
 
 #: inc/php/settings.php:166
 msgid "Author"
@@ -595,28 +450,16 @@ msgid "WooCommerce & Google Shopping"
 msgstr ""
 
 #: inc/php/settings.php:200
-msgid ""
-"This plugin automatically adds the necessary Google Shopping (Merchant "
-"Center) structured data on all WooCommerce product pages on your website. "
-"Here is the markup for women's T-shirt that sells for 16 dollars and 80 "
-"cents of US."
+msgid "This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women's T-shirt that sells for 16 dollars and 80 cents of US."
 msgstr ""
 
 #: inc/php/settings.php:210
-msgid ""
-"Check these data generated on the pages of your website you can <a href="
-"\"https://search.google.com/structured-data/testing-tool\" target=\"_blank"
-"\">here</a>."
+msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
 msgstr ""
 
 #: inc/php/settings.php:217 inc/php/sidebar.php:32
-msgid ""
-"I'm an independent developer, without a regular income, so every little "
-"contribution helps cover my costs and lets me spend more time building "
-"things for people like you to enjoy."
-msgstr ""
-"Si te gusta este plugin y lo encuentras útil, por favor ayudame hacer este "
-"plugin aún mejor y tenerlo actualizado."
+msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+msgstr "Si te gusta este plugin y lo encuentras útil, por favor ayudame hacer este plugin aún mejor y tenerlo actualizado."
 
 #: inc/php/settings.php:224 inc/php/sidebar.php:39
 msgid "Thanks for your support!"
@@ -628,7 +471,7 @@ msgstr "Acerca"
 
 #: inc/php/sidebar.php:18
 msgid "This plugin allows you to easily add Meta Tags to your website."
-msgstr "Este plugin te permite agregar fácilmente Meta Tags a tu sitio web."
+msgstr "Este complemento te permite agregar fácilmente Meta Tags a tu sitio web."
 
 #: inc/php/sidebar.php:23
 msgid "Help"
@@ -647,16 +490,16 @@ msgid "https://github.com/ArthurGareginyan/all-meta-tags"
 msgstr "https://github.com/ArthurGareginyan/all-meta-tags"
 
 #. Description of the plugin/theme
-msgid ""
-"Easily and safely add your custom Meta Tags to WordPress website's header."
-msgstr ""
-"La forma más fácil y segura para agregar Meta Tags a la cabecera de tu sitio "
-"WordPress."
+msgid "Easily and safely add your custom Meta Tags to WordPress website's header."
+msgstr "La forma más fácil y segura para agregar Meta Tags a la cabecera de tu sitio WordPress."
 
 #. Author of the plugin/theme
-msgid "Arthur Gareginyan"
-msgstr "Arthur Gareginyan"
+msgid "Space X-Chimp"
+msgstr "Space X-Chimp"
 
 #. Author URI of the plugin/theme
-msgid "https://www.arthurgareginyan.com"
-msgstr "https://www.arthurgareginyan.com"
+msgid "https://www.spacexchimp.com"
+msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Arthur Gareginyan"
+#~ msgstr "Arthur Gareginyan"

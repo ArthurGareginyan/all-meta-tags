@@ -1,10 +1,10 @@
 === All Meta Tags ===
 Contributors: Arthur Gareginyan
-Tags: meta, tag,tags, custom, simple, plugin, twitter, facebook, g+, google, google+, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, specific feeds, feed, rss feed, google shopping, google merchant center, structured data, woocommerce, schemas
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
+Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, specific feeds, feed, rss feed, google shopping, google merchant center, structured data, woocommerce, schemas
+Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.14
+Stable tag: 4.15
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -76,12 +76,12 @@ This plugin is ready for translation and has already been translated into severa
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/all-meta-tags).
 
-**System requirements**
+**Minimum system requirements:**
 
 * [PHP](https://php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
-**Recommendations:**
+**Recommended system requirements:**
 
 * [PHP](https://php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
@@ -90,18 +90,18 @@ If you want to help translate this plugin then please visit the [translation pag
 
 Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 
-* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 * [Rate and Review](https://wordpress.org/support/view/plugin-reviews/all-meta-tags?rate=5#postform) this plugin.
-* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/all-meta-tags) if you have any ideas or suggestions to make this plugin better.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/all-meta-tags) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
 
 Install "All Meta Tags" just as you would any other WordPress Plugin.
 
-Automatically via WordPress Admin Panel:
+Automatically via WordPress Admin Area:
 
-1. Log into Admin Panel of your WordPress website.
+1. Log in to Admin Area of your WordPress website.
 2. Go to "`Plugins`" -> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
@@ -111,10 +111,10 @@ Manually via FTP access:
 1. Download a copy (ZIP file) of this plugin from WordPress.org.
 2. Unzip the ZIP file.
 3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into Admin Panel of your WordPress website.
+4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`Meta Tags Inserter`" menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Meta Tags Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -125,11 +125,11 @@ After installation and activation, the "`Meta Tags Inserter`" menu item will ap
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to us at the arthurgareginyan@gmail.com and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, fill in the required fields, select the desired settings and click the "Save changes" button. Enjoy the improved SEO of your website. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`Meta Tags Inserter`".
+You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Meta Tags Inserter`".
 
 = Q. How much of description I can enter in the text field? =
 A. We don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description.
@@ -137,23 +137,26 @@ A. We don't limit the number of characters, but most search engines use a maximu
 = Q. How much of keywords I can enter in the text field? =
 A. We don't limit the number of characters.
 
-= Q. I can't get verify the website of the creator. What am I doing wrong? =
+= Q. I can't get verify my website. What am I doing wrong? =
 A. The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (`1234567890`) and not the whole tag (`<meta name="google-site-verification" content=“1234567890” />`). So just paste that into the relevant field and you will see “Success” message appear within a few seconds.
 
 = Q. What about compatibility with the "All in One SEO Pack" plugin ? =
 A. To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:
-`<head>
+
+```
+<head>
      ...
      <meta name="copyright" content="Copyright (c) 2013-2018 Space X-Chimp. All Rights Reserved.">
      ...
      <meta name="copyright" content="Copyright 2018 Space X-Chimp. All Rights Reserved.">
      ...
-</head>`
+</head>
+```
 
 In the rest, the "All Meta Tags" and "All in One SEO Pack" is compatible.
 
 = Q. Does this plugin requires any modification of the theme? =
-A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Panel of your WordPress website.
+A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Area of your WordPress website.
 
 = Q. Does this require any knowledge of HTML or CSS? =
 A. Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.
@@ -163,17 +166,17 @@ A. As with every plugin, it's possible that things don't work. The most common r
 
 It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
-= Q. The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is this? =
+= Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
 
 = Q. Where to report bug if found? =
-A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags) and report.
+A. Bug reports are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and report. Thank you!
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Any suggestions are very welcome! Please send us an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
+A. Any suggestions are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and share. Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [the website of the creator](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any contributions are very welcome! Please visit [our donation page](https://www.spacexchimp.com/donate.html). Thank you!
 
 
 == Screenshots ==
@@ -185,7 +188,7 @@ A. Yes, any financial contributions are welcome! Just visit [the website of the 
 
 ****
 
-"All Meta Tags" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
+"All Meta Tags" is one of the own software projects of [Space X-Chimp](https://www.spacexchimp.com).
 
 **License**
 
@@ -194,17 +197,23 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 **Links**
 
-* [Developer Website](https://www.arthurgareginyan.com)
-* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
+* [Developer website](https://www.spacexchimp.com)
+* [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
 
 
 == Changelog ==
+
+= 4.15 =
+* Some texts updated, and typos corrected.
+* All translation files updated.
+* The information about the author of the plugin (including name, links, copyright, etc.) was changed due to the fact that the plugin became the property of SpaceXChimp.
+* The human.txt file updated.
 
 = 4.14 =
 * Texts updated.
@@ -225,7 +234,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * At the request of some users, plugin settings page moved to the submenu item in the top-level menu item "Settings", like before.
 
 = 4.10 =
-* Fixed the issue due tof which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
+* Fixed the issue due to which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
 * Added branded footer text on the plugin's settings page.
 * Text of copyright in the output code is updated.
 
