@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.15
+Stable tag: 4.16
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -143,15 +143,13 @@ A. The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, Sp
 = Q. What about compatibility with the "All in One SEO Pack" plugin ? =
 A. To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:
 
-```
-<head>
+`<head>
      ...
      <meta name="copyright" content="Copyright (c) 2013-2018 Space X-Chimp. All Rights Reserved.">
      ...
      <meta name="copyright" content="Copyright 2018 Space X-Chimp. All Rights Reserved.">
      ...
-</head>
-```
+</head>`
 
 In the rest, the "All Meta Tags" and "All in One SEO Pack" is compatible.
 
@@ -208,6 +206,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.16 =
+* Fixed the link "Settings", located in the plugin's meta row on the "Plugins" page. The suffix ".php" was deleted.
+* Fixed information stored in the header of the translation files.
+* Translation files updated.
 
 = 4.15 =
 * Some texts updated, and typos corrected.
