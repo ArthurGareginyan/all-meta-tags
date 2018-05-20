@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.17
+ * Version: 4.18
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
@@ -55,6 +55,7 @@ function spacexchimp_p004_define_constants( $constant_name, $value ) {
     if ( !defined( $constant_name ) )
         define( $constant_name, $value );
 }
+spacexchimp_p004_define_constants( 'FILE', __FILE__ );
 spacexchimp_p004_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
 spacexchimp_p004_define_constants( 'BASE', plugin_basename( __FILE__ ) );
 spacexchimp_p004_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
