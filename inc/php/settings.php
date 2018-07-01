@@ -198,7 +198,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <h3 class="title"><?php _e( 'WooCommerce & Google Shopping', $text ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women\'s T-shirt that sells for 16 dollars and 80 cents of US.', $text ); ?></p>
-<pre>&lt;div itemtype=&quot;http://schema.org/Product&quot; itemscope=&quot;&quot;&gt;
+                            <?php
+                                // Put the example in a variable
+                                $example = '&lt;div itemtype=&quot;http://schema.org/Product&quot; itemscope=&quot;&quot;&gt;
     &lt;meta itemprop=&quot;name&quot; content=&quot;Womens T-shirt&quot;&gt;
     &lt;meta itemprop=&quot;description&quot; content=&quot;Constructed in cotton sweat fabric, this lovely piece...&quot;&gt;
     &lt;meta itemprop=&quot;image&quot; content=&quot;http://example.com/wp-content/uploads/2015/09/product-1.jpg&quot;&gt;
@@ -206,7 +208,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
         &lt;meta itemprop=&quot;price&quot; content=&quot;16.80&quot;&gt;
         &lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot;&gt;
     &lt;/div&gt;
-&lt;/div&gt;</pre>
+&lt;/div&gt;';
+                            ?>
+                            <textarea readonly><?php echo $example; ?></textarea>
                             <p><?php _e( 'Check these data generated on the pages of your website you can <a href="https://search.google.com/structured-data/testing-tool" target="_blank">here</a>.', $text ); ?></p>
                         </div>
                     </div>

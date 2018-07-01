@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2018-04-20 01:15+0300\n"
-"PO-Revision-Date: 2018-04-20 01:15+0300\n"
+"POT-Creation-Date: 2018-07-01 18:08+0300\n"
+"PO-Revision-Date: 2018-07-01 18:09+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -66,7 +66,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:46 inc/php/settings.php:215 inc/php/sidebar.php:30
+#: inc/php/page.php:46 inc/php/settings.php:219 inc/php/sidebar.php:30
 msgid "Support"
 msgstr "Soporte"
 
@@ -272,7 +272,7 @@ msgstr "Puede hacer tu pregunta en %s la página de soporte del complementos %s.
 msgid "Support Me"
 msgstr "Apoyarme!"
 
-#: inc/php/page.php:212 inc/php/settings.php:222 inc/php/sidebar.php:37
+#: inc/php/page.php:212 inc/php/settings.php:226 inc/php/sidebar.php:37
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
@@ -453,15 +453,15 @@ msgstr "WooCommerce y Google Shopping"
 msgid "This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women's T-shirt that sells for 16 dollars and 80 cents of US."
 msgstr "Este plugin añade automáticamente los datos estructurados de Google Shopping (Merchant Center) en todas las páginas de producto de tu sitio web. Aquí esta el código para una blusa de mujer que cuesta 16 dólares con 80 centavos norteamericanos."
 
-#: inc/php/settings.php:210
+#: inc/php/settings.php:214
 msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
 msgstr "Puedes revisar los datos generados para las páginas de tu sitio web <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">aquí</a>."
 
-#: inc/php/settings.php:217 inc/php/sidebar.php:32
+#: inc/php/settings.php:221 inc/php/sidebar.php:32
 msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/settings.php:224 inc/php/sidebar.php:39
+#: inc/php/settings.php:228 inc/php/sidebar.php:39
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
