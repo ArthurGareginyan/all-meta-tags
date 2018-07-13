@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.20
+Stable tag: 4.21
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -206,6 +206,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.21 =
+* The code block that enqueue the CodeMirror library files is moved to a separate function '_load_scripts_codemirror' within the 'enqueue.php' file.
+* Enqueue of the CodeMirror addons is moved to the beginning of the queue, before enqueuing the CodeMirror mods.
+* All translation files are updated.
 
 = 4.20 =
 * The CodeMirror library is added to the plugin.
