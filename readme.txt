@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.21
+Stable tag: 4.22
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -73,6 +73,7 @@ This plugin is ready for translation and has already been translated into severa
 * Spanish - Mexico (translation by Sergio Yeyo Troncoso)
 * Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Italian (translation by Stefano Tombolini)
+* Dutch (translation by Peter Leenders)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/all-meta-tags).
 
@@ -206,6 +207,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.22 =
+* Dutch translation added. (Thanks to Peter Leenders)
+* The function '_load_scripts_codemirror' is improved. Removed an unnecessary call of constants.
+* The banner of Space X-Chimp, located on the settings page of the plugin, is updated. The image 'banner.png' is deleted.
+* Some texts are updated.
+* All translation files are updated.
 
 = 4.21 =
 * The code block that enqueue the CodeMirror library files is moved to a separate function '_load_scripts_codemirror' within the 'enqueue.php' file.

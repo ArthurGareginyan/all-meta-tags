@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2018-07-12 01:17+0300\n"
-"PO-Revision-Date: 2018-07-12 01:17+0300\n"
+"POT-Creation-Date: 2018-07-24 00:32+0300\n"
+"PO-Revision-Date: 2018-07-24 00:32+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -66,7 +66,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/settings.php:219 inc/php/sidebar.php:30
+#: inc/php/page.php:46 inc/php/settings.php:219 inc/php/sidebar.php:39
 msgid "Support"
 msgstr ""
 
@@ -269,28 +269,28 @@ msgid "You can ask your question on %s this page %s. But please keep in mind tha
 msgstr ""
 
 #: inc/php/page.php:204
-msgid "Support Me"
+msgid "Support Us"
 msgstr ""
 
-#: inc/php/page.php:212 inc/php/settings.php:226 inc/php/sidebar.php:37
+#: inc/php/page.php:212 inc/php/settings.php:226 inc/php/sidebar.php:46
 msgid "Donate with PayPal"
 msgstr ""
 
 #: inc/php/page.php:217
 #, php-format
-msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
+msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
 msgstr ""
 
 #: inc/php/page.php:225
-msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
+msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
 msgstr ""
 
 #: inc/php/page.php:226
-msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
 #: inc/php/page.php:227
-msgid "If you appreciate my work, you can buy me a coffee!"
+msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr ""
 
 #: inc/php/page.php:228
@@ -457,27 +457,31 @@ msgstr "Questo plugin aggiunge automaticamente i dati strutturati necessari a Go
 msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
 msgstr "Puoi controllare <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">qui</a> tali dati generati sulle pagine del tuo sito web."
 
-#: inc/php/settings.php:221 inc/php/sidebar.php:32
-msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+#: inc/php/settings.php:221 inc/php/sidebar.php:41
+msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Sono uno sviluppatore indipendente, senza un reddito stabile, quindi ogni piccolo contributo è utile a coprire i miei costi e mi consente di impiegare più tempo nello sviluppo di strumenti per persone che come te li apprezzano."
 
-#: inc/php/settings.php:228 inc/php/sidebar.php:39
+#: inc/php/settings.php:228 inc/php/sidebar.php:48
 msgid "Thanks for your support!"
 msgstr "Grazie per il tuo supporto!"
 
 #: inc/php/sidebar.php:16
+msgid "We are «Space X-Chimp»"
+msgstr ""
+
+#: inc/php/sidebar.php:25
 msgid "About"
 msgstr "Informazioni"
 
-#: inc/php/sidebar.php:18
+#: inc/php/sidebar.php:27
 msgid "This plugin allows you to easily add Meta Tags to your website."
 msgstr "Questo plugin ti permette di aggiungere facilmente tag meta al tuo sito web."
 
-#: inc/php/sidebar.php:23
+#: inc/php/sidebar.php:32
 msgid "Help"
 msgstr "Aiuto"
 
-#: inc/php/sidebar.php:25
+#: inc/php/sidebar.php:34
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Hai qualcosa da dirmi? Hai bisogno di aiuto?"
 
