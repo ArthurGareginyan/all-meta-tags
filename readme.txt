@@ -4,24 +4,26 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.22
+Stable tag: 4.23
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily add your Meta Tags to the WordPress website's head section. This is a must have tool for authors and website owners.
+Easily and safely add your custom meta tags to the WordPress website's head section. This is a must have tool for authors and website's owners.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily add your Meta Tags to the head section of your website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom meta tags to the head section of your website.
 
-No need anymore to editing a files of your theme or plugins in order to add meta tags. You can add they on plugins settings page. Just add your ID (the meta key "content" value from your verification code) or/and the URL to the social media profile of the publisher in the field on the plugin settings page and this plugin will do the rest for you. It adds required meta tags to the head section of your website automatically, without changing any of your themes file and without slowing down your website. It's really useful in case of any theme update, because your meta tags would never be lost! Your meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add meta tags. You can add they on plugins settings page. Just add your ID (the meta key "content" value from your verification code) or/and the URL to the social media profile of the publisher in the field on the plugin page and this plugin will do the rest for you. It adds required meta tags to the head section of your website automatically, without changing any of your themes file and without slowing down your website. This is really useful in case of updating theme or plugins, because your meta tags would never be overwritten.  Your meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+
+The plugin works completely independently of the theme, so you can use it with any theme. The meta tags added via this plugin will be entirely unaffected if you edit the contents of the theme’s files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom meta tags would never be overwritten. Your custom meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use this plugin to easily verify your website or domain and get a more effective and efficient sharing results. Example with Pinterest. Once you completed the verification process, people will see a checkmark next to your domain in your Pinterest profile and in pinner search results. That check mark emphasis you have confirmed the ownership of your blog or website on Pinterest. This will help your website to rank better in google and other search engines. You can easily increase your blog traffic using this plugin. "All Meta Tags" is a simple but effective SEO plugin.
 
 Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Static Home Page or the meta Description and Keywords only for Blog Page.
 
-If you want more options then tell us and we will be happy to add it.
+If you want more options, let us know and we will be happy to add them.
 
 **Features**
 
@@ -115,7 +117,7 @@ Manually via FTP access:
 4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`Meta Tags Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Meta Tags Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -129,7 +131,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, fill in the required fields, select the desired settings and click the "Save changes" button. Enjoy the improved SEO of your website. It's that simple!
+A. Simply go to the plugin settings page, fill in the required fields and click the "Save changes" button. Enjoy the improved SEO of your website. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Meta Tags Inserter`".
 
 = Q. How much of description I can enter in the text field? =
@@ -207,6 +209,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.23 =
+* Some texts are updated.
+* Translation files are updated.
+* The translation into Russian has been corrected.
+* The translation into Dutch has been corrected.
 
 = 4.22 =
 * Dutch translation added. (Thanks to Peter Leenders)

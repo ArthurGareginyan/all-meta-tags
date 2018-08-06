@@ -64,20 +64,20 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                   );
                                     spacexchimp_p004_control_field( 'google_author',
                                                                     'Google+',
-                                                                    'https://plus.google.com/+ArthurGareginyan/',
-                                                                    __( 'Enter an absolute URL to the Google+ profile of the publisher. <br>Example: https://plus.google.com/+ArthurGareginyan/', $text ),
+                                                                    'https://plus.google.com/+Username/',
+                                                                    __( 'Enter an absolute URL to the Google+ profile of the publisher. <br>Example: https://plus.google.com/+Username/', $text ),
                                                                     'https://plus.google.com/'
                                                                   );
                                     spacexchimp_p004_control_field( 'facebook',
                                                                     'Facebook',
-                                                                    'https://www.facebook.com/arthur.gareginyan',
-                                                                    __( 'Enter an absolute URL to the Facebook profile of the publisher. <br>Example: https://www.facebook.com/arthur.gareginyan', $text ),
+                                                                    'https://www.facebook.com/username',
+                                                                    __( 'Enter an absolute URL to the Facebook profile of the publisher. <br>Example: https://www.facebook.com/username', $text ),
                                                                     'https://www.facebook.com/'
                                                                   );
                                     spacexchimp_p004_control_field( 'twitter',
                                                                     'Twitter',
-                                                                    '@AGareginyan',
-                                                                    __( 'Enter the Twitter username of the publisher. <br>Example: @AGareginyan', $text ),
+                                                                    '@Username',
+                                                                    __( 'Enter the Twitter username of the publisher. <br>Example: @Username', $text ),
                                                                     'https://twitter.com/'
                                                                   );
                                     spacexchimp_p004_control_field( 'alexa',
@@ -102,7 +102,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                      'SpecificFeeds',
                                                                      '1234567890',
                                                                      __( 'Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name="specificfeeds-verification-code" content=“<b>1234567890</b>” /&gt;', $text ),
-                                                                     'https://www.specificfeeds.com/rss?pub=2jcpuERsm61dbHbp2czf9A'
+                                                                     'https://www.specificfeeds.com'
                                                                    );
                                      spacexchimp_p004_control_textarea( 'custom_meta',
                                                                         __( 'Custom Meta Tags', $text ),

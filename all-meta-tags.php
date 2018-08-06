@@ -2,10 +2,10 @@
 /**
  * Plugin Name: All Meta Tags
  * Plugin URI: https://github.com/ArthurGareginyan/all-meta-tags
- * Description: Easily and safely add your custom Meta Tags to WordPress website's header.
+ * Description: Easily and safely add your custom meta tags to the WordPress website's head section. This is a must have tool for authors and website's owners.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.22
+ * Version: 4.23
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/

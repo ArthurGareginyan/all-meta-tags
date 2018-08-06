@@ -66,7 +66,6 @@ function spacexchimp_p004_render_submenu_page() {
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Settings" tab.', $text ); ?></li>
                             <li><?php _e( 'Fill in the required fields.', $text ); ?></li>
-                            <li><?php _e( 'Select the desired settings.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the improved SEO of your website.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
@@ -126,7 +125,7 @@ function spacexchimp_p004_render_submenu_page() {
                                               <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Settings" tab, fill in the required fields, select the desired settings and click the "Save changes" button. Enjoy the improved SEO of your website. It\'s that simple!', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Settings" tab, fill in the required fields and click the "Save changes" button. Enjoy the improved SEO of your website. It\'s that simple!', $text ); ?></div>
 
                         <div class="question-4"><?php _e( 'How much of description I can enter in the text field?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'We don\'t limit the number of characters, but most search engines use a maximum of 160 chars for the home description.', $text ); ?></div>
