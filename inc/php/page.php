@@ -64,13 +64,13 @@ function spacexchimp_p004_render_submenu_page() {
                     <div class="inside">
                         <p><?php _e( 'To add the meta tags to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
-                            <li><?php _e( 'Go to the "Settings" tab.', $text ); ?></li>
+                            <li><?php _e( 'Go to the "Settings" tab on this page.', $text ); ?></li>
                             <li><?php _e( 'Fill in the required fields.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the improved SEO of your website.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
+                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
                                                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                                                 '</a>'
                                                                                           );
@@ -93,7 +93,7 @@ function spacexchimp_p004_render_submenu_page() {
 
                         <div class="panel-group" id="collapse-group">
                             <?php
-                                $loopvalue = '15';
+                                $loopvalue = '16';
                                 for ( $i = 1; $i <= $loopvalue; $i++ ) {
                                     echo '<div class="panel panel-default">
                                             <div class="panel-heading">
@@ -136,8 +136,8 @@ function spacexchimp_p004_render_submenu_page() {
                         <div class="question-6 question-red"><?php _e( 'I can\'t get verify my website. What am I doing wrong?', $text ); ?></div>
                         <div class="answer-6"><?php _e( 'The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (<code>1234567890</code>) and not the whole tag (<code>&lt;meta name="google-site-verification" content=“1234567890” /&gt;</code>). So just paste that into the relevant field and you will see “Success” message appear within a few seconds.', $text ); ?></div>
 
-                        <div class="question-7"><?php _e( 'What about compatibility with plugin "All in One SEO Pack"?', $text ); ?></div>
-                        <div class="answer-7"><?php _e( 'To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:', $text ); ?>
+                        <div class="question-7"><?php _e( 'What about compatibility with the plugin "All in One SEO Pack"?', $text ); ?></div>
+                        <div class="answer-7"><?php _e( 'As far as we know, the "All Meta Tags" plugin is compatible with the "All in One SEO Pack" plugin. But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:', $text ); ?>
 <pre><code>&lt;head&gt;
     ...
     &lt;meta name="copyright" content="Copyright (c) 2013-2018 Space X-Chimp. All Rights Reserved."&gt;
@@ -145,47 +145,51 @@ function spacexchimp_p004_render_submenu_page() {
     &lt;meta name="copyright" content="Copyright 2018 Space X-Chimp. All Rights Reserved."&gt;
     ...
 &lt;/head&gt;</code></pre>
-                                              <?php _e( 'In the rest, the "All Meta Tags" and "All in One SEO Pack" is compatible.', $text ); ?></div>
+                                              <?php _e( 'If you find a conflict between the plugins, please let us know and we will definitely release an update of the plugin to fix the issue.', $text ); ?></div>
 
-                        <div class="question-8"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
-                        <div class="answer-8"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', $text ); ?></div>
+                        <div class="question-8"><?php _e( 'What about compatibility with the plugin "Yoast SEO"?', $text ); ?></div>
+                        <div class="answer-8"><?php _e( 'As far as we know, the "All Meta Tags" plugin is compatible with the "Yoast SEO" plugin. But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions.', $text ); ?><br><br>
+                                              <?php _e( 'If you find a conflict between the plugins, please let us know and we will definitely release an update of the plugin to fix the issue.', $text ); ?></div>
 
-                        <div class="question-9"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
-                        <div class="answer-9"><?php _e( 'Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.', $text ); ?></div>
+                        <div class="question-9"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
+                        <div class="answer-9"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', $text ); ?></div>
 
-                        <div class="question-10 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
-                        <div class="answer-10"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
+                        <div class="question-10"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
+                        <div class="answer-10"><?php _e( 'Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.', $text ); ?></div>
+
+                        <div class="question-11 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
+                        <div class="answer-11"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
                                                <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, we\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', $text ); ?></div>
 
-                        <div class="question-11 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
-                        <div class="answer-11"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
+                        <div class="question-12 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
+                        <div class="answer-12"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
 
-                        <div class="question-12 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
-                        <div class="answer-12"><?php printf(
+                        <div class="question-13 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
+                        <div class="answer-13"><?php printf(
                                                             __( 'Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-13"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
-                        <div class="answer-13"><?php printf(
+                        <div class="question-14"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
+                        <div class="answer-14"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-14"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
-                        <div class="answer-14"><?php printf(
+                        <div class="question-15"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
+                        <div class="answer-15"><?php printf(
                                                             __( 'Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-15"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
-                        <div class="answer-15"><?php printf(
+                        <div class="question-16"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
+                        <div class="answer-16"><?php printf(
                                                             __( 'You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone.', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'

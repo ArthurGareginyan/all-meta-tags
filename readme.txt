@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.23
+Stable tag: 4.24
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,9 +13,9 @@ Easily and safely add your custom meta tags to the WordPress website's head sect
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom meta tags to the head section of your website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom meta tags to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
-This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add meta tags. You can add they on plugins settings page. Just add your ID (the meta key "content" value from your verification code) or/and the URL to the social media profile of the publisher in the field on the plugin page and this plugin will do the rest for you. It adds required meta tags to the head section of your website automatically, without changing any of your themes file and without slowing down your website. This is really useful in case of updating theme or plugins, because your meta tags would never be overwritten.  Your meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom meta tags. Just add your ID (the meta key "content" value from your verification code) or/and the URL to the social media profile of the publisher in the field on the plugin page and this plugin will do the rest for you. It will automatically add required meta tags to the head section of your website, without changing any of your theme files and without slowing down your website. This is really useful in case of updating theme or plugins, because your meta tags would never be overwritten. Your meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 The plugin works completely independently of the theme, so you can use it with any theme. The meta tags added via this plugin will be entirely unaffected if you edit the contents of the theme’s files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom meta tags would never be overwritten. Your custom meta tags will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
@@ -23,7 +23,7 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 
 Also you can use this plugin to add required meta tags such as Author, Designer, Contact, Copyright and Keywords in everywhere on your website (It adds the required meta tags to the header of all pages on your website) or the meta Description and Keywords only for Static Home Page or the meta Description and Keywords only for Blog Page.
 
-If you want more options, let us know and we will be happy to add them.
+If you want more options, then let us know and we will be happy to add them.
 
 **Features**
 
@@ -144,7 +144,7 @@ A. We don't limit the number of characters.
 A. The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (`1234567890`) and not the whole tag (`<meta name="google-site-verification" content=“1234567890” />`). So just paste that into the relevant field and you will see “Success” message appear within a few seconds.
 
 = Q. What about compatibility with the "All in One SEO Pack" plugin ? =
-A. To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:
+A. As far as we know, the "All Meta Tags" plugin is compatible with the "All in One SEO Pack" plugin. But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:
 
 `<head>
      ...
@@ -154,7 +154,12 @@ A. To make these plugins compatible you need to stick to one simple rule: do not
      ...
 </head>`
 
-In the rest, the "All Meta Tags" and "All in One SEO Pack" is compatible.
+If you find a conflict between the plugins, please let us know and we will definitely release an update of the plugin to fix the issue.
+
+= Q. What about compatibility with the "Yoast SEO" plugin ? =
+A. As far as we know, the "All Meta Tags" plugin is compatible with the "Yoast SEO" plugin. But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions.
+
+If you find a conflict between the plugins, please let us know and we will definitely release an update of the plugin to fix the issue.
 
 = Q. Does this plugin requires any modification of the theme? =
 A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Area of your WordPress website.
@@ -200,15 +205,27 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
 * The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* [CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 **Links**
 
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/all-meta-tags)
+* [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/all-meta-tags/)
 
 
 == Changelog ==
+
+= 4.24 =
+* The "_add_meta_tags" function renamed to "_prepare".
+* The "_add_metadata_head" function renamed to "_exec".
+* Content of the "Settings" section updated.
+* Content of the "Usage Instructions" section updated.
+* Content of the "F.A.Q." section updated.
+* CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
+* Code commenting improved.
+* Translation files are updated.
 
 = 4.23 =
 * Some texts are updated.
@@ -323,7 +340,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Code commenting improved.
 * Load of the additional remote CSS file removed from the admin.js file.
 * Changed the sorting of enqueueing of scripts.
-* The ''Family' page tab renamed to 'Store'.
+* The 'Family' page tab renamed to 'Store'.
 * Added ad banner of my store website.
 
 = 4.4.1 =

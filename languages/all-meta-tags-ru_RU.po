@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2018-08-07 01:35+0300\n"
-"PO-Revision-Date: 2018-08-07 01:35+0300\n"
+"POT-Creation-Date: 2018-10-09 09:30+0300\n"
+"PO-Revision-Date: 2018-10-09 09:35+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: all-meta-tags.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -83,7 +83,7 @@ msgid "To add the meta tags to your website, simply follow these steps:"
 msgstr "Для того чтобы добавить метатеги на ваш веб-сайт, выполните следующие действия:"
 
 #: inc/php/page.php:67
-msgid "Go to the \"Settings\" tab."
+msgid "Go to the \"Settings\" tab on this page."
 msgstr "Перейдите на вкладку «Настройки»."
 
 #: inc/php/page.php:68
@@ -108,7 +108,7 @@ msgstr "Примечание!"
 
 #: inc/php/page.php:73
 #, php-format
-msgid "If you want more options then %s tell us %s and we will be happy to add it."
+msgid "If you want more options, then %s let us know %s and we will be happy to add them."
 msgstr "Если вы хотите больше вариантов, то %s сообщите нам %s и мы будем рады добавить их."
 
 #: inc/php/page.php:87
@@ -181,115 +181,123 @@ msgid "The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT
 msgstr "Код тега, который даёт тебе Google (или Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) может запутать, поскольку вам нужно вставить только серийный ключ - число/буквы (<code>1234567890</code>) а не весь тэг (<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;</code>). Так что просто вставьте серийный ключ в соответствующее поле, и вы увидите сообщение «Success» в течение нескольких секунд."
 
 #: inc/php/page.php:139
-msgid "What about compatibility with plugin \"All in One SEO Pack\"?"
-msgstr "Как насчет совместимости с плагином \"All in One SEO Pack\"?"
+msgid "What about compatibility with the plugin \"All in One SEO Pack\"?"
+msgstr "Что насчет совместимости с плагином \"All in One SEO Pack\"?"
 
 #: inc/php/page.php:140
-msgid "To make these plugins compatible you need to stick to one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:"
+msgid "As far as we know, the \"All Meta Tags\" plugin is compatible with the \"All in One SEO Pack\" plugin. But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:"
 msgstr "Чтобы эти плагины были совместимы, вам нужно придерживаться одного простого правила: не заполняйте одно и то же поле в обоих плагинах одновременно. В противном случае оба плагина выполняют свою работу, и вы получите дубликаты действий, например:"
 
-#: inc/php/page.php:148
-msgid "In the rest, the \"All Meta Tags\" and \"All in One SEO Pack\" is compatible."
-msgstr "В остальном «All Meta Tags» и «All in One SEO Pack» совместимы."
+#: inc/php/page.php:148 inc/php/page.php:152
+msgid "If you find a conflict between the plugins, please let us know and we will definitely release an update of the plugin to fix the issue."
+msgstr ""
 
 #: inc/php/page.php:150
+msgid "What about compatibility with the plugin \"Yoast SEO\"?"
+msgstr "Что насчет совместимости с плагином \"All in One SEO Pack\"?"
+
+#: inc/php/page.php:151
+msgid "As far as we know, the \"All Meta Tags\" plugin is compatible with the \"Yoast SEO\" plugin. But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions."
+msgstr "Насколько нам известно, плагин “All Meta Tags” совместим с плагином “Yoast SEO”. Но чтобы убедиться в том, что эти плагины не конфликтуют друг с другом, вам нужно следовать одному простому правилу: не заполняйте одно и то же поле в обоих плагинах одновременно. В противном случае оба плагина выполнят свою работу, и вы получите дублирование действий."
+
+#: inc/php/page.php:154
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "Этот плагин требует изменения темы?"
 
-#: inc/php/page.php:151
+#: inc/php/page.php:155
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr "Абсолютно нет. Этот плагин настраивается полностью на странице настроек плагина."
 
-#: inc/php/page.php:153
+#: inc/php/page.php:157
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "Требуются ли какие-либо знания HTML или CSS?"
 
-#: inc/php/page.php:154
+#: inc/php/page.php:158
 msgid "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
 msgstr "Абсолютно нет. Этот плагин можно настроить без знания HTML или CSS, с помощью простой в использовании страницы настройки плагина."
 
-#: inc/php/page.php:156
+#: inc/php/page.php:160
 msgid "It's not working. What could be wrong?"
 msgstr "Оно не работает. Что может быть не так?"
 
-#: inc/php/page.php:157
+#: inc/php/page.php:161
 msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
 msgstr "Как и в случае с любым другим плагином, что-то может не работать. Наиболее распространенной причиной этого является кеш веб-браузера. Каждый веб-браузер хранит кеш веб-сайтов, которые вы посещаете (страницы, изображения и т. д.) для того, чтобы уменьшить использование интернет канала и нагрузку на сервер. Это называется кешем браузера. Очистка кеша браузера может решить проблему."
 
-#: inc/php/page.php:158
+#: inc/php/page.php:162
 msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
 msgstr "Невозможно точно сказать, что может быть неправильно, но если вы разместите запрос поддержки на форуме поддержки плагина на WordPress.org, то мы с радостью посмотрим и попытаемся помочь. Пожалуйста, укажите как можно больше информации, включая ссылку на ваш сайт, на котором можно увидеть проблему."
 
-#: inc/php/page.php:160
+#: inc/php/page.php:164
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr "Последнее обновление WordPress не позволяет мне редактировать мой сайт, который использует этот плагин. Почему так?"
 
-#: inc/php/page.php:161
+#: inc/php/page.php:165
 msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr "Этот плагин не может вызвать такую проблему. Скорее всего, проблема связана с настройками веб-сайта. Это может быть кеш, поэтому попробуйте очистить кеш вашего сайта (возможно, вы используете плагин для кеширования или какой-либо веб-сервис, такой как CloudFlare), а затем кеш вашего веб-браузера. Также попробуйте повторно войти на сайт, это тоже может помочь."
 
-#: inc/php/page.php:163
+#: inc/php/page.php:167
 msgid "Where to report bug if found?"
 msgstr "Где можно сообщить об ошибке?"
 
-#: inc/php/page.php:165
+#: inc/php/page.php:169
 #, php-format
 msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Посетите %s эту страницу %s и сообщите. Не забудьте указать название плагина. Спасибо!"
 
-#: inc/php/page.php:171
+#: inc/php/page.php:175
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
 
-#: inc/php/page.php:173
+#: inc/php/page.php:177
 #, php-format
 msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Любые предложения приветствуются! Просто свяжитесь с нами %s здесь %s. Не забудьте указать название плагина. Спасибо!"
 
-#: inc/php/page.php:179
+#: inc/php/page.php:183
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Мне нравится этот плагин! Могу Я чем-то помочь?"
 
-#: inc/php/page.php:181
+#: inc/php/page.php:185
 #, php-format
 msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr "Да, любые финансовые взносы приветствуются! Просто посетите %s мой сайт %s, нажмите на кнопку пожертвования. Спасибо!"
 
-#: inc/php/page.php:187
+#: inc/php/page.php:191
 msgid "My question wasn't answered here."
 msgstr "Моего вопроса здесь нет."
 
-#: inc/php/page.php:189
+#: inc/php/page.php:193
 #, php-format
 msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Вы можете задать ваш вопрос на %s этой странице %s. Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
 
-#: inc/php/page.php:203
+#: inc/php/page.php:207
 msgid "Support Us"
 msgstr "Поддержать нас"
 
-#: inc/php/page.php:211 inc/php/settings.php:226 inc/php/sidebar.php:46
+#: inc/php/page.php:215 inc/php/settings.php:226 inc/php/sidebar.php:46
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через Pay Pal"
 
-#: inc/php/page.php:216
+#: inc/php/page.php:220
 #, php-format
 msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
 msgstr ""
 
-#: inc/php/page.php:224
+#: inc/php/page.php:228
 msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
 msgstr ""
 
-#: inc/php/page.php:225
+#: inc/php/page.php:229
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Мы тратим много времени и усилий, пытаясь убедиться в том, что темы, плагины и другие вещи, которые мы создаём, полезны, и окончательное доказательство этого для нас то, что вы на самом деле хотите их использовать. Но мы независимые разработчики, без регулярного дохода, поэтому каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей для таких замечательных людей, как вы."
 
-#: inc/php/page.php:226
+#: inc/php/page.php:230
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Если вы цените мою работу, то вы можете купить мне кофе!"
 
-#: inc/php/page.php:227
+#: inc/php/page.php:231
 msgid "Thank you for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -410,7 +418,7 @@ msgid "Enter a comma-delimited list of keywords for only Blog Page of your websi
 msgstr "Введите, разделенный запятыми, список ключевых слов для только Blog Page вашего веб-сайта."
 
 #: inc/php/settings.php:160
-msgid "Meta Tags for all website (Global)"
+msgid "Meta Tags for the entire website (Global)"
 msgstr "Мета-теги для всего веб-сайта (Глобальные)"
 
 #: inc/php/settings.php:162
@@ -463,7 +471,7 @@ msgstr "Спасибо за вашу поддержку!"
 
 #: inc/php/sidebar.php:16
 msgid "We are «Space X-Chimp»"
-msgstr ""
+msgstr "Мы «Space X-Chimp»"
 
 #: inc/php/sidebar.php:25
 msgid "About"
@@ -501,6 +509,9 @@ msgstr "Space X-Chimp"
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
+#~ msgid "In the rest, the \"All Meta Tags\" and \"All in One SEO Pack\" is compatible."
+#~ msgstr "В остальном «All Meta Tags» и «All in One SEO Pack» совместимы."
+
 #~ msgid "Select the desired settings."
 #~ msgstr "Выберите нужные настройки."
 
@@ -510,8 +521,5 @@ msgstr "https://www.spacexchimp.com"
 #~ msgid "Easily and safely add your custom Meta Tags to WordPress website's header."
 #~ msgstr "Легко и безопасно добавлять свои собственные метатеги в заголовок веб-сайта WordPress."
 
-#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp %s."
-
-#~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
-#~ msgstr "Я намерен создать проекты, которые сделают этот мир лучшим местом. Я очень увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже станете лучше благодаря моим проектам."
+#~ msgid "Hello! My name is %s Arthur %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "Привет! Меня зовут %s Артур %s и Я основатель %s Space X-Chimp %s."

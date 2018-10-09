@@ -157,7 +157,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     </div>
 
                     <div class="postbox" id="everywhere">
-                        <h3 class="title"><?php _e( 'Meta Tags for all website (Global)', $text ); ?></h3>
+                        <h3 class="title"><?php _e( 'Meta Tags for the entire website (Global)', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your website.', $text ); ?></p>
                             <table class="form-table">

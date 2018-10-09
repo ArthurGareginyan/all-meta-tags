@@ -6,7 +6,7 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Generator of the help text under controls
+ * Generator of the help text under options
  */
 function spacexchimp_p004_control_help( $help=null ) {
 
@@ -28,7 +28,7 @@ function spacexchimp_p004_control_help( $help=null ) {
 }
 
 /**
- * Generator of the fields for saving settings data to database
+ * Generator of the field option for saving plugin settings to database
  */
 function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null, $link=null ) {
 
@@ -62,7 +62,7 @@ function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null
 }
 
 /**
- * Generator of the textarea fields for saving settings data to database
+ * Generator of the textarea option for saving plugin settings to database
  */
 function spacexchimp_p004_control_textarea( $name, $label, $placeholder, $help=null ) {
 

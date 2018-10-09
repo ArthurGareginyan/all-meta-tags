@@ -8,7 +8,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Generate the Meta Tags
  */
-function spacexchimp_p004_add_meta_tags() {
+function spacexchimp_p004_prepare() {
 
     // Read options from database
     $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
@@ -110,7 +110,7 @@ function spacexchimp_p004_add_meta_tags() {
         }
     }
 
-    // Meta Tags for all website
+    // Meta Tags for the entire website
     if ( !empty( $author ) ) {
         $metatags_arr[] = "<meta name='author' content='$author' />";
     }
@@ -170,12 +170,16 @@ function spacexchimp_p004_add_meta_tags() {
 }
 
 /**
- * Include the Meta Tags in head area
+ * Process the Meta Tags
  */
-function spacexchimp_p004_add_metadata_head() {
+function spacexchimp_p004_exec() {
     echo    PHP_EOL,
-            implode(PHP_EOL, spacexchimp_p004_add_meta_tags()),
+            implode(PHP_EOL, spacexchimp_p004_prepare()),
             PHP_EOL,
             PHP_EOL;
 }
-add_action( 'wp_head', 'spacexchimp_p004_add_metadata_head', 0 );
+
+/**
+ * Inject the Meta Tags into the website's frontend
+ */
+add_action( 'wp_head', 'spacexchimp_p004_exec', 0 );
