@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.24
+Stable tag: 4.25
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,7 +35,7 @@ If you want more options, then let us know and we will be happy to add them.
 * RTL compatible (right to left)
 * Translation ready
 
-**Key features include...**
+**Key features include**
 
 * Google+ publisher link
 * Facebook publisher meta tag
@@ -58,7 +58,7 @@ If you want more options, then let us know and we will be happy to add them.
 * Meta tag with name="keywords" (Global, only for Static Home Page and only for Blog Page)
 * And much, much more!
 
-**Coming soon:**
+**Coming soon**
 
 * Google Analytics verification meta tag
 * Meta tag with name="creator"
@@ -216,6 +216,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.25 =
+* Improvement: Design of the plugin settings page is improved.
 
 = 4.24 =
 * The "_add_meta_tags" function renamed to "_prepare".
