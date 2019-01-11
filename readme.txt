@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.0
-Stable tag: 4.26
+Stable tag: 4.27
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -148,9 +148,9 @@ A. As far as we know, the "All Meta Tags" plugin is compatible with the "All in 
 
 `<head>
      ...
-     <meta name="copyright" content="Copyright (c) 2013-2018 Space X-Chimp. All Rights Reserved.">
+     <meta name="copyright" content="Copyright (c) 2013-2019 Space X-Chimp. All Rights Reserved.">
      ...
-     <meta name="copyright" content="Copyright 2018 Space X-Chimp. All Rights Reserved.">
+     <meta name="copyright" content="Copyright 2019 Space X-Chimp. All Rights Reserved.">
      ...
 </head>`
 
@@ -216,6 +216,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.27 =
+* Content of the "Usage" section updated.
+* Code formatting in the "admin.js" file improved.
+* Code commenting improved.
+* The copyright date updated.
+* Translation files are updated.
 
 = 4.26 =
 * Improvement: Design of the plugin settings page is improved.

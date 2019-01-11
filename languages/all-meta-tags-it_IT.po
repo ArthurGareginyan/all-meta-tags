@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2018-10-09 09:35+0300\n"
-"PO-Revision-Date: 2018-10-09 09:36+0300\n"
+"POT-Creation-Date: 2019-01-11 20:30+0200\n"
+"PO-Revision-Date: 2019-01-11 20:30+0200\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: all-meta-tags.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -100,10 +100,6 @@ msgstr ""
 
 #: inc/php/page.php:70
 msgid "It's that simple!"
-msgstr ""
-
-#: inc/php/page.php:72
-msgid "Note!"
 msgstr ""
 
 #: inc/php/page.php:73

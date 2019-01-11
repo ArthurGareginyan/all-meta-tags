@@ -5,12 +5,12 @@
  * Description: Easily and safely add your custom meta tags to the WordPress website's head section. This is a must have tool for authors and website's owners.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.26
+ * Version: 4.27
  * License: GPL3
  * Text Domain: all-meta-tags
  * Domain Path: /languages/
  *
- * Copyright 2015-2018 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2015-2019 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

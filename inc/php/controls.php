@@ -32,7 +32,7 @@ function spacexchimp_p004_control_help( $help=null ) {
  */
 function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null, $link=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
     $label_link = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
@@ -66,7 +66,7 @@ function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null
  */
 function spacexchimp_p004_control_textarea( $name, $label, $placeholder, $help=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
 

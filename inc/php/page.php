@@ -69,12 +69,12 @@ function spacexchimp_p004_render_submenu_page() {
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the improved SEO of your website.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
-                        <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
-                                                                                                '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
-                                                                                                '</a>'
-                                                                                          );
-                                                                              ?>
+                        <p class="note"><?php printf(
+                                                      __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
+                                                      '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
+                                                      '</a>'
+                                                    );
+                                        ?>
                         </p>
                     </div>
                 </div>
@@ -140,9 +140,9 @@ function spacexchimp_p004_render_submenu_page() {
                         <div class="answer-7"><?php _e( 'As far as we know, the "All Meta Tags" plugin is compatible with the "All in One SEO Pack" plugin. But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once. Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:', $text ); ?>
 <pre><code>&lt;head&gt;
     ...
-    &lt;meta name="copyright" content="Copyright (c) 2013-2018 Space X-Chimp. All Rights Reserved."&gt;
+    &lt;meta name="copyright" content="Copyright (c) 2013-2019 Space X-Chimp. All Rights Reserved."&gt;
     ...
-    &lt;meta name="copyright" content="Copyright 2018 Space X-Chimp. All Rights Reserved."&gt;
+    &lt;meta name="copyright" content="Copyright 2019 Space X-Chimp. All Rights Reserved."&gt;
     ...
 &lt;/head&gt;</code></pre>
                                               <?php _e( 'If you find a conflict between the plugins, please let us know and we will definitely release an update of the plugin to fix the issue.', $text ); ?></div>
