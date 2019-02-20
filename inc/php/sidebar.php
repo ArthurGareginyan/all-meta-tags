@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily add Meta Tags to your website.', $text ); ?></p>
+                    <p><?php _e( 'This plugin gives you the ability to easily and safely add your custom meta tags to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.', $text ); ?></p>
                 </div>
             </div>
 
