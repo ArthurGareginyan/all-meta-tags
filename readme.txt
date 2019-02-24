@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 4.28
+Stable tag: 4.29
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -76,6 +76,7 @@ This plugin is ready for translation and has already been translated into severa
 * Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Italian (translation by Stefano Tombolini)
 * Dutch (translation by Peter Leenders)
+* French (translation by Jean-Michel, Theophil Bethel and Hervé Bouzin)
 
 If you want to help translate this plugin, please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/all-meta-tags).
 
@@ -219,6 +220,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.29 - 2019-02-24 =
+* Added French translation. (Thanks to Hervé Bouzin)
+
 = 4.28 =
 * The readme "Tested up to:" value changed to 5.1 after full testing process and ensuring compatibility.
 * Content of the "F.A.Q." section updated.
@@ -226,7 +230,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * All translation files are updated.
 * Code formatting improved.
 * Added CSS class ".custom-list" for displaying a custom list, which is used on the plugin settings page.
-* The human.txt file updated.
+* The "humans.txt" file updated.
 
 = 4.27 =
 * Content of the "Usage" section updated.
@@ -296,7 +300,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Some texts updated, and typos corrected.
 * All translation files updated.
 * The information about the author of the plugin (including name, links, copyright, etc.) was changed due to the fact that the plugin became the property of SpaceXChimp.
-* The human.txt file updated.
+* The "humans.txt" file updated.
 
 = 4.14 =
 * Texts updated.
