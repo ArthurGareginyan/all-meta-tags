@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2019-02-20 23:15+0300\n"
-"PO-Revision-Date: 2019-02-20 23:15+0300\n"
+"POT-Creation-Date: 2019-03-01 06:39+0300\n"
+"PO-Revision-Date: 2019-03-01 06:39+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:23 inc/php/page.php:44
+#: inc/php/core.php:23 inc/php/page.php:46
 msgid "Settings"
 msgstr "Impostazioni"
 
@@ -32,7 +32,7 @@ msgstr "Dona"
 msgid "Meta Tags Inserter"
 msgstr "Meta Tags Inserter"
 
-#: inc/php/messages.php:27 inc/php/page.php:433
+#: inc/php/messages.php:27 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr ""
 
@@ -53,675 +53,30 @@ msgstr ""
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
-#: inc/php/page.php:31
+#: inc/php/page.php:33
 #, php-format
 msgid "by %s Space X-Chimp %s"
 msgstr "di %s Space X-Chimp %s"
 
-#: inc/php/page.php:37
+#: inc/php/page.php:39
 msgid "Version"
 msgstr ""
 
-#: inc/php/page.php:45
+#: inc/php/page.php:47
 msgid "Usage"
 msgstr ""
 
-#: inc/php/page.php:46
+#: inc/php/page.php:48
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:47 inc/php/settings.php:219 inc/php/sidebar.php:39
+#: inc/php/page.php:49 inc/php/sidebar.php:39 inc/php/tabs/settings.php:219
 msgid "Support"
 msgstr ""
 
-#: inc/php/page.php:48
+#: inc/php/page.php:50
 msgid "Store"
 msgstr ""
-
-#: inc/php/page.php:64
-msgid "Usage Instructions"
-msgstr ""
-
-#: inc/php/page.php:66
-msgid "To add the meta tags to your website, simply follow these steps:"
-msgstr ""
-
-#: inc/php/page.php:68
-msgid "Go to the \"Settings\" tab on this page."
-msgstr ""
-
-#: inc/php/page.php:69
-msgid "Fill in the required fields."
-msgstr ""
-
-#: inc/php/page.php:70
-msgid "Click the \"Save changes\" button."
-msgstr ""
-
-#: inc/php/page.php:71 inc/php/page.php:202
-msgid "Enjoy the improved SEO of your website."
-msgstr ""
-
-#: inc/php/page.php:71 inc/php/page.php:203
-msgid "It's that simple!"
-msgstr ""
-
-#: inc/php/page.php:76
-#, php-format
-msgid "If you want more options, then %s let us know %s and we will be happy to add them."
-msgstr ""
-
-#: inc/php/page.php:90
-msgid "Frequently Asked Questions"
-msgstr ""
-
-#: inc/php/page.php:94
-msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
-msgstr ""
-
-#: inc/php/page.php:119
-msgid "Where can I find a documentation for this plugin?"
-msgstr ""
-
-#: inc/php/page.php:124
-#, php-format
-msgid "Please visit our %s Documentation site %s to view documentation."
-msgstr ""
-
-#: inc/php/page.php:132
-msgid "Will this plugin work on my wordpress.COM website?"
-msgstr ""
-
-#: inc/php/page.php:135
-msgid "Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites."
-msgstr ""
-
-#: inc/php/page.php:137
-msgid "Please note that there is a difference between wordpress.COM and wordpress.ORG."
-msgstr ""
-
-#: inc/php/page.php:138
-msgid "The wordpress.COM is a blog hosting service that offers a limited version of the popular self-hosted WordPress software."
-msgstr ""
-
-#: inc/php/page.php:141
-#, php-format
-msgid "You can learn more about the difference here: %s ."
-msgstr ""
-
-#: inc/php/page.php:148
-msgid "Will this plugin work/compatible with the theme I use?"
-msgstr ""
-
-#: inc/php/page.php:151
-msgid "This plugin is compatible with most themes."
-msgstr ""
-
-#: inc/php/page.php:152
-msgid "But, unfortunately, we cannot check it with all third-party themes (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party theme."
-msgstr ""
-
-#: inc/php/page.php:153
-msgid "We constantly check this plugin for compatibility with third-party themes."
-msgstr ""
-
-#: inc/php/page.php:154
-msgid "If we find that this plugin is incompatible with a third-party theme, and if we can fix it on our part, we release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:156
-msgid "If you find a conflict between our plugin and a third-party theme, please let us know and we will definitely release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:160
-msgid "Will this plugin work/compatible with other plugins that I use?"
-msgstr ""
-
-#: inc/php/page.php:163
-msgid "This plugin is compatible with most plugins."
-msgstr ""
-
-#: inc/php/page.php:164
-msgid "But, unfortunately, we cannot check it with all third-party plugins (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party plugin."
-msgstr ""
-
-#: inc/php/page.php:165
-msgid "We constantly check this plugin for compatibility with third-party plugins."
-msgstr ""
-
-#: inc/php/page.php:166
-msgid "If we find that this plugin is incompatible with a third-party plugin, and if we can fix it on our part, we release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:168
-msgid "If you find a conflict between our plugin and a third-party plugin, please let us know and we will definitely release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:172
-msgid "Can I use this plugin on my language?"
-msgstr ""
-
-#: inc/php/page.php:175
-msgid "Yes."
-msgstr ""
-
-#: inc/php/page.php:176
-msgid "This plugin is ready for translation and has already been translated into several languages."
-msgstr ""
-
-#: inc/php/page.php:177
-msgid "But If your language is not available then you can make one."
-msgstr ""
-
-#: inc/php/page.php:178
-msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
-msgstr ""
-
-#: inc/php/page.php:179
-msgid "Many of plugin users would be delighted if you share your translation with the community."
-msgstr ""
-
-#: inc/php/page.php:180
-msgid "Thanks for your contribution!"
-msgstr "Grazie per il tuo contributo!"
-
-#: inc/php/page.php:184
-#, php-format
-msgid "If you want to help translate this plugin, please visit the %s."
-msgstr ""
-
-#: inc/php/page.php:188
-msgid "You can also use the POT file that is included and placed in the \"languages\" folder to create a translation PO file."
-msgstr ""
-
-#: inc/php/page.php:191
-#, php-format
-msgid "Just send the PO file to us ( %s ) and we will include this translation within the next plugin update."
-msgstr ""
-
-#: inc/php/page.php:198
-msgid "How does it work?"
-msgstr ""
-
-#: inc/php/page.php:201
-msgid "On the \"Settings\" tab, fill in the required fields and click the \"Save changes\" button."
-msgstr ""
-
-#: inc/php/page.php:207
-msgid "How much of description I can enter in the text field?"
-msgstr ""
-
-#: inc/php/page.php:210
-msgid "We don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description."
-msgstr ""
-
-#: inc/php/page.php:214
-msgid "How much of keywords I can enter in the text field?"
-msgstr ""
-
-#: inc/php/page.php:217
-msgid "We don't limit the number of characters."
-msgstr ""
-
-#: inc/php/page.php:221
-msgid "What about compatibility with the plugin \"All in One SEO Pack\"?"
-msgstr ""
-
-#: inc/php/page.php:224
-msgid "As far as we know, the \"All Meta Tags\" plugin is compatible with the \"All in One SEO Pack\" plugin."
-msgstr ""
-
-#: inc/php/page.php:225 inc/php/page.php:242
-msgid "But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once."
-msgstr ""
-
-#: inc/php/page.php:226
-msgid "Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:"
-msgstr ""
-
-#: inc/php/page.php:234 inc/php/page.php:245
-msgid "If you find a conflict between the plugins, please let us know and we will definitely release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:238
-msgid "What about compatibility with the plugin \"Yoast SEO\"?"
-msgstr ""
-
-#: inc/php/page.php:241
-msgid "As far as we know, the \"All Meta Tags\" plugin is compatible with the \"Yoast SEO\" plugin."
-msgstr ""
-
-#: inc/php/page.php:243
-msgid "Otherwise both plugins fulfill their work and you will get a duplicate actions."
-msgstr ""
-
-#: inc/php/page.php:249
-msgid "Does this plugin requires any modification of the theme?"
-msgstr ""
-
-#: inc/php/page.php:252 inc/php/page.php:260
-msgid "Absolutely not."
-msgstr ""
-
-#: inc/php/page.php:253
-msgid "This plugin is configurable entirely from the plugin settings page."
-msgstr ""
-
-#: inc/php/page.php:257
-msgid "Does this require any knowledge of HTML or CSS?"
-msgstr ""
-
-#: inc/php/page.php:261
-msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
-msgstr ""
-
-#: inc/php/page.php:265
-msgid "It's not working."
-msgstr ""
-
-#: inc/php/page.php:266
-msgid "What could be wrong?"
-msgstr ""
-
-#: inc/php/page.php:269
-msgid "As with every plugin, it's possible that things don't work."
-msgstr ""
-
-#: inc/php/page.php:270
-msgid "It's impossible to tell what could be wrong exactly."
-msgstr ""
-
-#: inc/php/page.php:271
-msgid "The most common reason for this is a web browser's cache."
-msgstr ""
-
-#: inc/php/page.php:272
-msgid "Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load."
-msgstr ""
-
-#: inc/php/page.php:273
-msgid "This is called the browser's cache."
-msgstr ""
-
-#: inc/php/page.php:274
-msgid "Clearing your browser's cache may solve the problem."
-msgstr ""
-
-#: inc/php/page.php:276
-msgid "If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out."
-msgstr ""
-
-#: inc/php/page.php:277 inc/php/page.php:315
-msgid "Please include as much information as possible, including a link to your website where the problem can be seen."
-msgstr ""
-
-#: inc/php/page.php:281
-msgid "I can't get verify my website."
-msgstr ""
-
-#: inc/php/page.php:282
-msgid "What am I doing wrong?"
-msgstr ""
-
-#: inc/php/page.php:285
-msgid "The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (<code>1234567890</code>) and not the whole tag (<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;</code>)."
-msgstr ""
-
-#: inc/php/page.php:286
-msgid "So just paste that into the relevant field and you will see “Success” message appear within a few seconds."
-msgstr ""
-
-#: inc/php/page.php:290
-msgid "The last WordPress update is preventing me from editing my website that is using this plugin."
-msgstr ""
-
-#: inc/php/page.php:291
-msgid "Why is this?"
-msgstr ""
-
-#: inc/php/page.php:294
-msgid "This plugin can not cause such problem."
-msgstr ""
-
-#: inc/php/page.php:295
-msgid "More likely, the problem are related to the settings of the website."
-msgstr ""
-
-#: inc/php/page.php:296
-msgid "It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser."
-msgstr ""
-
-#: inc/php/page.php:297
-msgid "Also please try to re-login to the website, this too can help."
-msgstr ""
-
-#: inc/php/page.php:301
-msgid "Where to report bug if found?"
-msgstr ""
-
-#: inc/php/page.php:304
-msgid "Bug reports are very welcome!"
-msgstr ""
-
-#: inc/php/page.php:307
-#, php-format
-msgid "Please visit our %s contact page %s and report."
-msgstr ""
-
-#: inc/php/page.php:312 inc/php/page.php:340
-msgid "Please do not forget to specify the name of the plugin."
-msgstr ""
-
-#: inc/php/page.php:313 inc/php/page.php:341 inc/php/page.php:357
-msgid "Thank you!"
-msgstr ""
-
-#: inc/php/page.php:316
-msgid "Describe in more detail what exactly you are seeing."
-msgstr ""
-
-#: inc/php/page.php:317
-msgid "Here are some examples:"
-msgstr ""
-
-#: inc/php/page.php:320
-msgid "Elements of the plugin settings page are not working."
-msgstr ""
-
-#: inc/php/page.php:321
-msgid "An error message is displayed on the plugin settings page."
-msgstr ""
-
-#: inc/php/page.php:322
-msgid "An error message is displayed on the front end of website."
-msgstr ""
-
-#: inc/php/page.php:323
-msgid "An error message is displayed on the back end of website."
-msgstr ""
-
-#: inc/php/page.php:324
-msgid "Website is crashed."
-msgstr ""
-
-#: inc/php/page.php:329
-msgid "Where to share any ideas or suggestions to make the plugin better?"
-msgstr ""
-
-#: inc/php/page.php:332
-msgid "Any suggestions are very welcome!"
-msgstr ""
-
-#: inc/php/page.php:335
-#, php-format
-msgid "Please visit our %s contact page %s."
-msgstr ""
-
-#: inc/php/page.php:345
-msgid "I love this plugin!"
-msgstr ""
-
-#: inc/php/page.php:346
-msgid "Can I help somehow?"
-msgstr ""
-
-#: inc/php/page.php:349
-msgid "Yes, any contributions are very welcome!"
-msgstr ""
-
-#: inc/php/page.php:352
-#, php-format
-msgid "Please visit our %s Support Us %s page."
-msgstr ""
-
-#: inc/php/page.php:361
-msgid "Where can I find information about your licenses, payment process and refunds?"
-msgstr ""
-
-#: inc/php/page.php:366
-#, php-format
-msgid "Answers to common questions about our licenses, payment process and refunds can be found on our %s Common Questions %s page."
-msgstr ""
-
-#: inc/php/page.php:374
-msgid "Where can I find information about your customer support?"
-msgstr ""
-
-#: inc/php/page.php:379
-#, php-format
-msgid "Answers to common questions about our customer support can be found on our %s Common Questions %s page."
-msgstr ""
-
-#: inc/php/page.php:387
-msgid "Where can I find information about your affiliate program?"
-msgstr ""
-
-#: inc/php/page.php:392
-#, php-format
-msgid "Answers to common questions about our affiliate program can be found on our %s Common Questions %s page."
-msgstr ""
-
-#: inc/php/page.php:400
-msgid "My question wasn't answered here."
-msgstr ""
-
-#: inc/php/page.php:405
-#, php-format
-msgid "You can ask your question on %s this page %s."
-msgstr ""
-
-#: inc/php/page.php:410
-msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
-msgstr ""
-
-#: inc/php/page.php:421
-msgid "Support Us"
-msgstr ""
-
-#: inc/php/page.php:429 inc/php/settings.php:226 inc/php/sidebar.php:46
-msgid "Donate with PayPal"
-msgstr ""
-
-#: inc/php/page.php:436
-#, php-format
-msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
-msgstr ""
-
-#: inc/php/page.php:445
-msgid "Our intention is to create projects that will make this world a better place."
-msgstr ""
-
-#: inc/php/page.php:446
-msgid "Our motto is - «Follow your dreams and don’t give up»."
-msgstr ""
-
-#: inc/php/page.php:447
-msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
-msgstr ""
-
-#: inc/php/page.php:450
-msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
-msgstr ""
-
-#: inc/php/page.php:451
-msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Siamo sviluppatori indipendenti, senza un reddito stabile, quindi ogni piccolo contributo è utile a coprire i nostri costi e ci consente di impiegare più tempo nello sviluppo di strumenti per persone che come te li apprezzano."
-
-#: inc/php/page.php:454
-msgid "If you appreciate our work, you can buy us a cup of coffee!"
-msgstr ""
-
-#: inc/php/page.php:457
-msgid "Thank you for your support!"
-msgstr ""
-
-#: inc/php/settings.php:21 inc/php/settings.php:195
-msgid "Save changes"
-msgstr "Salva modifiche"
-
-#: inc/php/settings.php:25
-msgid "Web Master Tools"
-msgstr "Webmaster Tools"
-
-#: inc/php/settings.php:27
-msgid "Webmaster Tools require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
-msgstr "Webmaster Tools ti richiede di verificare il tuo dominio. Ciò assicura che tu sia il vero proprietario del tuo blog o negozio prima che ti forniscano i loro servizi. Puoi usare le opzioni qui sotto per verificare il tuo dominio. Se il tuo dominio è già verificato, puoi semplicemente ignorarle."
-
-#: inc/php/settings.php:33
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:39
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:45
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:54
-msgid "Domain Verification"
-msgstr "Verifica dominio"
-
-#: inc/php/settings.php:56
-msgid "Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
-msgstr "Servizi di terze parti come Alexa, Pinterest e Google+ ti richiedono di verificare il tuo dominio. Ciò assicura che tu sia il vero proprietario del tuo blog o negozio prima che ti forniscano i loro servizi. Puoi usare le opzioni qui sotto per verificare il tuo dominio. Se il tuo dominio è già verificato, puoi semplicemente ignorarle."
-
-#: inc/php/settings.php:62
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Example: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:68
-msgid "Enter an absolute URL to the Google+ profile of the publisher. <br>Example: https://plus.google.com/+Username/"
-msgstr "Inserisci un URL assoluto al tuo profilo Google+. <br>Esempio: https://plus.google.com/+User/"
-
-#: inc/php/settings.php:74
-msgid "Enter an absolute URL to the Facebook profile of the publisher. <br>Example: https://www.facebook.com/username"
-msgstr "Inserisci un URL assoluto al tuo profilo Facebook. <br>Esempio: https://www.facebook.com/user"
-
-#: inc/php/settings.php:80
-msgid "Enter the Twitter username of the publisher. <br>Example: @Username"
-msgstr "Inserisci il tuo nome utente Twitter. <br>Esempio: @AGareginyan"
-
-#: inc/php/settings.php:86
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:92
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:98
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:104
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/settings.php:108
-msgid "Custom Meta Tags"
-msgstr "Tag meta personalizzati"
-
-#: inc/php/settings.php:110
-msgid "If you can't find a field to enter your required meta tag then you can add it here. In this field you can add multiple meta tags."
-msgstr "Se non riesci a trovare un campo per inserire il tuo meta tag richiesto allora puoi aggiungerlo qui. In questo campo puoi aggiungere tag meta multipli."
-
-#: inc/php/settings.php:118
-msgid "Meta Tags for Static Home Page only"
-msgstr "Tag meta solo per la pagina home statica"
-
-#: inc/php/settings.php:120
-msgid "You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your website."
-msgstr "Puoi usare le opzioni qui sotto per aggiungere tag meta quali Description e Keywords solo alla pagina home statica del tuo sito web."
-
-#: inc/php/settings.php:124
-msgid "Home Description"
-msgstr "Descrizione home"
-
-#: inc/php/settings.php:126 inc/php/settings.php:147
-msgid "Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description."
-msgstr "Inserisci una breve descrizione del tuo sito web (150-250 caratteri). La maggior parte dei motori di ricerca usa un massimo di 160 caratteri per la descrizione della home."
-
-#: inc/php/settings.php:129
-msgid "Home Keyword(s)"
-msgstr "Parole chiave home"
-
-#: inc/php/settings.php:131
-msgid "Enter a comma-delimited list of keywords for only Static Home Page of your website."
-msgstr "Inserisci una lista delimitata da virgole di parole chiave solo per la pagina home statica del tuo sito web."
-
-#: inc/php/settings.php:139
-msgid "Meta Tags for Default Home Page and Blog Page only"
-msgstr "Tag meta solo per pagina home predefinita e pagina blog"
-
-#: inc/php/settings.php:141
-msgid "You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and Blog Page of your website."
-msgstr "Puoi usare le opzioni qui sotto per aggiungere tag meta quali Description e Keywords solo alla pagina home predefinita e alla pagina blog del tuo sito web."
-
-#: inc/php/settings.php:145
-msgid "Blog Description"
-msgstr "Descrizione blog"
-
-#: inc/php/settings.php:150
-msgid "Blog Keyword(s)"
-msgstr "Parole chiave blog"
-
-#: inc/php/settings.php:152
-msgid "Enter a comma-delimited list of keywords for only Blog Page of your website."
-msgstr "Inserisci una lista delimitata da virgole di parole chiave solo per la pagina blog del tuo sito web."
-
-#: inc/php/settings.php:160
-msgid "Meta Tags for the entire website (Global)"
-msgstr "Tag meta per tutto il sito (globale)"
-
-#: inc/php/settings.php:162
-msgid "You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your website."
-msgstr "Puoi usare le opzioni qui sotto per aggiungere tag meta quali Author, Copyright e Keywords ovunque sul tuo sito."
-
-#: inc/php/settings.php:166
-msgid "Author"
-msgstr "Autore"
-
-#: inc/php/settings.php:171
-msgid "Designer"
-msgstr "Designer"
-
-#: inc/php/settings.php:176
-msgid "Contact"
-msgstr "Contatti"
-
-#: inc/php/settings.php:181
-msgid "Copyright"
-msgstr "Copyright"
-
-#: inc/php/settings.php:186
-msgid "Keyword(s)"
-msgstr "Parole chiave"
-
-#: inc/php/settings.php:188
-msgid "Enter a comma-delimited list of global keywords for your website."
-msgstr "Inserisci una lista delimitata da virgole di parole chiave globali per il tuo sito web."
-
-#: inc/php/settings.php:198
-msgid "WooCommerce & Google Shopping"
-msgstr "WooCommerce & Google Shopping"
-
-#: inc/php/settings.php:200
-msgid "This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women's T-shirt that sells for 16 dollars and 80 cents of US."
-msgstr "Questo plugin aggiunge automaticamente i dati strutturati necessari a Google Shopping (Merchant Center) su tutte le pagine prodotto WooCommerce del tuo sito web. Ecco il codice per una maglietta da donna al prezzo di 16 dollari e 80 centesimi."
-
-#: inc/php/settings.php:214
-msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
-msgstr "Puoi controllare <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">qui</a> tali dati generati sulle pagine del tuo sito web."
-
-#: inc/php/settings.php:221 inc/php/sidebar.php:41
-msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Sono uno sviluppatore indipendente, senza un reddito stabile, quindi ogni piccolo contributo è utile a coprire i miei costi e mi consente di impiegare più tempo nello sviluppo di strumenti per persone che come te li apprezzano."
-
-#: inc/php/settings.php:228 inc/php/sidebar.php:48
-msgid "Thanks for your support!"
-msgstr "Grazie per il tuo supporto!"
 
 #: inc/php/sidebar.php:16
 msgid "We are «Space X-Chimp»"
@@ -741,6 +96,652 @@ msgstr "Aiuto"
 
 #: inc/php/sidebar.php:34
 msgid "If you have a question, please read the information in the FAQ section."
+msgstr ""
+
+#: inc/php/sidebar.php:41 inc/php/tabs/settings.php:221
+msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
+msgstr "Sono uno sviluppatore indipendente, senza un reddito stabile, quindi ogni piccolo contributo è utile a coprire i miei costi e mi consente di impiegare più tempo nello sviluppo di strumenti per persone che come te li apprezzano."
+
+#: inc/php/sidebar.php:46 inc/php/tabs/settings.php:226
+#: inc/php/tabs/support.php:21
+msgid "Donate with PayPal"
+msgstr ""
+
+#: inc/php/sidebar.php:48 inc/php/tabs/settings.php:228
+msgid "Thanks for your support!"
+msgstr "Grazie per il tuo supporto!"
+
+#: inc/php/tabs/faq.php:13
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: inc/php/tabs/faq.php:17
+msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
+msgstr ""
+
+#: inc/php/tabs/faq.php:42
+msgid "Where can I find a documentation for this plugin?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:47
+#, php-format
+msgid "Please visit our %s Documentation site %s to view documentation."
+msgstr ""
+
+#: inc/php/tabs/faq.php:55
+msgid "Will this plugin work on my wordpress.COM website?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:58
+msgid "Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites."
+msgstr ""
+
+#: inc/php/tabs/faq.php:60
+msgid "Please note that there is a difference between wordpress.COM and wordpress.ORG."
+msgstr ""
+
+#: inc/php/tabs/faq.php:61
+msgid "The wordpress.COM is a blog hosting service that offers a limited version of the popular self-hosted WordPress software."
+msgstr ""
+
+#: inc/php/tabs/faq.php:64
+#, php-format
+msgid "You can learn more about the difference here: %s ."
+msgstr ""
+
+#: inc/php/tabs/faq.php:71
+msgid "Will this plugin work/compatible with the theme I use?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:74
+msgid "This plugin is compatible with most themes."
+msgstr ""
+
+#: inc/php/tabs/faq.php:75
+msgid "But, unfortunately, we cannot check it with all third-party themes (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party theme."
+msgstr ""
+
+#: inc/php/tabs/faq.php:76
+msgid "We constantly check this plugin for compatibility with third-party themes."
+msgstr ""
+
+#: inc/php/tabs/faq.php:77
+msgid "If we find that this plugin is incompatible with a third-party theme, and if we can fix it on our part, we release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:79
+msgid "If you find a conflict between our plugin and a third-party theme, please let us know and we will definitely release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:83
+msgid "Will this plugin work/compatible with other plugins that I use?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:86
+msgid "This plugin is compatible with most plugins."
+msgstr ""
+
+#: inc/php/tabs/faq.php:87
+msgid "But, unfortunately, we cannot check it with all third-party plugins (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party plugin."
+msgstr ""
+
+#: inc/php/tabs/faq.php:88
+msgid "We constantly check this plugin for compatibility with third-party plugins."
+msgstr ""
+
+#: inc/php/tabs/faq.php:89
+msgid "If we find that this plugin is incompatible with a third-party plugin, and if we can fix it on our part, we release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:91
+msgid "If you find a conflict between our plugin and a third-party plugin, please let us know and we will definitely release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:95
+msgid "Can I use this plugin on my language?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:98
+msgid "Yes."
+msgstr ""
+
+#: inc/php/tabs/faq.php:99
+msgid "This plugin is ready for translation and has already been translated into several languages."
+msgstr ""
+
+#: inc/php/tabs/faq.php:100
+msgid "But If your language is not available then you can make one."
+msgstr ""
+
+#: inc/php/tabs/faq.php:101
+msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
+msgstr ""
+
+#: inc/php/tabs/faq.php:102
+msgid "Many of plugin users would be delighted if you share your translation with the community."
+msgstr ""
+
+#: inc/php/tabs/faq.php:103
+msgid "Thanks for your contribution!"
+msgstr "Grazie per il tuo contributo!"
+
+#: inc/php/tabs/faq.php:107
+#, php-format
+msgid "If you want to help translate this plugin, please visit the %s."
+msgstr ""
+
+#: inc/php/tabs/faq.php:111
+msgid "You can also use the POT file that is included and placed in the \"languages\" folder to create a translation PO file."
+msgstr ""
+
+#: inc/php/tabs/faq.php:114
+#, php-format
+msgid "Just send the PO file to us ( %s ) and we will include this translation within the next plugin update."
+msgstr ""
+
+#: inc/php/tabs/faq.php:121
+msgid "How does it work?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:124
+msgid "On the \"Settings\" tab, fill in the required fields and click the \"Save changes\" button."
+msgstr ""
+
+#: inc/php/tabs/faq.php:125 inc/php/tabs/usage.php:20
+msgid "Enjoy the improved SEO of your website."
+msgstr ""
+
+#: inc/php/tabs/faq.php:126 inc/php/tabs/usage.php:20
+msgid "It's that simple!"
+msgstr ""
+
+#: inc/php/tabs/faq.php:130
+msgid "How much of description I can enter in the text field?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:133
+msgid "We don't limit the number of characters, but most search engines use a maximum of 160 chars for the home description."
+msgstr ""
+
+#: inc/php/tabs/faq.php:137
+msgid "How much of keywords I can enter in the text field?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:140
+msgid "We don't limit the number of characters."
+msgstr ""
+
+#: inc/php/tabs/faq.php:144
+msgid "What about compatibility with the plugin \"All in One SEO Pack\"?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:147
+msgid "As far as we know, the \"All Meta Tags\" plugin is compatible with the \"All in One SEO Pack\" plugin."
+msgstr ""
+
+#: inc/php/tabs/faq.php:148 inc/php/tabs/faq.php:165
+msgid "But to make sure that these plugins do not conflict with each other, you need to follow one simple rule: do not fill the same field in both plugins at once."
+msgstr ""
+
+#: inc/php/tabs/faq.php:149
+msgid "Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:"
+msgstr ""
+
+#: inc/php/tabs/faq.php:157 inc/php/tabs/faq.php:168
+msgid "If you find a conflict between the plugins, please let us know and we will definitely release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:161
+msgid "What about compatibility with the plugin \"Yoast SEO\"?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:164
+msgid "As far as we know, the \"All Meta Tags\" plugin is compatible with the \"Yoast SEO\" plugin."
+msgstr ""
+
+#: inc/php/tabs/faq.php:166
+msgid "Otherwise both plugins fulfill their work and you will get a duplicate actions."
+msgstr ""
+
+#: inc/php/tabs/faq.php:172
+msgid "Does this plugin requires any modification of the theme?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:175 inc/php/tabs/faq.php:183
+msgid "Absolutely not."
+msgstr ""
+
+#: inc/php/tabs/faq.php:176
+msgid "This plugin is configurable entirely from the plugin settings page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:180
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:184
+msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:188
+msgid "It's not working."
+msgstr ""
+
+#: inc/php/tabs/faq.php:189
+msgid "What could be wrong?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:192
+msgid "As with every plugin, it's possible that things don't work."
+msgstr ""
+
+#: inc/php/tabs/faq.php:193
+msgid "It's impossible to tell what could be wrong exactly."
+msgstr ""
+
+#: inc/php/tabs/faq.php:194
+msgid "The most common reason for this is a web browser's cache."
+msgstr ""
+
+#: inc/php/tabs/faq.php:195
+msgid "Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load."
+msgstr ""
+
+#: inc/php/tabs/faq.php:196
+msgid "This is called the browser's cache."
+msgstr ""
+
+#: inc/php/tabs/faq.php:197
+msgid "Clearing your browser's cache may solve the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:199
+msgid "If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out."
+msgstr ""
+
+#: inc/php/tabs/faq.php:200 inc/php/tabs/faq.php:238
+msgid "Please include as much information as possible, including a link to your website where the problem can be seen."
+msgstr ""
+
+#: inc/php/tabs/faq.php:204
+msgid "I can't get verify my website."
+msgstr ""
+
+#: inc/php/tabs/faq.php:205
+msgid "What am I doing wrong?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:208
+msgid "The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (<code>1234567890</code>) and not the whole tag (<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;</code>)."
+msgstr ""
+
+#: inc/php/tabs/faq.php:209
+msgid "So just paste that into the relevant field and you will see “Success” message appear within a few seconds."
+msgstr ""
+
+#: inc/php/tabs/faq.php:213
+msgid "The last WordPress update is preventing me from editing my website that is using this plugin."
+msgstr ""
+
+#: inc/php/tabs/faq.php:214
+msgid "Why is this?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:217
+msgid "This plugin can not cause such problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:218
+msgid "More likely, the problem are related to the settings of the website."
+msgstr ""
+
+#: inc/php/tabs/faq.php:219
+msgid "It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser."
+msgstr ""
+
+#: inc/php/tabs/faq.php:220
+msgid "Also please try to re-login to the website, this too can help."
+msgstr ""
+
+#: inc/php/tabs/faq.php:224
+msgid "Where to report bug if found?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:227
+msgid "Bug reports are very welcome!"
+msgstr ""
+
+#: inc/php/tabs/faq.php:230
+#, php-format
+msgid "Please visit our %s contact page %s and report."
+msgstr ""
+
+#: inc/php/tabs/faq.php:235 inc/php/tabs/faq.php:263
+msgid "Please do not forget to specify the name of the plugin."
+msgstr ""
+
+#: inc/php/tabs/faq.php:236 inc/php/tabs/faq.php:264 inc/php/tabs/faq.php:280
+msgid "Thank you!"
+msgstr ""
+
+#: inc/php/tabs/faq.php:239
+msgid "Describe in more detail what exactly you are seeing."
+msgstr ""
+
+#: inc/php/tabs/faq.php:240
+msgid "Here are some examples:"
+msgstr ""
+
+#: inc/php/tabs/faq.php:243
+msgid "Elements of the plugin settings page are not working."
+msgstr ""
+
+#: inc/php/tabs/faq.php:244
+msgid "An error message is displayed on the plugin settings page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:245
+msgid "An error message is displayed on the front end of website."
+msgstr ""
+
+#: inc/php/tabs/faq.php:246
+msgid "An error message is displayed on the back end of website."
+msgstr ""
+
+#: inc/php/tabs/faq.php:247
+msgid "Website is crashed."
+msgstr ""
+
+#: inc/php/tabs/faq.php:252
+msgid "Where to share any ideas or suggestions to make the plugin better?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:255
+msgid "Any suggestions are very welcome!"
+msgstr ""
+
+#: inc/php/tabs/faq.php:258
+#, php-format
+msgid "Please visit our %s contact page %s."
+msgstr ""
+
+#: inc/php/tabs/faq.php:268
+msgid "I love this plugin!"
+msgstr ""
+
+#: inc/php/tabs/faq.php:269
+msgid "Can I help somehow?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:272
+msgid "Yes, any contributions are very welcome!"
+msgstr ""
+
+#: inc/php/tabs/faq.php:275
+#, php-format
+msgid "Please visit our %s Support Us %s page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:284
+msgid "Where can I find information about your licenses, payment process and refunds?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:289
+#, php-format
+msgid "Answers to common questions about our licenses, payment process and refunds can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:297
+msgid "Where can I find information about your customer support?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:302
+#, php-format
+msgid "Answers to common questions about our customer support can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:310
+msgid "Where can I find information about your affiliate program?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:315
+#, php-format
+msgid "Answers to common questions about our affiliate program can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:323
+msgid "My question wasn't answered here."
+msgstr ""
+
+#: inc/php/tabs/faq.php:328
+#, php-format
+msgid "You can ask your question on %s this page %s."
+msgstr ""
+
+#: inc/php/tabs/faq.php:333
+msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
+msgstr ""
+
+#: inc/php/tabs/settings.php:21 inc/php/tabs/settings.php:195
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#: inc/php/tabs/settings.php:25
+msgid "Web Master Tools"
+msgstr "Webmaster Tools"
+
+#: inc/php/tabs/settings.php:27
+msgid "Webmaster Tools require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
+msgstr "Webmaster Tools ti richiede di verificare il tuo dominio. Ciò assicura che tu sia il vero proprietario del tuo blog o negozio prima che ti forniscano i loro servizi. Puoi usare le opzioni qui sotto per verificare il tuo dominio. Se il tuo dominio è già verificato, puoi semplicemente ignorarle."
+
+#: inc/php/tabs/settings.php:33
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:39
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:45
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:54
+msgid "Domain Verification"
+msgstr "Verifica dominio"
+
+#: inc/php/tabs/settings.php:56
+msgid "Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
+msgstr "Servizi di terze parti come Alexa, Pinterest e Google+ ti richiedono di verificare il tuo dominio. Ciò assicura che tu sia il vero proprietario del tuo blog o negozio prima che ti forniscano i loro servizi. Puoi usare le opzioni qui sotto per verificare il tuo dominio. Se il tuo dominio è già verificato, puoi semplicemente ignorarle."
+
+#: inc/php/tabs/settings.php:62
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Example: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:68
+msgid "Enter an absolute URL to the Google+ profile of the publisher. <br>Example: https://plus.google.com/+Username/"
+msgstr "Inserisci un URL assoluto al tuo profilo Google+. <br>Esempio: https://plus.google.com/+User/"
+
+#: inc/php/tabs/settings.php:74
+msgid "Enter an absolute URL to the Facebook profile of the publisher. <br>Example: https://www.facebook.com/username"
+msgstr "Inserisci un URL assoluto al tuo profilo Facebook. <br>Esempio: https://www.facebook.com/user"
+
+#: inc/php/tabs/settings.php:80
+msgid "Enter the Twitter username of the publisher. <br>Example: @Username"
+msgstr "Inserisci il tuo nome utente Twitter. <br>Esempio: @AGareginyan"
+
+#: inc/php/tabs/settings.php:86
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:92
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:98
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:104
+msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
+msgstr "Per verificare il tuo sito web inserisci il valore “content” della tua chiave meta come da tuo codice di verifica. <br>Esempio: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
+
+#: inc/php/tabs/settings.php:108
+msgid "Custom Meta Tags"
+msgstr "Tag meta personalizzati"
+
+#: inc/php/tabs/settings.php:110
+msgid "If you can't find a field to enter your required meta tag then you can add it here. In this field you can add multiple meta tags."
+msgstr "Se non riesci a trovare un campo per inserire il tuo meta tag richiesto allora puoi aggiungerlo qui. In questo campo puoi aggiungere tag meta multipli."
+
+#: inc/php/tabs/settings.php:118
+msgid "Meta Tags for Static Home Page only"
+msgstr "Tag meta solo per la pagina home statica"
+
+#: inc/php/tabs/settings.php:120
+msgid "You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your website."
+msgstr "Puoi usare le opzioni qui sotto per aggiungere tag meta quali Description e Keywords solo alla pagina home statica del tuo sito web."
+
+#: inc/php/tabs/settings.php:124
+msgid "Home Description"
+msgstr "Descrizione home"
+
+#: inc/php/tabs/settings.php:126 inc/php/tabs/settings.php:147
+msgid "Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description."
+msgstr "Inserisci una breve descrizione del tuo sito web (150-250 caratteri). La maggior parte dei motori di ricerca usa un massimo di 160 caratteri per la descrizione della home."
+
+#: inc/php/tabs/settings.php:129
+msgid "Home Keyword(s)"
+msgstr "Parole chiave home"
+
+#: inc/php/tabs/settings.php:131
+msgid "Enter a comma-delimited list of keywords for only Static Home Page of your website."
+msgstr "Inserisci una lista delimitata da virgole di parole chiave solo per la pagina home statica del tuo sito web."
+
+#: inc/php/tabs/settings.php:139
+msgid "Meta Tags for Default Home Page and Blog Page only"
+msgstr "Tag meta solo per pagina home predefinita e pagina blog"
+
+#: inc/php/tabs/settings.php:141
+msgid "You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and Blog Page of your website."
+msgstr "Puoi usare le opzioni qui sotto per aggiungere tag meta quali Description e Keywords solo alla pagina home predefinita e alla pagina blog del tuo sito web."
+
+#: inc/php/tabs/settings.php:145
+msgid "Blog Description"
+msgstr "Descrizione blog"
+
+#: inc/php/tabs/settings.php:150
+msgid "Blog Keyword(s)"
+msgstr "Parole chiave blog"
+
+#: inc/php/tabs/settings.php:152
+msgid "Enter a comma-delimited list of keywords for only Blog Page of your website."
+msgstr "Inserisci una lista delimitata da virgole di parole chiave solo per la pagina blog del tuo sito web."
+
+#: inc/php/tabs/settings.php:160
+msgid "Meta Tags for the entire website (Global)"
+msgstr "Tag meta per tutto il sito (globale)"
+
+#: inc/php/tabs/settings.php:162
+msgid "You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your website."
+msgstr "Puoi usare le opzioni qui sotto per aggiungere tag meta quali Author, Copyright e Keywords ovunque sul tuo sito."
+
+#: inc/php/tabs/settings.php:166
+msgid "Author"
+msgstr "Autore"
+
+#: inc/php/tabs/settings.php:171
+msgid "Designer"
+msgstr "Designer"
+
+#: inc/php/tabs/settings.php:176
+msgid "Contact"
+msgstr "Contatti"
+
+#: inc/php/tabs/settings.php:181
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/php/tabs/settings.php:186
+msgid "Keyword(s)"
+msgstr "Parole chiave"
+
+#: inc/php/tabs/settings.php:188
+msgid "Enter a comma-delimited list of global keywords for your website."
+msgstr "Inserisci una lista delimitata da virgole di parole chiave globali per il tuo sito web."
+
+#: inc/php/tabs/settings.php:198
+msgid "WooCommerce & Google Shopping"
+msgstr "WooCommerce & Google Shopping"
+
+#: inc/php/tabs/settings.php:200
+msgid "This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women's T-shirt that sells for 16 dollars and 80 cents of US."
+msgstr "Questo plugin aggiunge automaticamente i dati strutturati necessari a Google Shopping (Merchant Center) su tutte le pagine prodotto WooCommerce del tuo sito web. Ecco il codice per una maglietta da donna al prezzo di 16 dollari e 80 centesimi."
+
+#: inc/php/tabs/settings.php:214
+msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
+msgstr "Puoi controllare <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">qui</a> tali dati generati sulle pagine del tuo sito web."
+
+#: inc/php/tabs/support.php:13
+msgid "Support Us"
+msgstr ""
+
+#: inc/php/tabs/support.php:28
+#, php-format
+msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
+msgstr ""
+
+#: inc/php/tabs/support.php:37
+msgid "Our intention is to create projects that will make this world a better place."
+msgstr ""
+
+#: inc/php/tabs/support.php:38
+msgid "Our motto is - «Follow your dreams and don’t give up»."
+msgstr ""
+
+#: inc/php/tabs/support.php:39
+msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
+msgstr ""
+
+#: inc/php/tabs/support.php:42
+msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
+msgstr ""
+
+#: inc/php/tabs/support.php:43
+msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
+msgstr "Siamo sviluppatori indipendenti, senza un reddito stabile, quindi ogni piccolo contributo è utile a coprire i nostri costi e ci consente di impiegare più tempo nello sviluppo di strumenti per persone che come te li apprezzano."
+
+#: inc/php/tabs/support.php:46
+msgid "If you appreciate our work, you can buy us a cup of coffee!"
+msgstr ""
+
+#: inc/php/tabs/support.php:49
+msgid "Thank you for your support!"
+msgstr ""
+
+#: inc/php/tabs/usage.php:13
+msgid "Usage Instructions"
+msgstr ""
+
+#: inc/php/tabs/usage.php:15
+msgid "To add the meta tags to your website, simply follow these steps:"
+msgstr ""
+
+#: inc/php/tabs/usage.php:17
+msgid "Go to the \"Settings\" tab on this page."
+msgstr ""
+
+#: inc/php/tabs/usage.php:18
+msgid "Fill in the required fields."
+msgstr ""
+
+#: inc/php/tabs/usage.php:19
+msgid "Click the \"Save changes\" button."
+msgstr ""
+
+#: inc/php/tabs/usage.php:25
+#, php-format
+msgid "If you want more options, then %s let us know %s and we will be happy to add them."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
