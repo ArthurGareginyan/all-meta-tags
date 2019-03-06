@@ -4,7 +4,7 @@ Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 4.30
+Stable tag: 4.31
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -219,6 +219,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.31 - 2019-03-06 =
+* New feature: Added a preview section on the plugin settings page. In this preview, the user can see the meta tags that will be printed on all pages (globally) of his website.
+* The function "_prepare" is improved. The "$metatags_arr" array renamed to more readable. The array declaration is made more correct.
+* Code formatting improved.
+* Code commenting improved.
+* Some texts are corrected or replaced with new ones.
+* All translation files are updated.
 
 = 4.30 - 2019-03-01 =
 * Framework updated: The file "page.php" is divided into the following parts: "page.php", "usage.php", "faq.php", "support.php".

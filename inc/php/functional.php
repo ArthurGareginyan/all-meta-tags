@@ -6,14 +6,14 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Generate the Meta Tags
+ * Generate the custom meta tags
  */
 function spacexchimp_p004_prepare() {
 
     // Retrieve options from database
     $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
 
-    // Sanitiz data and declare variables
+    // Sanitize data and declare variables
     $google = esc_textarea( $options['google'] );
     $bing = esc_textarea( $options['bing'] );
     $yandex = esc_textarea( $options['yandex'] );
@@ -40,91 +40,91 @@ function spacexchimp_p004_prepare() {
     $copyright = esc_textarea( $options['copyright'] );
     $keywords = esc_textarea( $options['keywords'] );
 
-    $metatags_arr[] = "";
+    $array = array();
 
     // Web Master Tools
     if ( !empty( $google ) ) {
-        $metatags_arr[] = "<meta name='google-site-verification' content='$google' />";
+        $array[] = "<meta name='google-site-verification' content='$google' />";
     }
     if ( !empty( $yandex ) ) {
-        $metatags_arr[] = "<meta name='yandex-verification' content='$yandex' />";
+        $array[] = "<meta name='yandex-verification' content='$yandex' />";
     }
     if ( !empty( $bing ) ) {
-        $metatags_arr[] = "<meta name='msvalidate.01' content='$bing' />";
+        $array[] = "<meta name='msvalidate.01' content='$bing' />";
     }
 
     // Website Verification Services
     if ( !empty( $pinterest ) ) {
-        $metatags_arr[] = "<meta name='p:domain_verify' content='$pinterest' />";
+        $array[] = "<meta name='p:domain_verify' content='$pinterest' />";
     }
     if ( !empty( $google_author ) ) {
-        $metatags_arr[] = "<link rel='author' href='$google_author'>";
+        $array[] = "<link rel='author' href='$google_author'>";
     }
     if ( !empty( $facebook ) ) {
-        $metatags_arr[] = "<meta name='article:publisher' content='$facebook' />";
+        $array[] = "<meta name='article:publisher' content='$facebook' />";
     }
     if ( !empty( $twitter ) ) {
-        $metatags_arr[] = "<meta name='twitter:site' content='$twitter' />";
-        $metatags_arr[] = "<meta name='twitter:creator' content='$twitter' />";
+        $array[] = "<meta name='twitter:site' content='$twitter' />";
+        $array[] = "<meta name='twitter:creator' content='$twitter' />";
     }
     if ( !empty( $alexa ) ) {
-        $metatags_arr[] = "<meta name='alexaVerifyID' content='$alexa' />";
+        $array[] = "<meta name='alexaVerifyID' content='$alexa' />";
     }
     if ( !empty( $norton ) ) {
-        $metatags_arr[] = "<meta name='norton-safeweb-site-verification' content='$norton' />";
+        $array[] = "<meta name='norton-safeweb-site-verification' content='$norton' />";
     }
     if ( !empty( $wot ) ) {
-        $metatags_arr[] = "<meta name='wot-verification' content='$wot' />";
+        $array[] = "<meta name='wot-verification' content='$wot' />";
     }
     if ( !empty( $specificfeeds ) ) {
-        $metatags_arr[] = "<meta name='specificfeeds-verification-code' content='$specificfeeds' />";
+        $array[] = "<meta name='specificfeeds-verification-code' content='$specificfeeds' />";
     }
     if ( !empty( $custom_meta ) ) {
-        $metatags_arr[] = $custom_meta;
+        $array[] = $custom_meta;
     }
 
-    // Meta Tags for specific pages
+    // Custom meta tags for specific pages
     if ( is_front_page() && is_home() ) {
         // Default Home Page
         if ( !empty( $home_description ) ) {
-            $metatags_arr[] = "<meta name='description' content='$blog_description' />";
+            $array[] = "<meta name='description' content='$blog_description' />";
         }
         if ( !empty( $home_keywords ) ) {
-            $metatags_arr[] = "<meta name='keywords' content='$blog_keywords' />";
+            $array[] = "<meta name='keywords' content='$blog_keywords' />";
         }
     } elseif ( is_front_page() ) {
         // Static Home Page
         if ( !empty( $home_description ) ) {
-            $metatags_arr[] = "<meta name='description' content='$home_description' />";
+            $array[] = "<meta name='description' content='$home_description' />";
         }
         if ( !empty( $home_keywords ) ) {
-            $metatags_arr[] = "<meta name='keywords' content='$home_keywords' />";
+            $array[] = "<meta name='keywords' content='$home_keywords' />";
         }
     } elseif ( is_home() ) {
         // Blog Page
         if ( !empty( $home_description ) ) {
-            $metatags_arr[] = "<meta name='description' content='$blog_description' />";
+            $array[] = "<meta name='description' content='$blog_description' />";
         }
         if ( !empty( $home_keywords ) ) {
-            $metatags_arr[] = "<meta name='keywords' content='$blog_keywords' />";
+            $array[] = "<meta name='keywords' content='$blog_keywords' />";
         }
     }
 
-    // Meta Tags for the entire website
+    // Custom meta tags for the entire website
     if ( !empty( $author ) ) {
-        $metatags_arr[] = "<meta name='author' content='$author' />";
+        $array[] = "<meta name='author' content='$author' />";
     }
     if ( !empty( $designer ) ) {
-        $metatags_arr[] = "<meta name='designer' content='$designer' />";
+        $array[] = "<meta name='designer' content='$designer' />";
     }
     if ( !empty( $contact ) ) {
-        $metatags_arr[] = "<meta name='contact' content='$contact' />";
+        $array[] = "<meta name='contact' content='$contact' />";
     }
     if ( !empty( $copyright ) ) {
-        $metatags_arr[] = "<meta name='copyright' content='$copyright' />";
+        $array[] = "<meta name='copyright' content='$copyright' />";
     }
     if ( !empty( $keywords ) ) {
-        $metatags_arr[] = "<meta name='keywords' content='$keywords' />";
+        $array[] = "<meta name='keywords' content='$keywords' />";
     }
 
     // WooCommerce & Google Shopping (Merchant Center)
@@ -154,23 +154,23 @@ function spacexchimp_p004_prepare() {
                             <meta itemprop='priceCurrency' content='$currency' />
                         </div>
                     </div>";
-            $metatags_arr[] = $google_shopping;
+            $array[] = $google_shopping;
         }
 
     }
 
     // Add comment
-    if ( count( $metatags_arr ) > 0 ) {
-        array_unshift( $metatags_arr, "<!-- [BEGIN] Metadata added via All-Meta-Tags plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->" );
-        array_push( $metatags_arr, "<!-- [END] Metadata added via All-Meta-Tags plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->" );
+    if ( count( $array ) > 0 ) {
+        array_unshift( $array, "<!-- [BEGIN] Metadata added via All-Meta-Tags plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->" );
+        array_push( $array, "<!-- [END] Metadata added via All-Meta-Tags plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->" );
     }
 
     // Return the content of array
-    return $metatags_arr;
+    return $array;
 }
 
 /**
- * Process the Meta Tags
+ * Process the custom meta tags
  */
 function spacexchimp_p004_exec() {
     echo    PHP_EOL,
@@ -180,6 +180,30 @@ function spacexchimp_p004_exec() {
 }
 
 /**
- * Inject the Meta Tags into the website's frontend
+ * Inject the custom meta tags into the website's frontend
  */
 add_action( 'wp_head', 'spacexchimp_p004_exec', 0 );
+
+/**
+ * Preview the custom meta tags
+ */
+function spacexchimp_p004_preview() {
+    $array = spacexchimp_p004_prepare();
+
+    if ( !empty( $array ) ) {
+        if ( is_array( $array ) ) {
+            if ( count( $array ) > 0 ) {
+                array_shift( $array );
+            }
+            if ( count( $array ) > 0 ) {
+                array_pop( $array );
+            }
+            if ( count( $array ) > 0 ) {
+                $array = implode( PHP_EOL, $array );
+            }
+        }
+    }
+
+    // Return the string
+    echo $array;
+}

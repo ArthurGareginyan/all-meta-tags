@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2019-03-01 06:39+0300\n"
-"PO-Revision-Date: 2019-03-01 06:39+0300\n"
+"POT-Creation-Date: 2019-03-06 15:59+0300\n"
+"PO-Revision-Date: 2019-03-06 15:59+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -70,7 +70,7 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:49 inc/php/sidebar.php:39 inc/php/tabs/settings.php:219
+#: inc/php/page.php:49 inc/php/sidebar.php:39 inc/php/tabs/settings.php:255
 msgid "Support"
 msgstr "Поддержка"
 
@@ -98,16 +98,16 @@ msgstr "Помощь"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
 
-#: inc/php/sidebar.php:41 inc/php/tabs/settings.php:221
+#: inc/php/sidebar.php:41 inc/php/tabs/settings.php:257
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей, которыми могут наслаждаться удивительные люди, такие как вы."
 
-#: inc/php/sidebar.php:46 inc/php/tabs/settings.php:226
+#: inc/php/sidebar.php:46 inc/php/tabs/settings.php:262
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
-#: inc/php/sidebar.php:48 inc/php/tabs/settings.php:228
+#: inc/php/sidebar.php:48 inc/php/tabs/settings.php:264
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -373,7 +373,7 @@ msgstr "Что я делаю не так?"
 
 #: inc/php/tabs/faq.php:208
 msgid "The tag code which Google (or Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) gives you is confusing as you only have to paste in the serial key number/letters (<code>1234567890</code>) and not the whole tag (<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;</code>)."
-msgstr "Код тега, который даёт тебе Google (или Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) может запутать, поскольку вам нужно вставить только серийный ключ - число/буквы (<code>1234567890</code>) а не весь тэг (<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;</code>). "
+msgstr "Код тега, который даёт вам Google (или Bing, Yandex, Pinterest, Alexa, Norton, WOT, SpecificFeeds) может запутать, поскольку вам нужно вставить только серийный ключ - число/буквы (<code>1234567890</code>) а не весь тэг (<code>&lt;meta name=\"google-site-verification\" content=“1234567890” /&gt;</code>)."
 
 #: inc/php/tabs/faq.php:209
 msgid "So just paste that into the relevant field and you will see “Success” message appear within a few seconds."
@@ -522,7 +522,7 @@ msgstr "Вы можете задать ваш вопрос на %s этой ст
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
 
-#: inc/php/tabs/settings.php:21 inc/php/tabs/settings.php:195
+#: inc/php/tabs/settings.php:21 inc/php/tabs/settings.php:205
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
@@ -530,156 +530,186 @@ msgstr "Сохранить изменения"
 msgid "Web Master Tools"
 msgstr "Веб-мастер инструменты"
 
-#: inc/php/tabs/settings.php:27
-msgid "Webmaster Tools require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
-msgstr "Webmaster Tools требует подтверждения вашего домена. Это подтвердит то, что вы действительно являетесь владельцем своего блога или магазина, прежде чем они смогут предоставить вам свои услуги. Вы можете использовать следующие параметры, чтобы подтвердить свой домен. Если ваш домен уже проверен, вы можете просто забыть об этих полях."
+#: inc/php/tabs/settings.php:28
+msgid "Webmaster Tools require you to verify your domain."
+msgstr "Webmaster Tools требует подтверждения вашего домена."
 
-#: inc/php/tabs/settings.php:33
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"google-site-verification\" content=“<b>1234567890</b>” /&gt;"
+#: inc/php/tabs/settings.php:29 inc/php/tabs/settings.php:63
+msgid "This makes sure that you are the correct owner of your blog or store before they provide their services to you."
+msgstr "Это подтвердит то, что вы действительно являетесь владельцем своего блога или магазина, прежде чем они смогут предоставить вам свои услуги."
 
-#: inc/php/tabs/settings.php:39
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"msvalidate.01\" content=“<b>1234567890</b>” /&gt;"
+#: inc/php/tabs/settings.php:30 inc/php/tabs/settings.php:64
+msgid "You can use the options below to verify your domain."
+msgstr "Вы можете использовать следующие параметры, чтобы подтвердить свой домен."
 
-#: inc/php/tabs/settings.php:45
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"yandex-verification\" content=“<b>1234567890</b>” /&gt;"
+#: inc/php/tabs/settings.php:31 inc/php/tabs/settings.php:65
+msgid "If your domain is already verified, you can just forget about these."
+msgstr "Если ваш домен уже проверен, вы можете просто забыть об этих полях."
 
-#: inc/php/tabs/settings.php:54
+#: inc/php/tabs/settings.php:38 inc/php/tabs/settings.php:44
+#: inc/php/tabs/settings.php:50 inc/php/tabs/settings.php:72
+#: inc/php/tabs/settings.php:96 inc/php/tabs/settings.php:102
+#: inc/php/tabs/settings.php:108 inc/php/tabs/settings.php:114
+msgid "Enter your meta key “content” value from your verification code to verify your website."
+msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта."
+
+#: inc/php/tabs/settings.php:38 inc/php/tabs/settings.php:44
+#: inc/php/tabs/settings.php:50 inc/php/tabs/settings.php:72
+#: inc/php/tabs/settings.php:78 inc/php/tabs/settings.php:84
+#: inc/php/tabs/settings.php:90 inc/php/tabs/settings.php:96
+#: inc/php/tabs/settings.php:102 inc/php/tabs/settings.php:108
+#: inc/php/tabs/settings.php:114 inc/php/tabs/settings.php:120
+msgid "Example:"
+msgstr "Пример:"
+
+#: inc/php/tabs/settings.php:59
 msgid "Domain Verification"
 msgstr "Подтверждение домена"
 
-#: inc/php/tabs/settings.php:56
-msgid "Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use the options below to verify your domain. If your domain is already verified, you can just forget about these."
-msgstr "Сторонние службы, такие как Alexa, Pinterest и Google-Plus, требуют подтверждения вашего домена. Это гарантирует, что вы являетесь правильным владельцем своего блога или магазина, прежде чем предоставлять свои услуги вам. Вы можете использовать следующие параметры, чтобы подтвердить свой домен. Если ваш домен уже проверен, вы можете просто забыть об этом."
-
 #: inc/php/tabs/settings.php:62
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"p:domain_verify\" content=“<b>1234567890</b>” /&gt;"
+msgid "Third-party services like Alexa, Pinterest and Google-Plus require you to verify your domain."
+msgstr "Сторонние службы, такие как Alexa, Pinterest и Google-Plus, требуют подтверждения вашего домена."
 
-#: inc/php/tabs/settings.php:68
-msgid "Enter an absolute URL to the Google+ profile of the publisher. <br>Example: https://plus.google.com/+Username/"
-msgstr "Введите полный URL к профилю в Google+. <br>Пример: https://plus.google.com/+User/"
+#: inc/php/tabs/settings.php:78
+msgid "Enter an absolute URL to the Google+ profile of the publisher."
+msgstr "Введите полный URL к профилю в Google+."
 
-#: inc/php/tabs/settings.php:74
-msgid "Enter an absolute URL to the Facebook profile of the publisher. <br>Example: https://www.facebook.com/username"
-msgstr "Введите полный URL-адрес профиля пользователя в Facebook. <br>Пример: https://www.facebook.com/user"
+#: inc/php/tabs/settings.php:84
+msgid "Enter an absolute URL to the Facebook profile of the publisher."
+msgstr "Введите полный URL-адрес профиля пользователя в Facebook."
 
-#: inc/php/tabs/settings.php:80
-msgid "Enter the Twitter username of the publisher. <br>Example: @Username"
-msgstr "Введите имя пользователя в Twitter. <br>Пример: @AGareginyan"
-
-#: inc/php/tabs/settings.php:86
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"alexaVerifyID\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/tabs/settings.php:92
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"norton-safeweb-site-verification\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/tabs/settings.php:98
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"wot-verification\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/tabs/settings.php:104
-msgid "Enter your meta key “content” value from your verification code to verify your website. <br>Example: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
-msgstr "Введите содержимое ключа “content” из верификационного meta кода для проверки вашего веб-сайта. <br>Пример: &lt;meta name=\"specificfeeds-verification-code\" content=“<b>1234567890</b>” /&gt;"
-
-#: inc/php/tabs/settings.php:108
-msgid "Custom Meta Tags"
-msgstr "Пользовательские мета-теги"
-
-#: inc/php/tabs/settings.php:110
-msgid "If you can't find a field to enter your required meta tag then you can add it here. In this field you can add multiple meta tags."
-msgstr "Если вы не можете найти поле для нужного вам мета-тега, то добавьте ваш мета-тег сюда. В это поле вы можете добавить несколько мета-тегов."
+#: inc/php/tabs/settings.php:90
+msgid "Enter the Twitter username of the publisher."
+msgstr "Введите имя пользователя в Twitter."
 
 #: inc/php/tabs/settings.php:118
-msgid "Meta Tags for Static Home Page only"
-msgstr "Мета-теги только для Static Home Page"
+msgid "Custom meta tags"
+msgstr "Пользовательские мета-теги"
 
 #: inc/php/tabs/settings.php:120
+msgid "If you can't find a field to enter your required meta tag then you can add it here."
+msgstr "Если вы не можете найти поле для нужного вам мета-тега, то добавьте ваш мета-тег сюда."
+
+#: inc/php/tabs/settings.php:120
+msgid "In this field you can add multiple meta tags."
+msgstr "В это поле вы можете добавить несколько мета-тегов."
+
+#: inc/php/tabs/settings.php:128
+msgid "Meta tags for Static Home Page only"
+msgstr "Мета-теги только для Static Home Page"
+
+#: inc/php/tabs/settings.php:130
 msgid "You can use the options below to add meta tags such as Description and Keywords only in Static Home Page of your website."
 msgstr "Вы можете использовать ниже-расположенные опции для добавления мета тегов таких как Description и Keywords только на Static Home Page страницу вашего веб-сайта."
 
-#: inc/php/tabs/settings.php:124
+#: inc/php/tabs/settings.php:134
 msgid "Home Description"
 msgstr "Описание главной страницы"
 
-#: inc/php/tabs/settings.php:126 inc/php/tabs/settings.php:147
-msgid "Enter a short description of your website (150-250 characters). Most search engines use a maximum of 160 chars for the home description."
-msgstr "Введите краткое описание для вашего веб-сайта (150-250 символов). Большинство поисковых систем используют максимум 160 символов для описания домашней страницы."
+#: inc/php/tabs/settings.php:136 inc/php/tabs/settings.php:157
+msgid "Enter a short description of your website (150-250 characters)."
+msgstr "Введите краткое описание для вашего веб-сайта (150-250 символов)."
 
-#: inc/php/tabs/settings.php:129
+#: inc/php/tabs/settings.php:136 inc/php/tabs/settings.php:157
+msgid "Most search engines use a maximum of 160 chars for the home description."
+msgstr "Большинство поисковых систем используют максимум 160 символов для описания домашней страницы."
+
+#: inc/php/tabs/settings.php:139
 msgid "Home Keyword(s)"
 msgstr "Ключевые слова главной страницы"
 
-#: inc/php/tabs/settings.php:131
+#: inc/php/tabs/settings.php:141
 msgid "Enter a comma-delimited list of keywords for only Static Home Page of your website."
 msgstr "Введите, разделенный запятыми, список ключевых слов для только Static Home Page вашего веб-сайта."
 
-#: inc/php/tabs/settings.php:139
-msgid "Meta Tags for Default Home Page and Blog Page only"
+#: inc/php/tabs/settings.php:149
+msgid "Meta tags for Default Home Page and Blog Page only"
 msgstr "Мета-теги для Default Home Page и только Blog Page"
 
-#: inc/php/tabs/settings.php:141
+#: inc/php/tabs/settings.php:151
 msgid "You can use the options below to add meta tags such as Description and Keywords only in Default Home Page and Blog Page of your website."
 msgstr "Вы можете использовать ниже-расположенные опции для добавления мета тегов таких как Description и Keywords только на Default Home Page и Blog Page страницы вашего веб-сайта."
 
-#: inc/php/tabs/settings.php:145
+#: inc/php/tabs/settings.php:155
 msgid "Blog Description"
 msgstr "Описание блога"
 
-#: inc/php/tabs/settings.php:150
+#: inc/php/tabs/settings.php:160
 msgid "Blog Keyword(s)"
 msgstr "Ключевые слова блога"
 
-#: inc/php/tabs/settings.php:152
+#: inc/php/tabs/settings.php:162
 msgid "Enter a comma-delimited list of keywords for only Blog Page of your website."
 msgstr "Введите, разделенный запятыми, список ключевых слов для только Blog Page вашего веб-сайта."
 
-#: inc/php/tabs/settings.php:160
-msgid "Meta Tags for the entire website (Global)"
+#: inc/php/tabs/settings.php:170
+msgid "Meta tags for the entire website (Global)"
 msgstr "Мета-теги для всего веб-сайта (Глобальные)"
 
-#: inc/php/tabs/settings.php:162
+#: inc/php/tabs/settings.php:172
 msgid "You can use the options below to add meta tags such as Author, Copyright and Keywords in everywhere on your website."
 msgstr "Вы можете использовать ниже-расположенные опции для добавления мета тегов таких как Author, Copyright и Keywords на каждую страницу вашего веб-сайта."
 
-#: inc/php/tabs/settings.php:166
+#: inc/php/tabs/settings.php:176
 msgid "Author"
 msgstr "Автор"
 
-#: inc/php/tabs/settings.php:171
+#: inc/php/tabs/settings.php:181
 msgid "Designer"
 msgstr "Дизайнер"
 
-#: inc/php/tabs/settings.php:176
+#: inc/php/tabs/settings.php:186
 msgid "Contact"
 msgstr "Контакты"
 
-#: inc/php/tabs/settings.php:181
+#: inc/php/tabs/settings.php:191
 msgid "Copyright"
 msgstr "Copyright"
 
-#: inc/php/tabs/settings.php:186
+#: inc/php/tabs/settings.php:196
 msgid "Keyword(s)"
 msgstr "Ключевые слова"
 
-#: inc/php/tabs/settings.php:188
+#: inc/php/tabs/settings.php:198
 msgid "Enter a comma-delimited list of global keywords for your website."
 msgstr "Введите, разделенный запятыми, список глобальных ключевых слов для вашего веб-сайта."
 
-#: inc/php/tabs/settings.php:198
+#: inc/php/tabs/settings.php:208
+msgid "Preview"
+msgstr ""
+
+#: inc/php/tabs/settings.php:210
+msgid "Click the \"Save changes\" button to update this preview."
+msgstr ""
+
+#: inc/php/tabs/settings.php:211
+msgid "These are meta tags that will be printed on all pages (globally) of your website."
+msgstr ""
+
+#: inc/php/tabs/settings.php:215
+msgid "Note!"
+msgstr ""
+
+#: inc/php/tabs/settings.php:216
+msgid "This preview does not show meta tags that will be printed only on certain pages of your website."
+msgstr ""
+
+#: inc/php/tabs/settings.php:222
 msgid "WooCommerce & Google Shopping"
 msgstr "WooCommerce и Google Shopping"
 
-#: inc/php/tabs/settings.php:200
-msgid "This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website. Here is the markup for women's T-shirt that sells for 16 dollars and 80 cents of US."
-msgstr "Этот плагин автоматически добавляет необходимые Google Shopping (Merchant Center) мета теги на все страницы WooCommerce продуктов. Вот так выглядит разметка для женской футболки которая продаётся за 16 долларов и 80 центов США."
+#: inc/php/tabs/settings.php:225
+msgid "This plugin automatically adds the necessary Google Shopping (Merchant Center) structured data on all WooCommerce product pages on your website."
+msgstr "Этот плагин автоматически добавляет необходимые Google Shopping (Merchant Center) мета теги на все страницы WooCommerce продуктов."
 
-#: inc/php/tabs/settings.php:214
-msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
+#: inc/php/tabs/settings.php:226
+msgid "Here is the markup for women's T-shirt that sells for 16 dollars and 80 cents of US."
+msgstr "Вот так выглядит разметка для женской футболки которая продаётся за 16 долларов и 80 центов США."
+
+#: inc/php/tabs/settings.php:245
+#, fuzzy, php-format
+#| msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
+msgid "Check these data generated on the pages of your website you can %s here %s ."
 msgstr "Проверить эти данные сгенерированные на страницах вашего веб-сайта вы можете <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">здесь</a>."
 
 #: inc/php/tabs/support.php:13

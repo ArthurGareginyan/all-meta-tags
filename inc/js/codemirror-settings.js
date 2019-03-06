@@ -26,6 +26,17 @@ jQuery(document).ready(function($) {
     });
 
     // Replace the preview textarea with the CodeMirror editor
+    $('#preview textarea').each(function(index, element){
+        var editor = CodeMirror.fromTextArea(element, {
+            lineNumbers: false,
+            indentUnit: 4,
+            mode: 'text/html',
+            autoRefresh: true,
+            readOnly: true
+        });
+    });
+
+    // Replace the WooCommerce preview textarea with the CodeMirror editor
     $('#woocommerce textarea').each(function(index, element){
         var editor = CodeMirror.fromTextArea(element, {
             lineNumbers: false,

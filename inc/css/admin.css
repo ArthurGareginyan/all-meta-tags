@@ -51,7 +51,7 @@ p {
     display: block;
     margin-top: 15px;
     font-size: 16px;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     text-shadow: none;
     line-height: 20px;
 }
@@ -588,9 +588,11 @@ td.help-text b {
 .CodeMirror pre.CodeMirror-placeholder {
     color: #999;
 }
+#preview .CodeMirror,
 #woocommerce .CodeMirror {
     height: 100% !important;
 }
+#preview .CodeMirror .CodeMirror-lines,
 #woocommerce .CodeMirror .CodeMirror-lines {
     cursor: default;
 }
