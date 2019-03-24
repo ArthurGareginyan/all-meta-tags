@@ -10,8 +10,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p004_prepare() {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p004_plugin();
+
     // Retrieve options from database
-    $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
 
     // Sanitize data and declare variables
     $google = esc_textarea( $options['google'] );
@@ -43,87 +46,87 @@ function spacexchimp_p004_prepare() {
     $array = array();
 
     // Web Master Tools
-    if ( !empty( $google ) ) {
+    if ( ! empty( $google ) ) {
         $array[] = "<meta name='google-site-verification' content='$google' />";
     }
-    if ( !empty( $yandex ) ) {
+    if ( ! empty( $yandex ) ) {
         $array[] = "<meta name='yandex-verification' content='$yandex' />";
     }
-    if ( !empty( $bing ) ) {
+    if ( ! empty( $bing ) ) {
         $array[] = "<meta name='msvalidate.01' content='$bing' />";
     }
 
     // Website Verification Services
-    if ( !empty( $pinterest ) ) {
+    if ( ! empty( $pinterest ) ) {
         $array[] = "<meta name='p:domain_verify' content='$pinterest' />";
     }
-    if ( !empty( $google_author ) ) {
+    if ( ! empty( $google_author ) ) {
         $array[] = "<link rel='author' href='$google_author'>";
     }
-    if ( !empty( $facebook ) ) {
+    if ( ! empty( $facebook ) ) {
         $array[] = "<meta name='article:publisher' content='$facebook' />";
     }
-    if ( !empty( $twitter ) ) {
+    if ( ! empty( $twitter ) ) {
         $array[] = "<meta name='twitter:site' content='$twitter' />";
         $array[] = "<meta name='twitter:creator' content='$twitter' />";
     }
-    if ( !empty( $alexa ) ) {
+    if ( ! empty( $alexa ) ) {
         $array[] = "<meta name='alexaVerifyID' content='$alexa' />";
     }
-    if ( !empty( $norton ) ) {
+    if ( ! empty( $norton ) ) {
         $array[] = "<meta name='norton-safeweb-site-verification' content='$norton' />";
     }
-    if ( !empty( $wot ) ) {
+    if ( ! empty( $wot ) ) {
         $array[] = "<meta name='wot-verification' content='$wot' />";
     }
-    if ( !empty( $specificfeeds ) ) {
+    if ( ! empty( $specificfeeds ) ) {
         $array[] = "<meta name='specificfeeds-verification-code' content='$specificfeeds' />";
     }
-    if ( !empty( $custom_meta ) ) {
+    if ( ! empty( $custom_meta ) ) {
         $array[] = $custom_meta;
     }
 
     // Custom meta tags for specific pages
     if ( is_front_page() && is_home() ) {
         // Default Home Page
-        if ( !empty( $home_description ) ) {
+        if ( ! empty( $home_description ) ) {
             $array[] = "<meta name='description' content='$blog_description' />";
         }
-        if ( !empty( $home_keywords ) ) {
+        if ( ! empty( $home_keywords ) ) {
             $array[] = "<meta name='keywords' content='$blog_keywords' />";
         }
     } elseif ( is_front_page() ) {
         // Static Home Page
-        if ( !empty( $home_description ) ) {
+        if ( ! empty( $home_description ) ) {
             $array[] = "<meta name='description' content='$home_description' />";
         }
-        if ( !empty( $home_keywords ) ) {
+        if ( ! empty( $home_keywords ) ) {
             $array[] = "<meta name='keywords' content='$home_keywords' />";
         }
     } elseif ( is_home() ) {
         // Blog Page
-        if ( !empty( $home_description ) ) {
+        if ( ! empty( $home_description ) ) {
             $array[] = "<meta name='description' content='$blog_description' />";
         }
-        if ( !empty( $home_keywords ) ) {
+        if ( ! empty( $home_keywords ) ) {
             $array[] = "<meta name='keywords' content='$blog_keywords' />";
         }
     }
 
     // Custom meta tags for the entire website
-    if ( !empty( $author ) ) {
+    if ( ! empty( $author ) ) {
         $array[] = "<meta name='author' content='$author' />";
     }
-    if ( !empty( $designer ) ) {
+    if ( ! empty( $designer ) ) {
         $array[] = "<meta name='designer' content='$designer' />";
     }
-    if ( !empty( $contact ) ) {
+    if ( ! empty( $contact ) ) {
         $array[] = "<meta name='contact' content='$contact' />";
     }
-    if ( !empty( $copyright ) ) {
+    if ( ! empty( $copyright ) ) {
         $array[] = "<meta name='copyright' content='$copyright' />";
     }
-    if ( !empty( $keywords ) ) {
+    if ( ! empty( $keywords ) ) {
         $array[] = "<meta name='keywords' content='$keywords' />";
     }
 
@@ -135,13 +138,13 @@ function spacexchimp_p004_prepare() {
             // Get product data
             $name = get_the_title();
             $description = get_the_excerpt();
-            $image = simplexml_load_string(get_the_post_thumbnail());
-            if ( !empty( $image ) ) {
+            $image = simplexml_load_string( get_the_post_thumbnail() );
+            if ( ! empty( $image ) ) {
                 $imagesrc = $image->attributes()->src;
             } else {
                 $imagesrc = "";
             }
-            $price = get_post_meta( get_the_ID(), '_price', true);
+            $price = get_post_meta( get_the_ID(), '_price', true );
             $currency = get_woocommerce_currency();
 
             // Generate output code with product data
@@ -190,7 +193,7 @@ add_action( 'wp_head', 'spacexchimp_p004_exec', 0 );
 function spacexchimp_p004_preview() {
     $array = spacexchimp_p004_prepare();
 
-    if ( !empty( $array ) ) {
+    if ( ! empty( $array ) ) {
         if ( is_array( $array ) ) {
             if ( count( $array ) > 0 ) {
                 array_shift( $array );

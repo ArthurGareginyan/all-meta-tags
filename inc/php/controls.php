@@ -32,8 +32,11 @@ function spacexchimp_p004_control_help( $help=null ) {
  */
 function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null, $link=null ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p004_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
     $label_link = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
 
@@ -45,8 +48,8 @@ function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null
                 <td>
                     <input
                         type='text'
-                        name='" . SPACEXCHIMP_P004_SETTINGS . "_settings[$name]'
-                        id='" . SPACEXCHIMP_P004_SETTINGS . "_settings[$name]'
+                        name='" . $plugin['settings'] . "_settings[$name]'
+                        id='" . $plugin['settings'] . "_settings[$name]'
                         value='$value'
                         placeholder='$placeholder'
                         class='control-field $name'
@@ -66,8 +69,11 @@ function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null
  */
 function spacexchimp_p004_control_textarea( $name, $label, $placeholder, $help=null ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p004_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P004_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
 
     // Generate a part of table
@@ -79,8 +85,8 @@ function spacexchimp_p004_control_textarea( $name, $label, $placeholder, $help=n
                     <textarea
                         cols='50'
                         rows='3'
-                        name='" . SPACEXCHIMP_P004_SETTINGS . "_settings[$name]'
-                        id='" . SPACEXCHIMP_P004_SETTINGS . "_settings[$name]'
+                        name='" . $plugin['settings'] . "_settings[$name]'
+                        id='" . $plugin['settings'] . "_settings[$name]'
                         placeholder='$placeholder'
                         class='control-textarea $name'
                     >$value</textarea>
