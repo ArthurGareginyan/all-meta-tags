@@ -149,9 +149,9 @@ function spacexchimp_p004_prepare() {
 
             // Generate output code with product data
             $google_shopping = "<div itemtype='http://schema.org/Product' itemscope>
-                        <meta itemprop='name' content='$name'>
-                        <meta itemprop='description' content='$description'>
-                        <meta itemprop='image' content='$imagesrc'>
+                        <meta itemprop='name' content='$name' />
+                        <meta itemprop='description' content='$description' />
+                        <meta itemprop='image' content='$imagesrc' />
                         <div itemprop='offers' itemscope itemtype='http://schema.org/Offer'>
                             <meta itemprop='price' content='$price' />
                             <meta itemprop='priceCurrency' content='$currency' />

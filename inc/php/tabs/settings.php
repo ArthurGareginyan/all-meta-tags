@@ -16,10 +16,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <form action="options.php" method="post" enctype="multipart/form-data">
                     <?php settings_fields( $plugin['settings'] . '_settings_group' ); ?>
 
+                    <!-- SUBMIT -->
                     <button type="submit" name="submit" id="submit" class="btn btn-info btn-lg button-save-top">
                         <i class="fa fa-save" aria-hidden="true"></i>
                         <span><?php _e( 'Save changes', $plugin['text'] ); ?></span>
                     </button>
+                    <!-- END SUBMIT -->
 
                     <div class="postbox" id="webmastertools">
                         <h3 class="title"><?php _e( 'Web Master Tools', $plugin['text'] ); ?></h3>
@@ -202,8 +204,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
+                    <!-- SUBMIT -->
                     <input type="submit" name="submit" id="submit" class="btn btn-default btn-lg button-save-main" value="<?php _e( 'Save changes', $plugin['text'] ); ?>">
+                    <!-- END SUBMIT -->
 
+                    <!-- PREVIEW -->
                     <div class="postbox" id="preview">
                         <h3 class="title"><?php _e( 'Preview', $plugin['text'] ); ?></h3>
                         <div class="inside">
@@ -228,12 +233,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <?php
                                 // Put the example in a variable
                                 $example = '&lt;div itemtype=&quot;http://schema.org/Product&quot; itemscope=&quot;&quot;&gt;
-    &lt;meta itemprop=&quot;name&quot; content=&quot;Womens T-shirt&quot;&gt;
-    &lt;meta itemprop=&quot;description&quot; content=&quot;Constructed in cotton sweat fabric, this lovely piece...&quot;&gt;
-    &lt;meta itemprop=&quot;image&quot; content=&quot;http://example.com/wp-content/uploads/2015/09/product-1.jpg&quot;&gt;
+    &lt;meta itemprop=&quot;name&quot; content=&quot;Womens T-shirt&quot; /&gt;
+    &lt;meta itemprop=&quot;description&quot; content=&quot;Constructed in cotton sweat fabric, this lovely piece...&quot; /&gt;
+    &lt;meta itemprop=&quot;image&quot; content=&quot;http://example.com/wp-content/uploads/2015/09/product-1.jpg&quot; /&gt;
     &lt;div itemprop=&quot;offers&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Offer&quot;&gt;
-        &lt;meta itemprop=&quot;price&quot; content=&quot;16.80&quot;&gt;
-        &lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot;&gt;
+        &lt;meta itemprop=&quot;price&quot; content=&quot;16.80&quot; /&gt;
+        &lt;meta itemprop=&quot;priceCurrency&quot; content=&quot;USD&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;';
                             ?>
@@ -250,7 +255,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             </p>
                         </div>
                     </div>
+                    <!-- END PREVIEW -->
 
+                    <!-- SUPPORT -->
                     <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', $plugin['text'] ); ?></h3>
                         <div class="inside">
@@ -264,6 +271,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <p><?php _e( 'Thanks for your support!', $plugin['text'] ); ?></p>
                         </div>
                     </div>
+                    <!-- END SUPPORT -->
 
                 </form>
 
