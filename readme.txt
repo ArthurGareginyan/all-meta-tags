@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, specific feeds, feed, rss feed, google shopping, google merchant center, structured data, woocommerce, schemas
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 5.1
+Tested up to: 5.2
 Stable tag: 4.34
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
