@@ -136,8 +136,8 @@ function spacexchimp_p004_prepare() {
         if ( is_product() ) {
 
             // Get product data
-            $name = get_the_title();
-            $description = get_the_excerpt();
+            $name = str_replace( "'", "’", strip_tags( get_the_title() ) );
+            $description = str_replace( "'", "’", strip_tags( get_the_excerpt() ) );
             $image = simplexml_load_string( get_the_post_thumbnail() );
             if ( ! empty( $image ) ) {
                 $imagesrc = $image->attributes()->src;

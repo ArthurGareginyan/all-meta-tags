@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: All Meta Tags\n"
-"POT-Creation-Date: 2019-03-31 16:10+0300\n"
-"PO-Revision-Date: 2019-03-31 16:10+0300\n"
+"POT-Creation-Date: 2019-06-07 22:11+0300\n"
+"PO-Revision-Date: 2019-06-07 22:11+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -711,10 +711,9 @@ msgid "Here is the markup for women's T-shirt that sells for 16 dollars and 80 c
 msgstr "Ecco il codice per una maglietta da donna al prezzo di 16 dollari e 80 centesimi."
 
 #: inc/php/tabs/settings.php:250
-#, fuzzy, php-format
-#| msgid "Check these data generated on the pages of your website you can <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">here</a>."
+#, php-format
 msgid "Check these data generated on the pages of your website you can %s here %s ."
-msgstr "Puoi controllare <a href=\"https://search.google.com/structured-data/testing-tool\" target=\"_blank\">qui</a> tali dati generati sulle pagine del tuo sito web."
+msgstr "Puoi controllare %s qui %s tali dati generati sulle pagine del tuo sito web."
 
 #: inc/php/tabs/support.php:13
 msgid "Support Us"
