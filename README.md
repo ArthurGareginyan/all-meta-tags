@@ -59,7 +59,7 @@ If you want more options, let us know and we will be happy to add them.
 
 **Translation**
 
-This plugin is ready for translation and has already been translated into several languages.
+This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
@@ -69,7 +69,7 @@ This plugin is ready for translation and has already been translated into severa
 * Italian (translation by Stefano Tombolini)
 * Dutch (translation by Peter Leenders)
 
-If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/all-meta-tags).
+If you want to help translate this plugin, please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/all-meta-tags).
 
 **Minimum system requirements:**
 
