@@ -149,9 +149,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <?php _e( 'Otherwise both plugins fulfill their work and you will get a duplicate actions, for example:', $plugin['text'] ); ?>
 <pre><code>&lt;head&gt;
     ...
-    &lt;meta name="copyright" content="Copyright (c) 2013-2019 Space X-Chimp. All Rights Reserved."&gt;
+    &lt;meta name="copyright" content="Copyright (c) 2013-2020 Space X-Chimp. All Rights Reserved."&gt;
     ...
-    &lt;meta name="copyright" content="Copyright 2019 Space X-Chimp. All Rights Reserved."&gt;
+    &lt;meta name="copyright" content="Copyright 2020 Space X-Chimp. All Rights Reserved."&gt;
     ...
 &lt;/head&gt;</code></pre>
                 <?php _e( 'If you find a conflict between the plugins, please let us know and we will definitely release an update of our plugin to fix the problem.', $plugin['text'] ); ?>
