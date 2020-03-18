@@ -122,7 +122,7 @@ Manually via FTP access:
 
 After installation and activation, the "`Meta Tags Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
-[More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
+[More help installing plugins](https://wordpress.org/support/article/managing-plugins/ "WordPress Codex: Installing Plugins")
 
 
 == Frequently Asked Questions ==
