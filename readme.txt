@@ -2,7 +2,7 @@
 Contributors: Arthur Gareginyan
 Tags: meta, tag, tags, custom, simple, plugin, twitter, facebook, google, google plus, meta, search engine optimization, seo, social, alexa, alexa rank, pinterest, norton safe web, webmaster, webmaster tool, webmaster tools, web master tools, web master tools, bing, yandex, bing webmaster, yandex webmaster, google webmaster, web tools, open graph, publisher profile, publisher, author, authors, description, keyword, keywords, copyright, designer, admin, meta tag, pinterest, pinterest meta tag, pinterest website verification, pinterest verification, pinterest verify, plugin, verification, verify, webmaster plugin, wot, web of trust, specificfeeds, specific feeds, feed, rss feed, google shopping, google merchant center, structured data, woocommerce, schemas
 Donate link: https://www.spacexchimp.com/donate.html
-Requires at least: 3.9
+Requires at least: 4.9
 Tested up to: 5.3
 Stable tag: 4.38
 License: GPL3
@@ -82,11 +82,13 @@ If you want to help translate this plugin, please visit the [translation page](h
 
 **Minimum system requirements:**
 
+* [WordPress](https://wordpress.org) version **4.9** or higher.
 * [PHP](https://secure.php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
 **Recommended system requirements:**
 
+* [WordPress](https://wordpress.org) version **5.0** or higher.
 * [PHP](https://secure.php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
 
