@@ -99,3 +99,24 @@ function spacexchimp_p004_control_textarea( $name, $label, $placeholder, $help=n
     // Print a help text
     spacexchimp_p004_control_help( $help );
 }
+
+/**
+ * Generator of the hidden option for saving plugin settings to database
+ */
+function spacexchimp_p004_control_hidden( $name, $value ) {
+
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p004_plugin();
+
+    // Generate a part of table
+    $out = "<input
+                type='hidden'
+                name='" . $plugin['settings'] . "_settings[$name]'
+                id='" . $plugin['settings'] . "_settings[$name]'
+                value='$value'
+                class='control-hidden $name'
+            >";
+
+    // Print the generated part of table
+    echo $out;
+}
