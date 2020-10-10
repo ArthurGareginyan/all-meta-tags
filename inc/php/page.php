@@ -48,12 +48,11 @@ function spacexchimp_p004_render_submenu_page() {
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
 
+            <!-- INCLUDE SIDEBAR -->
+            <?php require_once( $plugin['path'] . 'inc/php/sidebar.php' ); ?>
+
             <!-- TAB MAIN -->
             <div class="tab-page fade active in" id="tab-core">
-
-                <!-- INCLUDE SIDEBAR -->
-                <?php require_once( $plugin['path'] . 'inc/php/sidebar.php' ); ?>
-
                 <?php require_once( $plugin['path'] . 'inc/php/tabs/settings.php' ); ?>
 
                 <!-- INCLUDE PHP-JS FILE -->
