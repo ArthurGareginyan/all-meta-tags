@@ -631,9 +631,15 @@ td.help-text b {
 .CodeMirror pre.CodeMirror-placeholder {
     color: #999;
 }
+
+/* Preview section */
 #preview .CodeMirror,
-#woocommerce .CodeMirror {
-    height: 100% !important;
+#preview .CodeMirror-scroll,
+#preview .CodeMirror-gutters,
+#woocommerce .CodeMirror,
+#woocommerce .CodeMirror-scroll,
+#woocommerce .CodeMirror-gutters {
+    height: auto !important;
 }
 #preview .CodeMirror .CodeMirror-lines,
 #woocommerce .CodeMirror .CodeMirror-lines {
