@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.5
 Requires PHP: 5.6
-Stable tag: 4.42
+Stable tag: 4.43
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -223,6 +223,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.43 - Oct 23, 2020 =
+* Fixed: On the plugin settings page, the height of the preview fields is higher than its contents.
+* Framework update: The CodeMirror library has been updated to the latest version v5.58.1.
 
 = 4.42 - Oct 12, 2020 =
 * Fixed: On the plugin settings page, the height of the buttons is too small compared to the width.
