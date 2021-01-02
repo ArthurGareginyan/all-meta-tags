@@ -154,9 +154,9 @@ A. As far as we know, the "All Meta Tags" plugin is compatible with the "All in 
 
 `<head>
      ...
-     <meta name="copyright" content="Copyright (c) 2013-2020 Space X-Chimp. All Rights Reserved.">
+     <meta name="copyright" content="Copyright (c) 2013-2021 Space X-Chimp. All Rights Reserved.">
      ...
-     <meta name="copyright" content="Copyright 2020 Space X-Chimp. All Rights Reserved.">
+     <meta name="copyright" content="Copyright 2021 Space X-Chimp. All Rights Reserved.">
      ...
 </head>`
 
