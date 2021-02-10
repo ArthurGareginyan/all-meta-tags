@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Generate the custom meta tags
+ * @return array
  */
 function spacexchimp_p004_prepare() {
 
@@ -168,12 +169,13 @@ function spacexchimp_p004_prepare() {
         array_push( $array, "<!-- [END] Metadata added via All-Meta-Tags plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->" );
     }
 
-    // Return the content of array
+    // Return the processed data
     return $array;
 }
 
 /**
  * Process the custom meta tags
+ * @return string by using "echo"
  */
 function spacexchimp_p004_exec() {
     echo    PHP_EOL,
@@ -189,6 +191,7 @@ add_action( 'wp_head', 'spacexchimp_p004_exec', 0 );
 
 /**
  * Preview the custom meta tags
+ * @return string by using "echo"
  */
 function spacexchimp_p004_preview() {
     $array = spacexchimp_p004_prepare();
@@ -207,6 +210,6 @@ function spacexchimp_p004_preview() {
         }
     }
 
-    // Return the string
+    // Return the processed data
     echo $array;
 }
