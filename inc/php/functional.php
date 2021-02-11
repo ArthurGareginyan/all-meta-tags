@@ -185,7 +185,7 @@ function spacexchimp_p004_exec() {
 }
 
 /**
- * Inject the custom meta tags into the website's frontend
+ * Inject the custom meta tags into the website's frontend (head section)
  */
 add_action( 'wp_head', 'spacexchimp_p004_exec', 0 );
 
