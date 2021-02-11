@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  * Generate the custom meta tags
  * @return array
  */
-function spacexchimp_p004_prepare() {
+function spacexchimp_p004_generator() {
 
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p004_plugin();
@@ -179,7 +179,7 @@ function spacexchimp_p004_prepare() {
  */
 function spacexchimp_p004_exec() {
     echo    PHP_EOL,
-            implode(PHP_EOL, spacexchimp_p004_prepare()),
+            implode(PHP_EOL, spacexchimp_p004_generator()),
             PHP_EOL,
             PHP_EOL;
 }
@@ -194,7 +194,7 @@ add_action( 'wp_head', 'spacexchimp_p004_exec', 0 );
  * @return string by using "echo"
  */
 function spacexchimp_p004_preview() {
-    $array = spacexchimp_p004_prepare();
+    $array = spacexchimp_p004_generator();
 
     if ( ! empty( $array ) ) {
         if ( is_array( $array ) ) {
