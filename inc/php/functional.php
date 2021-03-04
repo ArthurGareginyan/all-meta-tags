@@ -17,32 +17,28 @@ function spacexchimp_p004_generator() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p004_options();
 
-    // Sanitize data and declare variables
-    $google = esc_textarea( $options['google'] );
-    $bing = esc_textarea( $options['bing'] );
-    $yandex = esc_textarea( $options['yandex'] );
-
-    $alexa = esc_textarea( $options['alexa'] );
-    $pinterest = esc_textarea( $options['pinterest'] );
-    $google_author = esc_textarea( $options['google_author'] );
-    $facebook = esc_textarea( $options['facebook'] );
-    $twitter = esc_textarea( $options['twitter'] );
-    $norton = esc_textarea( $options['norton'] );
-    $wot = esc_textarea( $options['wot'] );
-    $specificfeeds = esc_textarea( $options['specificfeeds'] );
+    // Declare variables
+    $google = $options['google'];
+    $bing = $options['bing'];
+    $yandex = $options['yandex'];
+    $alexa = $options['alexa'];
+    $pinterest = $options['pinterest'];
+    $google_author = $options['google_author'];
+    $facebook = $options['facebook'];
+    $twitter = $options['twitter'];
+    $norton = $options['norton'];
+    $wot = $options['wot'];
+    $specificfeeds = $options['specificfeeds'];
     $custom_meta = $options['custom_meta'];
-
-    $home_description = esc_textarea( $options['home_description'] );
-    $home_keywords = esc_textarea( $options['home_keywords'] );
-
-    $blog_description = esc_textarea( $options['blog_description'] );
-    $blog_keywords = esc_textarea( $options['blog_keywords'] );
-
-    $author = esc_textarea( $options['author'] );
-    $designer = esc_textarea( $options['designer'] );
-    $contact = esc_textarea( $options['contact'] );
-    $copyright = esc_textarea( $options['copyright'] );
-    $keywords = esc_textarea( $options['keywords'] );
+    $home_description = $options['home_description'];
+    $home_keywords = $options['home_keywords'];
+    $blog_description = $options['blog_description'];
+    $blog_keywords = $options['blog_keywords'];
+    $author = $options['author'];
+    $designer = $options['designer'];
+    $contact = $options['contact'];
+    $copyright = $options['copyright'];
+    $keywords = $options['keywords'];
 
     $array = array();
 
