@@ -21,28 +21,33 @@ function spacexchimp_p004_options() {
     $array = $options;
 
     // Set default value if option is empty
-    $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
-    $array['google'] = !empty( $options['google'] ) ? $options['google'] : '';
-    $array['bing'] = !empty( $options['bing'] ) ? $options['bing'] : '';
-    $array['yandex'] = !empty( $options['yandex'] ) ? $options['yandex'] : '';
-    $array['alexa'] = !empty( $options['alexa'] ) ? $options['alexa'] : '';
-    $array['pinterest'] = !empty( $options['pinterest'] ) ? $options['pinterest'] : '';
-    $array['google_author'] = !empty( $options['google_author'] ) ? $options['google_author'] : '';
-    $array['facebook'] = !empty( $options['facebook'] ) ? $options['facebook'] : '';
-    $array['twitter'] = !empty( $options['twitter'] ) ? $options['twitter'] : '';
-    $array['norton'] = !empty( $options['norton'] ) ? $options['norton'] : '';
-    $array['wot'] = !empty( $options['wot'] ) ? $options['wot'] : '';
-    $array['specificfeeds'] = !empty( $options['specificfeeds'] ) ? $options['specificfeeds'] : '';
-    $array['custom_meta'] = !empty( $options['custom_meta'] ) ? $options['custom_meta'] : '';
-    $array['home_description'] = !empty( $options['home_description'] ) ? $options['home_description'] : '';
-    $array['home_keywords'] = !empty( $options['home_keywords'] ) ? $options['home_keywords'] : '';
-    $array['blog_description'] = !empty( $options['blog_description'] ) ? $options['blog_description'] : '';
-    $array['blog_keywords'] = !empty( $options['blog_keywords'] ) ? $options['blog_keywords'] : '';
-    $array['author'] = !empty( $options['author'] ) ? $options['author'] : '';
-    $array['designer'] = !empty( $options['designer'] ) ? $options['designer'] : '';
-    $array['contact'] = !empty( $options['contact'] ) ? $options['contact'] : '';
-    $array['copyright'] = !empty( $options['copyright'] ) ? $options['copyright'] : '';
-    $array['keywords'] = !empty( $options['keywords'] ) ? $options['keywords'] : '';
+    $list = array(
+        'hidden_scrollto' => '0',
+        'google' => '',
+        'bing' => '',
+        'yandex' => '',
+        'alexa' => '',
+        'pinterest' => '',
+        'google_author' => '',
+        'facebook' => '',
+        'twitter' => '',
+        'norton' => '',
+        'wot' => '',
+        'specificfeeds' => '',
+        'custom_meta' => '',
+        'home_description' => '',
+        'home_keywords' => '',
+        'blog_description' => '',
+        'blog_keywords' => '',
+        'author' => '',
+        'designer' => '',
+        'contact' => '',
+        'copyright' => '',
+        'keywords' => '',
+    );
+    foreach ( $list as $name => $default ) {
+        $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
+    }
 
     // Sanitize data
     $array['google'] = esc_textarea( $array['google'] );
