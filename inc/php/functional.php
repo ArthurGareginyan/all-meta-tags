@@ -17,114 +17,91 @@ function spacexchimp_p004_generator() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p004_options();
 
-    // Declare variables
-    $google = $options['google'];
-    $bing = $options['bing'];
-    $yandex = $options['yandex'];
-    $alexa = $options['alexa'];
-    $pinterest = $options['pinterest'];
-    $google_author = $options['google_author'];
-    $facebook = $options['facebook'];
-    $twitter = $options['twitter'];
-    $norton = $options['norton'];
-    $wot = $options['wot'];
-    $specificfeeds = $options['specificfeeds'];
-    $custom_meta = $options['custom_meta'];
-    $home_description = $options['home_description'];
-    $home_keywords = $options['home_keywords'];
-    $blog_description = $options['blog_description'];
-    $blog_keywords = $options['blog_keywords'];
-    $author = $options['author'];
-    $designer = $options['designer'];
-    $contact = $options['contact'];
-    $copyright = $options['copyright'];
-    $keywords = $options['keywords'];
-
     $array = array();
 
     // Web Master Tools
-    if ( ! empty( $google ) ) {
-        $array[] = "<meta name='google-site-verification' content='$google' />";
+    if ( ! empty( $options['google'] ) ) {
+        $array[] = "<meta name='google-site-verification' content='" . $options['google'] . "' />";
     }
-    if ( ! empty( $yandex ) ) {
-        $array[] = "<meta name='yandex-verification' content='$yandex' />";
+    if ( ! empty( $options['yandex'] ) ) {
+        $array[] = "<meta name='yandex-verification' content='" . $options['yandex'] . "' />";
     }
-    if ( ! empty( $bing ) ) {
-        $array[] = "<meta name='msvalidate.01' content='$bing' />";
+    if ( ! empty( $options['bing'] ) ) {
+        $array[] = "<meta name='msvalidate.01' content='" . $options['bing'] . "' />";
     }
 
     // Website Verification Services
-    if ( ! empty( $pinterest ) ) {
-        $array[] = "<meta name='p:domain_verify' content='$pinterest' />";
+    if ( ! empty( $options['pinterest'] ) ) {
+        $array[] = "<meta name='p:domain_verify' content='" . $options['pinterest'] . "' />";
     }
-    if ( ! empty( $google_author ) ) {
-        $array[] = "<link rel='author' href='$google_author'>";
+    if ( ! empty( $options['google_author'] ) ) {
+        $array[] = "<link rel='author' href='" . $options['google_author'] . "'>";
     }
-    if ( ! empty( $facebook ) ) {
-        $array[] = "<meta name='article:publisher' content='$facebook' />";
+    if ( ! empty( $options['facebook'] ) ) {
+        $array[] = "<meta name='article:publisher' content='" . $options['facebook'] . "' />";
     }
-    if ( ! empty( $twitter ) ) {
-        $array[] = "<meta name='twitter:site' content='$twitter' />";
-        $array[] = "<meta name='twitter:creator' content='$twitter' />";
+    if ( ! empty( $options['twitter'] ) ) {
+        $array[] = "<meta name='twitter:site' content='" . $options['twitter'] . "' />";
+        $array[] = "<meta name='twitter:creator' content='" . $options['twitter'] . "' />";
     }
-    if ( ! empty( $alexa ) ) {
-        $array[] = "<meta name='alexaVerifyID' content='$alexa' />";
+    if ( ! empty( $options['alexa'] ) ) {
+        $array[] = "<meta name='alexaVerifyID' content='" . $options['alexa'] . "' />";
     }
-    if ( ! empty( $norton ) ) {
-        $array[] = "<meta name='norton-safeweb-site-verification' content='$norton' />";
+    if ( ! empty( $options['norton'] ) ) {
+        $array[] = "<meta name='norton-safeweb-site-verification' content='" . $options['norton'] . "' />";
     }
-    if ( ! empty( $wot ) ) {
-        $array[] = "<meta name='wot-verification' content='$wot' />";
+    if ( ! empty( $options['wot'] ) ) {
+        $array[] = "<meta name='wot-verification' content='" . $options['wot'] . "' />";
     }
-    if ( ! empty( $specificfeeds ) ) {
-        $array[] = "<meta name='specificfeeds-verification-code' content='$specificfeeds' />";
+    if ( ! empty( $options['specificfeeds'] ) ) {
+        $array[] = "<meta name='specificfeeds-verification-code' content='" . $options['specificfeeds'] . "' />";
     }
-    if ( ! empty( $custom_meta ) ) {
-        $array[] = $custom_meta;
+    if ( ! empty( $options['custom_meta'] ) ) {
+        $array[] = $options['custom_meta'];
     }
 
     // Custom meta tags for specific pages
     if ( is_front_page() && is_home() ) {
         // Default Home Page
-        if ( ! empty( $home_description ) ) {
-            $array[] = "<meta name='description' content='$blog_description' />";
+        if ( ! empty( $options['blog_description'] ) ) {
+            $array[] = "<meta name='description' content='" . $options['blog_description'] . "' />";
         }
-        if ( ! empty( $home_keywords ) ) {
-            $array[] = "<meta name='keywords' content='$blog_keywords' />";
+        if ( ! empty( $options['blog_keywords'] ) ) {
+            $array[] = "<meta name='keywords' content='" . $options['blog_keywords'] . "' />";
         }
     } elseif ( is_front_page() ) {
         // Static Home Page
-        if ( ! empty( $home_description ) ) {
-            $array[] = "<meta name='description' content='$home_description' />";
+        if ( ! empty( $options['home_description'] ) ) {
+            $array[] = "<meta name='description' content='" . $options['home_description'] . "' />";
         }
-        if ( ! empty( $home_keywords ) ) {
-            $array[] = "<meta name='keywords' content='$home_keywords' />";
+        if ( ! empty( $options['home_keywords'] ) ) {
+            $array[] = "<meta name='keywords' content='" . $options['home_keywords'] . "' />";
         }
     } elseif ( is_home() ) {
         // Blog Page
-        if ( ! empty( $home_description ) ) {
-            $array[] = "<meta name='description' content='$blog_description' />";
+        if ( ! empty( $options['blog_description'] ) ) {
+            $array[] = "<meta name='description' content='" . $options['blog_description'] . "' />";
         }
-        if ( ! empty( $home_keywords ) ) {
-            $array[] = "<meta name='keywords' content='$blog_keywords' />";
+        if ( ! empty( $options['blog_keywords'] ) ) {
+            $array[] = "<meta name='keywords' content='" . $options['blog_keywords'] . "' />";
         }
     }
 
     // Custom meta tags for the entire website
-    if ( ! empty( $author ) ) {
-        $array[] = "<meta name='author' content='$author' />";
+    if ( ! empty( $options['author'] ) ) {
+        $array[] = "<meta name='author' content='" . $options['author'] . "' />";
     }
-    if ( ! empty( $designer ) ) {
-        $array[] = "<meta name='designer' content='$designer' />";
+    if ( ! empty( $options['designer'] ) ) {
+        $array[] = "<meta name='designer' content='" . $options['designer'] . "' />";
     }
-    if ( ! empty( $contact ) ) {
-        $array[] = "<meta name='contact' content='$contact' />";
+    if ( ! empty( $options['contact'] ) ) {
+        $array[] = "<meta name='contact' content='" . $options['contact'] . "' />";
     }
-    if ( ! empty( $copyright ) ) {
-        $array[] = "<meta name='copyright' content='$copyright' />";
+    if ( ! empty( $options['copyright'] ) ) {
+        $array[] = "<meta name='copyright' content='" . $options['copyright'] . "' />";
     }
-    if ( ! empty( $keywords ) ) {
-        $array[] = "<meta name='keywords' content='$keywords' />";
+    if ( ! empty( $options['keywords'] ) ) {
+        $array[] = "<meta name='keywords' content='" . $options['keywords'] . "' />";
     }
 
     // WooCommerce & Google Shopping (Merchant Center)
