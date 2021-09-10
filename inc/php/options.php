@@ -55,26 +55,28 @@ function spacexchimp_p004_options() {
     }
 
     // Sanitize data
-    $array['alexa'] = esc_textarea( $array['alexa'] );
-    $array['author'] = esc_textarea( $array['author'] );
-    $array['bing'] = esc_textarea( $array['bing'] );
-    $array['blog_description'] = esc_textarea( $array['blog_description'] );
-    $array['blog_keywords'] = esc_textarea( $array['blog_keywords'] );
-    $array['contact'] = esc_textarea( $array['contact'] );
-    $array['copyright'] = esc_textarea( $array['copyright'] );
-    $array['designer'] = esc_textarea( $array['designer'] );
-    $array['facebook'] = esc_textarea( $array['facebook'] );
-    $array['google_author'] = esc_textarea( $array['google_author'] );
-    $array['google'] = esc_textarea( $array['google'] );
-    $array['home_description'] = esc_textarea( $array['home_description'] );
-    $array['home_keywords'] = esc_textarea( $array['home_keywords'] );
-    $array['keywords'] = esc_textarea( $array['keywords'] );
-    $array['norton'] = esc_textarea( $array['norton'] );
-    $array['pinterest'] = esc_textarea( $array['pinterest'] );
-    $array['specificfeeds'] = esc_textarea( $array['specificfeeds'] );
-    $array['twitter'] = esc_textarea( $array['twitter'] );
-    $array['wot'] = esc_textarea( $array['wot'] );
-    $array['yandex'] = esc_textarea( $array['yandex'] );
+    $array['alexa'] = esc_attr( $array['alexa'] );
+    $array['author'] = esc_attr( $array['author'] );
+    $array['bing'] = esc_attr( $array['bing'] );
+    $array['blog_description'] = esc_attr( $array['blog_description'] );
+    $array['blog_keywords'] = esc_attr( $array['blog_keywords'] );
+    $array['contact'] = esc_attr( $array['contact'] );
+    $array['copyright'] = esc_attr( $array['copyright'] );
+    //$array['custom_meta'] = esc_textarea( $array['custom_meta'] );
+    $array['designer'] = esc_attr( $array['designer'] );
+    $array['facebook'] = esc_attr( $array['facebook'] );
+    $array['google_author'] = esc_attr( $array['google_author'] );
+    $array['google'] = esc_attr( $array['google'] );
+    //$array['hidden_scrollto'] = esc_textarea()( $array['hidden_scrollto'] );
+    $array['home_description'] = esc_attr( $array['home_description'] );
+    $array['home_keywords'] = esc_attr( $array['home_keywords'] );
+    $array['keywords'] = esc_attr( $array['keywords'] );
+    $array['norton'] = esc_attr( $array['norton'] );
+    $array['pinterest'] = esc_attr( $array['pinterest'] );
+    $array['specificfeeds'] = esc_attr( $array['specificfeeds'] );
+    $array['twitter'] = esc_attr( $array['twitter'] );
+    $array['wot'] = esc_attr( $array['wot'] );
+    $array['yandex'] = esc_attr( $array['yandex'] );
 
     // Modify data
 
