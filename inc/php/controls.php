@@ -37,7 +37,7 @@ function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p004_options();
-    $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
+    $option = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
     $label_link = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
 
     // Generate a part of table
@@ -50,7 +50,7 @@ function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null
                         type='text'
                         name='" . $plugin['settings'] . "_settings[$name]'
                         id='" . $plugin['settings'] . "_settings[$name]'
-                        value='$value'
+                        value='$option'
                         placeholder='$placeholder'
                         class='control-field $name'
                     >
@@ -74,7 +74,7 @@ function spacexchimp_p004_control_textarea( $name, $label, $placeholder, $help=n
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p004_options();
-    $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
+    $option = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
 
     // Generate a part of table
     $out = "<tr>
@@ -89,7 +89,7 @@ function spacexchimp_p004_control_textarea( $name, $label, $placeholder, $help=n
                         id='" . $plugin['settings'] . "_settings[$name]'
                         placeholder='$placeholder'
                         class='control-textarea $name'
-                    >$value</textarea>
+                    >$option</textarea>
                 </td>
             </tr>";
 
