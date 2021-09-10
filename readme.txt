@@ -227,6 +227,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 =  =
 * Security improvement: Prevent direct access to the "inc/php/options.php" file.
+* Maintenance: Processing of options has been improved. Direct retrieving of options from the database is replaced by the "_options" callback.
 
 = 4.47 - Jul 19, 2021 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.8.
