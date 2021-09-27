@@ -24,8 +24,6 @@ function spacexchimp_p004_options() {
 
     // Create an array with options
     $array = $options;
-
-    // Set default value if option is empty
     $list = array(
         'alexa' => (string) '', // _control_field
         'author' => (string) '', // _control_field
@@ -51,6 +49,8 @@ function spacexchimp_p004_options() {
         'yandex' => (string) '', // _control_field
     );
     foreach ( $list as $name => $default ) {
+
+        // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
     }
 
