@@ -52,6 +52,11 @@ function spacexchimp_p004_options() {
 
         // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
+
+        // Sanitize and modify by type of option
+        if ( is_bool( $default ) === true ) {
+            $array[$name] = ( $array[$name] == 'on' || $array[$name] == '1' || $array[$name] == 'true' ) ? true : false;
+        }
     }
 
     // Sanitize data
