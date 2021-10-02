@@ -76,7 +76,6 @@ function spacexchimp_p004_options() {
     $array['facebook'] = esc_attr( $array['facebook'] );
     $array['google_author'] = esc_attr( $array['google_author'] );
     $array['google'] = esc_attr( $array['google'] );
-    //$array['hidden_scrollto'] = esc_textarea()( $array['hidden_scrollto'] );
     $array['home_description'] = esc_attr( $array['home_description'] );
     $array['home_keywords'] = esc_attr( $array['home_keywords'] );
     $array['keywords'] = esc_attr( $array['keywords'] );
