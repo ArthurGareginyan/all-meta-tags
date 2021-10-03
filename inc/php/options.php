@@ -65,20 +65,20 @@ function spacexchimp_p004_options() {
 
     // Sanitize data
     $array['alexa'] = esc_attr( $array['alexa'] );
-    $array['author'] = esc_attr( $array['author'] );
+    $array['author'] = sanitize_text_field( $array['author'] );
     $array['bing'] = esc_attr( $array['bing'] );
     $array['blog_description'] = esc_attr( $array['blog_description'] );
-    $array['blog_keywords'] = esc_attr( $array['blog_keywords'] );
-    $array['contact'] = esc_attr( $array['contact'] );
-    $array['copyright'] = esc_attr( $array['copyright'] );
+    $array['blog_keywords'] = sanitize_text_field( $array['blog_keywords'] );
+    $array['contact'] = sanitize_text_field( $array['contact'] );
+    $array['copyright'] = sanitize_text_field( $array['copyright'] );
     //$array['custom_meta'] = esc_textarea( $array['custom_meta'] );
-    $array['designer'] = esc_attr( $array['designer'] );
-    $array['facebook'] = esc_attr( $array['facebook'] );
-    $array['google_author'] = esc_attr( $array['google_author'] );
+    $array['designer'] = sanitize_text_field( $array['designer'] );
+    $array['facebook'] = esc_url( $array['facebook'] );
+    $array['google_author'] = esc_url( $array['google_author'] );
     $array['google'] = esc_attr( $array['google'] );
     $array['home_description'] = esc_attr( $array['home_description'] );
-    $array['home_keywords'] = esc_attr( $array['home_keywords'] );
-    $array['keywords'] = esc_attr( $array['keywords'] );
+    $array['home_keywords'] = sanitize_text_field( $array['home_keywords'] );
+    $array['keywords'] = sanitize_text_field( $array['keywords'] );
     $array['norton'] = esc_attr( $array['norton'] );
     $array['pinterest'] = esc_attr( $array['pinterest'] );
     $array['specificfeeds'] = esc_attr( $array['specificfeeds'] );
