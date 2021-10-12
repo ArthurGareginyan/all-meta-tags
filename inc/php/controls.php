@@ -38,7 +38,7 @@ function spacexchimp_p004_control_field( $name, $label, $placeholder, $help=null
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p004_options();
     $option = $options[$name];
-    $label_link = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
+    $label_link = ! empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
 
     // Generate a part of table
     $out = "<tr>
